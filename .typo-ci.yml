@@ -1,0 +1,10 @@
+dictionaries:
+  - en
+  - en_GB
+
+excluded_files:
+  - "*.css"
+  - ".typo-ci.yml"
+
+excluded_words:
+  - typoci
