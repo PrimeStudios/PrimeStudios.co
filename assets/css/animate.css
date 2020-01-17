@@ -9,10 +9,10 @@
  */
 @-webkit-keyframes bounce {
 
-  from,
   20%,
   53%,
   80%,
+  from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -43,10 +43,10 @@
 
 @keyframes bounce {
 
-  from,
   20%,
   53%,
   80%,
+  from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -84,8 +84,8 @@
 
 @-webkit-keyframes flash {
 
-  from,
   50%,
+  from,
   to {
     opacity: 1;
   }
@@ -98,8 +98,8 @@
 
 @keyframes flash {
 
-  from,
   50%,
+  from,
   to {
     opacity: 1;
   }
@@ -576,8 +576,8 @@
 
 @-webkit-keyframes jello {
 
-  from,
   11.1%,
+  from,
   to {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -621,8 +621,8 @@
 
 @keyframes jello {
 
-  from,
   11.1%,
+  from,
   to {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -736,11 +736,11 @@
 
 @-webkit-keyframes bounceIn {
 
-  from,
   20%,
   40%,
   60%,
   80%,
+  from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -782,11 +782,11 @@
 
 @keyframes bounceIn {
 
-  from,
   20%,
   40%,
   60%,
   80%,
+  from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -835,10 +835,10 @@
 
 @-webkit-keyframes bounceInDown {
 
-  from,
   60%,
   75%,
   90%,
+  from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -874,10 +874,10 @@
 
 @keyframes bounceInDown {
 
-  from,
   60%,
   75%,
   90%,
+  from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -918,10 +918,10 @@
 
 @-webkit-keyframes bounceInLeft {
 
-  from,
   60%,
   75%,
   90%,
+  from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -957,10 +957,10 @@
 
 @keyframes bounceInLeft {
 
-  from,
   60%,
   75%,
   90%,
+  from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -1001,10 +1001,10 @@
 
 @-webkit-keyframes bounceInRight {
 
-  from,
   60%,
   75%,
   90%,
+  from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -1040,10 +1040,10 @@
 
 @keyframes bounceInRight {
 
-  from,
   60%,
   75%,
   90%,
+  from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -1084,10 +1084,10 @@
 
 @-webkit-keyframes bounceInUp {
 
-  from,
   60%,
   75%,
   90%,
+  from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -1123,10 +1123,10 @@
 
 @keyframes bounceInUp {
 
-  from,
   60%,
   75%,
   90%,
+  from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -3610,7 +3610,8 @@
   animation-duration: 3s;
 }
 
-@media (print), (prefers-reduced-motion: reduce) {
+@media (print),
+(prefers-reduced-motion: reduce) {
   .animated {
     -webkit-animation-duration: 1ms !important;
     animation-duration: 1ms !important;
