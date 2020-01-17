@@ -54,7 +54,7 @@
 	</body>
 	<script>
 		if (document.documentMode || /Edge/.test(navigator.userAgent)) {
-			document.getElementById("contact_form").style.marginBottom = "0";
+			document.getElementById('contact_form').style.marginBottom = '0';
 		}
 	</script>
 </html>

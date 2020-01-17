@@ -116,43 +116,43 @@
 	</body>
 	<script>
 		if (document.documentMode || /Edge/.test(navigator.userAgent)) {
-			document.getElementById("triangle_one").style.display = "none";
-			document.getElementById("triangle_two").style.display = "none";
-			document.getElementById("triangle_three").style.display = "none";
+			document.getElementById('triangle_one').style.display = 'none';
+			document.getElementById('triangle_two').style.display = 'none';
+			document.getElementById('triangle_three').style.display = 'none';
 		}
-		function TriangleFix() {
+		function TriangleFix () {
 			if ($(window).width() < 1200) {
-				document.getElementById("triangle_one").style.display = "none";
-				document.getElementById("triangle_two").style.display = "none";
-				document.getElementById("triangle_three").style.display = "none";
-				document.getElementById("circle_one").style.display = "none";
-				document.getElementById("circle_two").style.display = "none";
-				document.getElementById("circle_three").style.display = "none";
+				document.getElementById('triangle_one').style.display = 'none';
+				document.getElementById('triangle_two').style.display = 'none';
+				document.getElementById('triangle_three').style.display = 'none';
+				document.getElementById('circle_one').style.display = 'none';
+				document.getElementById('circle_two').style.display = 'none';
+				document.getElementById('circle_three').style.display = 'none';
 			} else {
-				document.getElementById("triangle_one").style.display = "block";
-				document.getElementById("triangle_two").style.display = "block";
-				document.getElementById("triangle_three").style.display = "block";
-				document.getElementById("circle_one").style.display = "block";
-				document.getElementById("circle_two").style.display = "block";
-				document.getElementById("circle_three").style.display = "block";
+				document.getElementById('triangle_one').style.display = 'block';
+				document.getElementById('triangle_two').style.display = 'block';
+				document.getElementById('triangle_three').style.display = 'block';
+				document.getElementById('circle_one').style.display = 'block';
+				document.getElementById('circle_two').style.display = 'block';
+				document.getElementById('circle_three').style.display = 'block';
 			}
 		}
 		TriangleFix();
-		$(window).on('resize', function() {
+		$(window).on('resize', function () {
 			if ($(window).width() < 1200) {
-				document.getElementById("triangle_one").style.display = "none";
-				document.getElementById("triangle_two").style.display = "none";
-				document.getElementById("triangle_three").style.display = "none";
-				document.getElementById("circle_one").style.display = "none";
-				document.getElementById("circle_two").style.display = "none";
-				document.getElementById("circle_three").style.display = "none";
+				document.getElementById('triangle_one').style.display = 'none';
+				document.getElementById('triangle_two').style.display = 'none';
+				document.getElementById('triangle_three').style.display = 'none';
+				document.getElementById('circle_one').style.display = 'none';
+				document.getElementById('circle_two').style.display = 'none';
+				document.getElementById('circle_three').style.display = 'none';
 			} else {
-				document.getElementById("triangle_one").style.display = "block";
-				document.getElementById("triangle_two").style.display = "block";
-				document.getElementById("triangle_three").style.display = "block";
-				document.getElementById("circle_one").style.display = "block";
-				document.getElementById("circle_two").style.display = "block";
-				document.getElementById("circle_three").style.display = "block";
+				document.getElementById('triangle_one').style.display = 'block';
+				document.getElementById('triangle_two').style.display = 'block';
+				document.getElementById('triangle_three').style.display = 'block';
+				document.getElementById('circle_one').style.display = 'block';
+				document.getElementById('circle_two').style.display = 'block';
+				document.getElementById('circle_three').style.display = 'block';
 			}
 		});
 	</script>

@@ -32,12 +32,12 @@
 				    <li>Processing your personal information is in Prime Studios legitimate interests</li>
 				    <li>Prime Studios needs to comply with the law</li>
 				</ul>
-				<p>Prime Studios will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies.</p> 
+				<p>Prime Studios will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies.</p>
 				<p>If you are a resident of the European Economic Area (EEA), you have certain data protection rights. If you wish to be informed what Personal Information we hold about you and if you want it to be removed from our systems, please contact us.</p>
 				<p>In certain circumstances, you have the following data protection rights:</p>
 				<ul>
 				    <li>The right to access, update or to delete the information we have on you.</li>
-				    <li>The right of rectification.</li> 
+				    <li>The right of rectification.</li>
 				    <li>The right to object.</li>
 				    <li>The right of restriction.</li>
 				    <li>The right to data portability</li>
