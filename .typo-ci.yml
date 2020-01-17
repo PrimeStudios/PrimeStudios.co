@@ -5,6 +5,7 @@ dictionaries:
 excluded_files:
   - "*.css"
   - ".typo-ci.yml"
+  - ".unibeautifyrc.json"
 
 excluded_words:
   - typoci
