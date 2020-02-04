@@ -20,8 +20,42 @@
 		<?php require('header.php') ?>
 		<div class="home-container">
 			<div class="home-top">
-				<p class="home-top-header">The Most Ambitious Creators</p>
-				<p id="down_arrow" onclick="document.getElementById('home_middle').scrollIntoView({behavior: 'smooth'})"><span class="fa fa-angle-double-down"></span></p>
+				<video id="videoBG" autoplay muted loop>
+		<source src="assets/vid/1190.mp4" type="video/mp4">
+</video>
+				<span class="d-none d-sm-none d-md-none d-lg-block d-xl-block">
+					<p class="home-top-header">Prime Studios</p>
+					<span class="home-left-ad">
+						<span id="home-ad-icon" class="fa fa-forward"></span>
+						<p class="home-ad-text">Fast</p>
+					</span>
+					<span class="home-mid-ad">
+						<span id="home-ad-icon" class="fa fa-suitcase"></span>
+						<p class="home-ad-text">Professional</p>
+					</span>
+					<span class="home-right-ad">
+						<span id="home-ad-icon" class="fa fa-star"></span>
+						<p class="home-ad-text">Experienced</p>
+					</span>
+					<p id="down_arrow" onclick="document.getElementById('home_middle').scrollIntoView({behavior: 'smooth'})"><span class="fa fa-chevron-down"></span></p>
+				</span>
+				<span class="d-block d-sm-block d-md-block d-lg-none d-xl-none">
+					<p class="home-top-header-two">Prime Studios</p>
+					<span class="home-left-ad-two">
+						<span id="home-ad-icon-two" class="fa fa-forward"></span>
+						<p class="home-ad-text-two">Fast</p>
+					</span>
+					<span class="home-mid-ad-two">
+						<span id="home-ad-icon-two" class="fa fa-suitcase"></span>
+						<p class="home-ad-text-two">Professional</p>
+					</span>
+					<span class="home-right-ad-two">
+						<span id="home-ad-icon-two" class="fa fa-star"></span>
+						<p class="home-ad-text-two">Experienced</p>
+					</span>
+					<p id="down_arrow_two" onclick="document.getElementById('home_middle').scrollIntoView({behavior: 'smooth'})">Learn More <span class="fa fa-angle-down"></span></p>
+				</span>
+				<img class="wave" src="assets/img/wave.png" />
 			</div>
 			<div id="home_middle" class="home-middle">
 				<div class="home-middle-body">
@@ -31,7 +65,7 @@
 						<p class="home-middle-header-two">What Do We Offer?</p>
 						<div class="home-middle-text-button">
 							<a href="web" class="link"><p><span class="fa fa-code"></span></p></a>
-							<a href="web" class="link"><p class="home-button-text animated slideInUp">Web Development</p></a>
+							<a href="web" class="link"><p class="home-button-text animated slideInUp">Web Design</p></a>
 						</div>
 					</div>
 					<p class="home-middle-header-three">What Makes Us Reputable?</p>
@@ -55,7 +89,7 @@
 							</div>
 							<div class="quotes hidden animated zoomIn">
 								<q>I struggled getting my business an online presence. They helped me all the way and brought me a product I love.</q>
-								<p class="author">- Leo Chen</p>
+								<p class="author">- Paul Clark</p>
 								<p class="black"><span class="fa fa-star gold"></span><span class="fa fa-star gold"></span><span class="fa fa-star gold"></span><span class="fa fa-star gold"></span><span class="fa fa-star-o gold"></span></p>
 							</div>
 						</div>
@@ -69,36 +103,40 @@
 				<div class="contact-div">
 					<p class="contact-header">Interested in our Services?</p>
 					<p class="contact-text"><a class="contact-link" href="contact"><span class="fa fa-mail-forward"></span> Contact Us</a></p>
+					<p class="contact-image d-none d-sm-none d-md-none d-lg-block d-xl-block"><span class="fa fa-envelope"></span></p>
 				</div>
 			</div>
 		</div>
 		<?php require('footer.php') ?>
 	</body>
 	<script>
+document.getElementById("videoBG").playbackRate = 0.5;
+	</script>
+	<script>
 		var slideIndex = 1;
 		showSlides(slideIndex);
 
-		function plusSlides (n) {
+		function plusSlides(n) {
 			showSlides(slideIndex += n);
 		}
 
-		function currentSlide (n) {
+		function currentSlide(n) {
 			showSlides(slideIndex = n);
 		}
-		function showSlides (n) {
+		function showSlides(n) {
 			var i;
-			var slides = document.getElementsByClassName('quotes');
-			var dots = document.getElementsByClassName('dot');
-			if (n > slides.length) { slideIndex = 1; }
-			if (n < 1) { slideIndex = slides.length; }
+			var slides = document.getElementsByClassName("quotes");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {slideIndex = 1}
+			if (n < 1) {slideIndex = slides.length}
 			for (i = 0; i < slides.length; i++) {
-				slides[i].style.display = 'none';
+				slides[i].style.display = "none";
 			}
 			for (i = 0; i < dots.length; i++) {
-				dots[i].className = dots[i].className.replace(' active', '');
+				dots[i].className = dots[i].className.replace(" active", "");
 			}
-			slides[slideIndex - 1].style.display = 'block';
-			dots[slideIndex - 1].className += ' active';
+			slides[slideIndex-1].style.display = "block";
+			dots[slideIndex-1].className += " active";
 		}
 	</script>
 </html>
