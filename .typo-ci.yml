@@ -4,8 +4,10 @@ dictionaries:
 
 excluded_files:
   - "*.css"
+  - "*.img"
   - "*.js"
   - ".typo-ci.yml"
 
 excluded_words:
   - typoci
+  - rizzuto
