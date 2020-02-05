@@ -17,7 +17,7 @@
 			<li><a href="#">Our Team</a></li>
 		</ul>
 	</div>
-	<div class="social"> <a href="#"><i class="fab fa-discord"></i></a> </div>
+	<div class="social"> <a href="https://discord.gg/zKDFCzh" target="_blank"><i class="fab fa-discord"></i></a> </div>
 	<p>&copy; 2019-2020 Prime Studios. All Rights Reserved.</p>
 </div>
 </body>
