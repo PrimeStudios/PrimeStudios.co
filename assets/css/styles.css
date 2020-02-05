@@ -246,7 +246,7 @@
 	margin-bottom: 2.5vh;
 }
 
-@media only screen and min-width 1000px {
+@media only screen and (min-width: 1000px) {
 	.features .card {
 		margin-bottom: 0;
 		width: 22.5%;
