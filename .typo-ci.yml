@@ -6,7 +6,6 @@ excluded_files:
   - "*.css"
   - "*.js"
   - ".typo-ci.yml"
-  - ".unibeautifyrc.json"
 
 excluded_words:
   - typoci
