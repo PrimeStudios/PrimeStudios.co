@@ -3,8 +3,8 @@ dictionaries:
   - en_GB
 
 excluded_files:
+  - "assets/img/**"
   - "*.css"
-  - "*.img"
   - "*.js"
   - ".typo-ci.yml"
 
