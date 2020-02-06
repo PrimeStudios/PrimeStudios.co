@@ -3,6 +3,17 @@
 	padding: 0;
 }
 
+.about {
+	background-color: #F7F7FF;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2rem;
+	padding-bottom: 4vh;
+	padding-left: 8vw;
+	padding-right: 8vw;
+	padding-top: 4vh;
+	text-align: center;
+}
+
 .fa-discord:hover {
 	color: #7289DA;
 }
@@ -10,7 +21,7 @@
 .features {
 	align-content: center;
 	align-items: center;
-	background-color: #f3f5f9;
+	background-color: #F7F7FF;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -20,7 +31,7 @@
 }
 
 .features .card {
-	background-color: #ffffff;
+	background-color: #FFFFFF;
 	margin-bottom: 2.5vh;
 	margin-left: 2.5%;
 	margin-right: 2.5%;
@@ -29,7 +40,7 @@
 }
 
 .features h3 {
-	font-family: Lato, sans-serif;
+	font-family: 'Lato', sans-serif;
 	margin-bottom: 1.25vh;
 	margin-top: 2.5vh;
 }
@@ -38,8 +49,8 @@
 	font-size: 2.75rem;
 }
 
-.features p,.services h3 {
-	font-family: Lato, sans-serif;
+.features p {
+	font-family: 'Lato', sans-serif;
 }
 
 .footer {
@@ -54,8 +65,8 @@
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: center;
-	padding-bottom: 1.25vh;
-	padding-top: 1.25vh;
+	padding-bottom: 0.25vh;
+	padding-top: 0.25vh;
 }
 
 .footer .social {
@@ -64,20 +75,23 @@
 
 .footer a {
 	color: #000000;
-	font-family: Lato, sans-serif;
-	padding: 0.75vh 5vw;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.85rem;
+	margin: 0.75vh 0.75vw;
+	padding: 0.75vh 0.75vw;
 	text-decoration: none;
 }
 
 .footer h2 {
-	font-family: Roboto, sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
 	margin-bottom: 1vh;
 }
 
 .footer i {
 	font-size: 1.4rem;
 	padding: 2.5vh 3vw;
-	transition: .3s ease-in-out;
+	transition: 0.3s ease-in-out;
 }
 
 .footer i:hover {
@@ -85,7 +99,8 @@
 }
 
 .footer p {
-	font-family: Lato, sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8rem;
 	text-align: center;
 }
 
@@ -97,19 +112,32 @@
 	flex-wrap: nowrap;
 	justify-content: flex-start;
 	list-style: none;
-	margin-bottom: 1.25vh;
-	margin-top: 1.25vh;
+}
+
+.footer ul a::after {
+	background: transparent;
+	content: '';
+	display: block;
+	height: 0.225vh;
+	margin: 0 auto auto;
+	transition: width 0.5s ease, background-color 0.5s ease;
+	width: 0;
+}
+
+.footer ul a:hover::after {
+	background: #F26419;
+	width: 100%;
 }
 
 .header {
-	background-color: #f2f7f2;
-	font-family: Lato, sans-serif;
+	background-color: #F7F7FF;
+	font-family: 'Lato', sans-serif;
 	padding-bottom: 0.5vh;
 	padding-top: 0.75vh;
 }
 
-.header .active:after {
-	background: #f26419;
+.header .active::after {
+	background: #F26419;
 	content: '';
 	display: block;
 	height: 0.225vh;
@@ -129,7 +157,7 @@
 	margin-top: 1.25vh;
 }
 
-.header li:after,.footer ul a:after {
+.header li::after {
 	background: transparent;
 	content: '';
 	display: block;
@@ -139,8 +167,8 @@
 	width: 0;
 }
 
-.header li:hover:after,.footer ul a:hover:after {
-	background: #f26419;
+.header li:hover::after {
+	background: #F26419;
 	width: 75%;
 }
 
@@ -167,26 +195,26 @@
 }
 
 .hero h1 {
-	color: #f26419;
-	font-family: Roboto, sans-serif;
+	color: #F26419;
+	font-family: 'Roboto', sans-serif;
 	font-size: 2.5rem;
 }
 
 .hero i {
-	color: #ffffff;
+	color: #FFFFFF;
 	font-size: 1.5rem;
 }
 
 .hero p {
-	color: #ffffff;
-	font-family: Lato, sans-serif;
+	color: #FFFFFF;
+	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	margin-bottom: 5vh;
 	margin-top: 5vh;
 }
 
 .quote {
-	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/quotebg.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/quotebg.jpg);
 	background-position: 50% 62.5%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -197,28 +225,28 @@
 
 .quote button {
 	background: transparent;
-	border: solid 1px #f26419;
-	color: #ffffff;
-	font-family: Lato, sans-serif;
+	border: solid 1px #F26419;
+	color: #FFFFFF;
+	font-family: 'Lato', sans-serif;
 	font-size: 1.2rem;
 	padding: 2.5vh 5%;
 	transition: 0.25s ease-in-out;
 }
 
 .quote button:hover {
-	background: #f26419;
+	background: #F26419;
 	cursor: pointer;
 }
 
 .services {
-	background-color: #f3f5f9;
+	background-color: #F7F7FF;
 	padding-bottom: 5vh;
 	padding-top: 2.5vh;
 	text-align: center;
 }
 
 .services .card {
-	background-color: #ffffff;
+	background-color: #FFFFFF;
 	margin-bottom: 2.5vh;
 	margin-left: 2%;
 	margin-right: 2%;
@@ -237,8 +265,12 @@
 }
 
 .services h2 {
-	font-family: Roboto, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin-bottom: 2.5vh;
+}
+
+.services h3 {
+	font-family: 'Lato', sans-serif;
 }
 
 .services i {
@@ -246,22 +278,47 @@
 	margin-bottom: 2.5vh;
 }
 
+.smallhero {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/aboutbg.jpg);
+	background-position: 50% 90%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 4vh;
+	padding-top: 4vh;
+	text-align: center;
+}
+
+.smallhero h1 {
+	color: #F26419;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 2vh;
+}
+
+.smallhero h2 {
+	color: #FFFFFF;
+	font-family: 'Lato', sans-serif;
+}
+
 @media only screen and (min-width: 1000px) {
+	.features {
+		flex-direction: row;
+	}
+
 	.features .card {
 		margin-bottom: 0;
 		width: 22.5%;
 	}
 
-	.features,.services .container,.footer .links {
+	.footer .links {
 		flex-direction: row;
 	}
 
-	.footer ul a:hover:after {
+	.footer ul a:hover::after {
 		width: 50%;
 	}
 
 	.header {
-		box-shadow: 0 5px 18px 5px rgba(0,0,0,0.5);
+		box-shadow: 0 5px 18px 5px rgba(0, 0, 0, 0.5);
 		position: fixed;
 		right: 0;
 		width: 100%;
@@ -284,5 +341,13 @@
 	.services .card {
 		margin-bottom: 0;
 		width: 20%;
+	}
+
+	.services .container {
+		flex-direction: row;
+	}
+
+	.smallhero {
+		padding-top: 10vh;
 	}
 }
