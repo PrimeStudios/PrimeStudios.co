@@ -142,6 +142,18 @@
 	transform: scale(1.2);
 }
 
+.footer span {
+	transition: 0.4s ease-in-out;
+}
+
+.fa-github:hover {
+	color: #4078C0;
+}
+
+.fa-linkedin:hover {
+	color: #2867B2;
+}
+
 .footer p {
 	font-family: 'Lato', sans-serif;
 	font-size: 0.8rem;
