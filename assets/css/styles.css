@@ -210,7 +210,7 @@
 
 .hero a:hover {
 	position: relative;
-	top: 1vh;
+	top: .5vh;
 }
 
 .showcase {
