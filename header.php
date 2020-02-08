@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 	<head>
 		<meta charset="utf-8">
-		<title>	<?php echo $pageName; ?> | Prime Studios</title>
+		<title>	<?php echo $pageName; ?> - Prime Studios</title>
 		<meta name="title" content="<?php echo $pageName; ?> | Prime Studios">
 		<meta name="description"
 		 content="Prime Studios is a freelance company focused on building powerful websites for our clients. We strive to provide user-friendly and affordable websites through our service. Whatever your needs, we can fill all your needs with our design team's creativity.">
@@ -18,13 +17,11 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" />
 		<link rel="stylesheet" href="<?php echo adjustRecursivity(); ?>assets/css/styles.css" />
 	</head>
-
 	<body>
 		<div class="header">
 			<ul>
 				<li <?php if ($pageName=='Home' ) {echo 'class="active"';}?>><a href="/">Home</a></li>
 				<li <?php if ($pageName=='About' ) {echo 'class="active"';}?>><a href="/about">About</a></li>
-				<li <?php if ($pageName=='Web Development' ) {echo 'class="active"';}?>><a href="/web">Web Development</a></li>
-				<li <?php if ($pageName=='Work' ) {echo 'class="active"';}?>><a href="/work">Work</a></li>
+				<li>Services</li>
 			</ul>
 		</div>

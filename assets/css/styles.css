@@ -238,14 +238,14 @@
 	cursor: pointer;
 }
 
-.services {
+.showcase {
 	background-color: #F7F7FF;
 	padding-bottom: 5vh;
 	padding-top: 2.5vh;
 	text-align: center;
 }
 
-.services .card {
+.showcase .card {
 	background-color: #FFFFFF;
 	margin-bottom: 2.5vh;
 	margin-left: 2%;
@@ -255,7 +255,7 @@
 	width: 80%;
 }
 
-.services .container {
+.showcase .container {
 	align-content: center;
 	align-items: center;
 	display: flex;
@@ -264,16 +264,16 @@
 	justify-content: center;
 }
 
-.services h2 {
+.showcase h2 {
 	font-family: 'Roboto', sans-serif;
 	margin-bottom: 2.5vh;
 }
 
-.services h3 {
+.showcase h3 {
 	font-family: 'Lato', sans-serif;
 }
 
-.services i {
+.showcase i {
 	font-size: 3rem;
 	margin-bottom: 2.5vh;
 }
@@ -335,7 +335,7 @@
 	}
 
 	.hero {
-		padding-top: 10vh;
+		padding-top: 13vh;
 	}
 
 	.services .card {

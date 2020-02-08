@@ -9,27 +9,16 @@ include('header.php');
 	<p>Quality, affordable development and design services.</p>
 	<i class="fas fa-chevron-down"></i>
 </div>
-
-<div class="services">
-	<h2>Services</h2>
+<div class="showcase">
+	<h2>Showcase</h2>
 	<div class="container">
-		<div class="card">
-			<i class="fas fa-server"></i>
-			<h3>System Administration</h3>
-		</div>
-		<div class="card">
-			<i class="fas fa-laptop-code"></i>
-			<h3>Web Development</h3>
-		</div>
 	</div>
 </div>
-
 <div class="quote">
 	<a href="#">
 		<button>Request a Quote</button>
 	</a>
 </div>
-
 <div class="features">
 	<div class="card">
 		<i class="fas fa-shipping-fast"></i>
