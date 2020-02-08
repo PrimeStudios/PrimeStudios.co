@@ -82,7 +82,7 @@
 .footer {
 	padding-bottom: 2.5vh;
 	padding-top: 2.5vh;
-	height: 10vh;
+	height: 25vh;
 	position: relative;
 }
 
@@ -96,18 +96,15 @@
 }
 
 .services-header {
-	position: absolute;
-	right: calc(50vw - 15vw);
 }
 
 .company-header {
-	position: absolute;
-	right: 15vw;
+	padding-top: 2vh;
 }
 
 .copyright-text {
 	position: absolute;
-	left: 15vw;
+	left: calc(50vw - 8rem);
 	bottom: 2vh;
 }
 
@@ -163,6 +160,19 @@
 .footer ul a:hover::after {
 	background: #F26419;
 	width: 100%;
+}
+
+.social-media-container {
+	position: absolute;
+	top: 3vh;
+	left: 15vw;
+	display: none;
+}
+
+.social-media-icon {
+	font-size: 6vh;
+	padding-left: .5vw;
+	padding-right: .5vw;
 }
 
 .hero {
@@ -379,6 +389,27 @@
 		display: block;
 	}
 
+	.footer {
+		max-height: 10vh;
+	}
+
+	.services-header {
+		position: absolute;
+		right: calc(50vw - 15vw);
+	}
+
+	.company-header {
+		position: absolute;
+		right: 15vw;
+		padding-top: 0vh;
+	}
+
+	.copyright-text {
+		position: absolute;
+		left: 15vw;
+		bottom: 2vh;
+	}
+
 	.header-title {
 		display: block;
 	}
@@ -389,6 +420,10 @@
 
 	.footer ul a:hover::after {
 		width: 50%;
+	}
+
+	.social-media-container {
+		display: block;
 	}
 
 	.hero {
