@@ -215,9 +215,15 @@
 
 .showcase {
 	background-color: #F7F7FF;
-	padding-bottom: 5vh;
+	padding-bottom: 2.5vh;
 	padding-top: 2.5vh;
 	text-align: center;
+}
+
+.showcase-item {
+	height: 25vh;
+	width: 25vw;
+	background-color: white;
 }
 
 .showcase .card {

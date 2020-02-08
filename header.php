@@ -24,6 +24,6 @@
 			<ul>
 				<li <?php if ($pageName=='Home' ) {echo 'class="active"';}?>><a href="/">Home</a></li>
 				<li <?php if ($pageName=='About' ) {echo 'class="active"';}?>><a href="/about">About</a></li>
-				<li>Services</li>
+				<li>Services <i class="fas fa-angle-down"></i></li>
 			</ul>
 		</div>
