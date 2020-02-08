@@ -7,11 +7,12 @@ include('header.php');
 <div class="hero">
 	<h1>Prime Studios</h1>
 	<p>Quality, affordable development and design services.</p>
-	<i class="fas fa-chevron-down"></i>
+	<a onclick="document.getElementById('showcase').scrollIntoView({behavior: 'smooth'})"><i class="fas fa-chevron-down"></i></a>
 </div>
-<div class="showcase">
+<div id="showcase" class="showcase">
 	<h2>Showcase</h2>
 	<div class="container">
+		<p class="home-project-list"><a class="home-project-link" href="#">View More Here <span class="hover-left-padding fas fa-arrow-circle-right"></span></a></p>
 	</div>
 </div>
 <div class="quote">

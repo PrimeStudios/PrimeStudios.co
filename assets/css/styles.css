@@ -58,6 +58,23 @@
 	margin-right: 2vw;
 }
 
+.header img {
+	position: absolute;
+	height: 5vh;
+	left: 2vw;
+	display: none;
+}
+
+.header-title {
+	position: absolute;
+	height: 5vh;
+	top:  1vh;
+	left: calc(3vw + 5vh);
+	font-size: 3.5vh;
+	display: none;
+	font-family: 'Lato', sans-serif;
+}
+
 .fa-discord:hover {
 	color: #7289DA;
 }
@@ -167,6 +184,15 @@
 	margin-top: 5vh;
 }
 
+.hero a {
+	cursor: pointer;
+}
+
+.hero a:hover {
+	position: relative;
+	top: 1vh;
+}
+
 .showcase {
 	background-color: #F7F7FF;
 	padding-bottom: 5vh;
@@ -205,6 +231,25 @@
 .showcase i {
 	font-size: 3rem;
 	margin-bottom: 2.5vh;
+}
+
+.home-project-list {
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+}
+
+.home-project-list:hover .hover-left-padding {
+	padding-left: .25vw;
+}
+
+.home-project-link {
+	color: black;
+	text-decoration: none;
+}
+
+.home-project-link:hover {
+	color: black;
+	text-decoration: none;
 }
 
 .quote {
@@ -251,6 +296,9 @@
 	margin-right: 2.5%;
 	padding: 2.5vh 2.5%;
 	width: 75%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .features h3 {
@@ -315,6 +363,14 @@
 	.header ul {
 		flex-direction: row;
 		justify-content: flex-end;
+	}
+
+	.header img {
+		display: block;
+	}
+
+	.header-title {
+		display: block;
 	}
 
 	.footer .links {
