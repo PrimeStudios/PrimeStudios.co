@@ -205,6 +205,11 @@
 .hero i {
 	color: #FFFFFF;
 	font-size: 1.5rem;
+	transition: 0.4s ease-in-out;
+}
+
+.hero i:hover {
+	transform: translate(0, 0.75vh);
 }
 
 .hero p {
@@ -217,11 +222,6 @@
 
 .hero a {
 	cursor: pointer;
-}
-
-.hero a:hover {
-	position: relative;
-	top: 0.5vh;
 }
 
 .showcase {
