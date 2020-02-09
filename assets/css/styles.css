@@ -966,6 +966,98 @@
 	}
 }
 
+.team-header {
+	text-align: center;
+	color: grey;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 2vh;
+}
+
+.company-director {
+	margin-left: 10vw;
+	background-color: rgba(230,230,230,1);
+	height: 30vh;
+	width: 30vh;
+	border-radius: 1vh;
+	margin-top: calc(35vh - 30vh);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.operations-director {
+	margin-left: 10vw;
+	background-color: rgba(230,230,230,1);
+	height: 30vh;
+	width: 30vh;
+	border-radius: 1vh;
+	margin-top: 5vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.company-coder {
+	margin-left: 10vw;
+	background-color: rgba(230,230,230,1);
+	height: 30vh;
+	width: 30vh;
+	border-radius: 1vh;
+	margin-top: 5vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.company-gfx {
+	margin-left: 10vw;
+	background-color: rgba(230,230,230,1);
+	height: 30vh;
+	width: 30vh;
+	border-radius: 1vh;
+	margin-top: 5vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.employee-image {
+	font-size: 10vh;
+	text-align: center;
+	padding-top: 3vh;
+	margin: 0;
+}
+
+.employee-name {
+	font-size: 3vh;
+	text-align: center;
+	margin: 0;
+}
+
+.employee-desc {
+	font-size: 2vh;
+	text-align: center;
+	margin: 0;
+}
+
+.employee-contact {
+	font-size: 3vh;
+	text-align: center;
+	padding-top: 1vh;
+	margin: 0;
+}
+
+.link {
+	color: black;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: black;
+	text-decoration: none;
+}
+
 @media only screen and (min-width: 1000px) {
 	.header {
 		box-shadow: 0 5px 18px 5px rgba(0, 0, 0, 0.5);
@@ -1135,5 +1227,53 @@
 		left: calc(300px + 2vw);
 		width: calc(80vw - 300px - 2vw);
 		margin-bottom: 2vh;
+	}
+
+	.company-director {
+		margin-left: calc(50% - 33vh);
+		background-color: rgba(230,230,230,1);
+		height: 30vh;
+		width: 30vh;
+		border-radius: 1vh;
+		margin-top: calc(35vh - 30vh);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	.operations-director {
+		margin-left: calc(50%  + 2vh);
+		background-color: rgba(230,230,230,1);
+		height: 30vh;
+		width: 30vh;
+		border-radius: 1vh;
+		margin-top: -30vh;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	.company-coder {
+		margin-left: calc(50%  - 32vh);
+		background-color: rgba(230,230,230,1);
+		height: 30vh;
+		width: 30vh;
+		border-radius: 1vh;
+		margin-top: 5vh;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	.company-gfx {
+		margin-left: calc(50%  + 3vh);
+		background-color: rgba(230,230,230,1);
+		height: 30vh;
+		width: 30vh;
+		border-radius: 1vh;
+		margin-top: -30vh;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 }

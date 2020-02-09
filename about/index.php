@@ -11,7 +11,7 @@ include('../header.php');
 <div class="about">
 	<div class="about-nav-container">
 		<a class="about-nav-link" href="../about"><p class="about-nav-button about-nav-active">Introduction</p></a>
-		<a class="about-nav-link" href="#"><p class="about-nav-button">Our Team</p></a>
+		<a class="about-nav-link" href="team"><p class="about-nav-button">Our Team</p></a>
 		<a class="about-nav-link" href="history"><p class="about-nav-button">Our History</p></a>
 	</div>
 	<div class="about-text-block">
