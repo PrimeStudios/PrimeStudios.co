@@ -7,9 +7,9 @@ include('header.php');
 <div class="hero">
 	<h1>Prime Studios</h1>
 	<p>Quality, affordable development and design services.</p>
-	<a onclick="document.getElementById('showcase').scrollIntoView({behavior: 'smooth'})"><i class="fas fa-chevron-down"></i></a>
+	<a onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})"><i class="fas fa-chevron-down"></i></a>
 </div>
-<div class="features">
+<div id="features" class="features">
 	<div class="card">
 		<i class="fas fa-shipping-fast"></i>
 		<h3>Fast</h3>
@@ -26,7 +26,7 @@ include('header.php');
 		<p>Our team's diverse set of skills allows us to work effectively and collaboratively to ensure a quality end product.</p>
 	</div>
 </div>
-<div id="showcase" class="showcase">
+<div class="showcase">
 	<h2>Showcase</h2>
 	<div class="container">
 		<img

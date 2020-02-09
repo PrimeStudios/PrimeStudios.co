@@ -463,6 +463,48 @@
 	padding-right: 8vw;
 	padding-top: 4vh;
 	text-align: center;
+	min-height: calc(100vh - 46vh);
+}
+
+.about-nav-container {
+	width: 300px;
+	height: 25vh;
+}
+
+.about-nav-button {
+	width: 100%;
+	background-color: rgba(235,235,235,1);
+	font-size: 2vh;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	transition: background-color ease .2s;
+}
+
+.about-nav-button:hover {
+	background-color: rgba(225,225,225,1);
+	transition: background-color ease .2s;
+}
+
+.about-nav-link {
+	color: black;
+	text-decoration: none;
+}
+
+.about-text-block {
+	text-align: left;
+	position: relative;
+	top: -25vh;
+	left: calc(300px + 2vw);
+	width: calc(80vw - 300px - 2vw);
+	margin-bottom: 2vh;
+}
+
+.about-nav-active {
+	background-color: #F26419;
+}
+
+.about-nav-active:hover {
+	background-color: #F26419;
 }
 
 @media only screen and (min-width: 1000px) {
