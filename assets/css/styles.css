@@ -593,8 +593,14 @@
 		width: 20%;
 	}
 
+	.showcase-item {
+		width: 20vw;
+	}
+
 	.showcase .container {
 		flex-direction: row;
+		align-content: flex-start;
+		align-items: flex-start;
 	}
 
 	.features {
