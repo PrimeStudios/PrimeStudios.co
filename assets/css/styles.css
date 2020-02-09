@@ -235,10 +235,53 @@
 	cursor: pointer;
 }
 
+.features {
+	align-content: center;
+	align-items: center;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	padding: 4vh 7.5%;
+	text-align: center;
+}
+
+.features .card {
+	background: transparent;
+	margin-bottom: 2.5vh;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	padding: 2.5vh 2.5%;
+	width: 75%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.features h3 {
+	font-family: 'Lato', sans-serif;
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 1.25vh;
+	margin-top: 2.5vh;
+}
+
+.features i {
+	color: #4D4642;
+	font-size: 2.75rem;
+}
+
+.features p {
+	font-family: 'Lato', sans-serif;
+	font-weight: light;
+	color: #444444;
+}
+
 .showcase {
-	background-color: #F7F7FF;
-	padding-bottom: 2.5vh;
-	padding-top: 2.5vh;
+	background-color: #F3F5F9;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
 	text-align: center;
 	overflow: hidden;
 }
@@ -247,18 +290,17 @@
 	margin-left: 1vw;
 	margin-right: 1vw;
 	background-color: #FFFFFF;
-	padding: 0.75%;
 	height: auto;
 	flex-grow: 1;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	cursor: pointer;
 	width: 75%;
 	margin-bottom: 1vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
 	transition: 0.3s ease-in-out;
 }
 
 .showcase-item:hover {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.26), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
 .showcase-popup {
@@ -331,8 +373,10 @@
 
 .showcase h2 {
 	font-family: 'Lato', sans-serif;
+	font-weight: black;
+	font-variant: small-caps;
 	font-size: 1.75rem;
-	margin-bottom: 2.5vh;
+	margin-bottom: 2vh;
 }
 
 .showcase h3 {
@@ -345,23 +389,23 @@
 
 .home-project-list {
 	font-family: 'Lato', sans-serif;
-	font-size: 1.1rem;
+	font-weight: regular;
+	font-variant: small-caps;
+	font-size: 1.2rem;
 	margin-top: 2vh;
 	margin-bottom: 0.5vh;
 }
 
-.home-project-list:hover .hover-left-padding {
-	padding-left: 0.25vw;
-}
-
 .home-project-link {
-	color: black;
+	color: #444444;
 	text-decoration: none;
+	padding: 1vh 1vw;
+	transition: 0.4s ease-in-out;
 }
 
 .home-project-link:hover {
-	color: black;
-	text-decoration: none;
+	color: #000000;
+	background-color: #FFFFFF;
 }
 
 .quote {
@@ -387,44 +431,6 @@
 .quote button:hover {
 	background: #F26419;
 	cursor: pointer;
-}
-
-.features {
-	align-content: center;
-	align-items: center;
-	background-color: #F7F7FF;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	padding: 5vh 7.5%;
-	text-align: center;
-}
-
-.features .card {
-	background-color: #FFFFFF;
-	margin-bottom: 2.5vh;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
-	padding: 2.5vh 2.5%;
-	width: 75%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.features h3 {
-	font-family: 'Lato', sans-serif;
-	margin-bottom: 1.25vh;
-	margin-top: 2.5vh;
-}
-
-.features i {
-	font-size: 2.75rem;
-}
-
-.features p {
-	font-family: 'Lato', sans-serif;
 }
 
 .smallhero {
@@ -516,7 +522,7 @@
 	.hd-web-design {
 		display: block;
 		width: 100%;
-		color: black;
+		color: #000000;
 		font-size: 2vh;
 		text-align: center;
 		padding-top: 1vh;
@@ -533,7 +539,7 @@
 	.hd-sys-admin {
 		display: block;
 		width: 100%;
-		color: black;
+		color: #000000;
 		font-size: 2vh;
 		text-align: center;
 		padding-top: 1vh;
