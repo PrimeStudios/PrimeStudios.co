@@ -1,8 +1,8 @@
 <?php
 $pageName = 'Our History';
-$pageLevel = 1;
-include('../includes/recursivity.php');
-include('../header.php');
+$pageLevel = 2;
+include('../../includes/recursivity.php');
+include('../../header.php');
 ?>
 <div class="smallhero">
 	<h1>Prime Studios</h1>
@@ -10,9 +10,9 @@ include('../header.php');
 </div>
 <div class="about">
 	<div class="about-nav-container">
-		<a class="about-nav-link" href="../about"><p class="about-nav-button">Introduction</p></a>
-		<a class="about-nav-link" href="team"><p class="about-nav-button">Our Team</p></a>
-		<a class="about-nav-link" href="history"><p class="about-nav-button about-nav-active">Our History</p></a>
+		<a class="about-nav-link" href="/about"><p class="about-nav-button">Introduction</p></a>
+		<a class="about-nav-link" href="/about/team"><p class="about-nav-button">Our Team</p></a>
+		<a class="about-nav-link" href="/about/history"><p class="about-nav-button about-nav-active">Our History</p></a>
 	</div>
 	<div class="about-text-block">
 		<div id="timeline">
@@ -66,4 +66,4 @@ include('../header.php');
 		</div>
 	</div>
 </div>
-<?php include('../footer.php'); ?>
+<?php include('../../footer.php'); ?>
