@@ -295,6 +295,7 @@
 	padding-top: 1vh;
 	width: calc(100% - 2vh);
 	margin-bottom: 1vh;
+	display: none;
 }
 
 .showcase .container {

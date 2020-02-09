@@ -12,15 +12,17 @@ include('header.php');
 <div id="showcase" class="showcase">
 	<h2>Showcase</h2>
 	<div class="container">
-		<img onclick="document.getElementById('showcase_popup').style.display = 'block';" class="showcase-item" src="assets/img/showcase-1.png">
-		<img onclick="document.getElementById('showcase_popup').style.display = 'block';" class="showcase-item" src="assets/img/showcase-2.png">
-		<img onclick="document.getElementById('showcase_popup').style.display = 'block'; document.getElementById('showcase_popup').src = 'assets/img/showcase-3.png';" class="showcase-item" src="assets/img/showcase-3.png">
+		<img onclick="document.getElementById('showcase_popup').style.display = 'block'; document.getElementById('showcase_popup_image_one').style.display = 'block'; document.getElementById('showcase_popup_image_two').style.display = 'none'; document.getElementById('showcase_popup_image_three').style.display = 'none';" class="showcase-item" src="assets/img/showcase-1.png">
+		<img onclick="document.getElementById('showcase_popup').style.display = 'block'; document.getElementById('showcase_popup_image_one').style.display = 'none'; document.getElementById('showcase_popup_image_two').style.display = 'block'; document.getElementById('showcase_popup_image_three').style.display = 'none';" class="showcase-item" src="assets/img/showcase-2.png">
+		<img onclick="document.getElementById('showcase_popup').style.display = 'block'; document.getElementById('showcase_popup_image_one').style.display = 'none'; document.getElementById('showcase_popup_image_two').style.display = 'none'; document.getElementById('showcase_popup_image_three').style.display = 'block';" class="showcase-item" src="assets/img/showcase-3.png">
 	</div>
 	<p class="home-project-list"><a class="home-project-link" href="#">View More Here <span class="hover-left-padding fas fa-arrow-circle-right"></span></a></p>
 </div>
 <div id="showcase_popup" class="showcase-popup animated zoomIn">
 	<p onclick="document.getElementById('showcase_popup').style.display ='none';" class="showcase-popup-close">x</p>
-	<img id="showcase_popup_image" class="showcase-popup-image" src="assets/img/showcase-1.png">
+	<img id="showcase_popup_image_one" class="showcase-popup-image" src="assets/img/showcase-1.png">
+	<img id="showcase_popup_image_two" class="showcase-popup-image" src="assets/img/showcase-2.png">
+	<img id="showcase_popup_image_three" class="showcase-popup-image" src="assets/img/showcase-3.png">
 </div>
 <div class="quote">
 	<a href="#">
