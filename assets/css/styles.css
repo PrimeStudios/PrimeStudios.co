@@ -495,6 +495,25 @@
 	position: relative;
 	width: 80vw;
 	margin-bottom: 2vh;
+	padding: 2vh 2vw;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.26), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.about-text-block h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #000000;
+	font-size: 1.5rem;
+}
+
+.about-text-block p {
+	font-family: 'Lato', sans-serif;
+	font-weight: light;
+	color: #444444;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+	font-size: 1.25rem;
 }
 
 .about-nav-active {
