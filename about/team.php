@@ -1,5 +1,5 @@
 <?php
-$pageName = 'Our History';
+$pageName = 'Our Team';
 $pageLevel = 1;
 include('../includes/recursivity.php');
 include('../header.php');
