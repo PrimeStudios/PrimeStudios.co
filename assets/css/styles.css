@@ -463,7 +463,7 @@
 	padding-right: 6vw;
 	padding-top: 4vh;
 	text-align: center;
-	min-height: 50vh;
+	min-height: 54vh;
 }
 
 .about-nav-container {
@@ -493,9 +493,11 @@
 
 .about-text-block {
 	text-align: left;
-	position: relative;
+	position: absolute;
+	left: 1vw;
 	width: 80vw;
 	display: inline-block;
+	top: 62vh;
 }
 
 .main {
@@ -628,6 +630,12 @@
 	padding-top: 0.5vh;
 	padding-bottom: 0.5vh;
 	color: #F26419;
+}
+
+#timeline {
+	margin-left: 10vw;
+	margin-right: 10vw;
+	width: 80vw;
 }
 
 @media (min-width: 1000px) {
@@ -1079,7 +1087,7 @@
 }
 
 .company-director {
-	margin-left: 10vw;
+	margin-left: calc(50vw - 15vh);
 	background-color: rgba(230, 230, 230, 1);
 	height: 30vh;
 	width: 30vh;
@@ -1091,7 +1099,7 @@
 }
 
 .operations-director {
-	margin-left: 10vw;
+	margin-left: calc(50vw - 15vh);
 	background-color: rgba(230, 230, 230, 1);
 	height: 30vh;
 	width: 30vh;
@@ -1103,7 +1111,7 @@
 }
 
 .company-coder {
-	margin-left: 10vw;
+	margin-left: calc(50vw - 15vh);
 	background-color: rgba(230, 230, 230, 1);
 	height: 30vh;
 	width: 30vh;
@@ -1115,7 +1123,7 @@
 }
 
 .company-gfx {
-	margin-left: 10vw;
+	margin-left: calc(50vw - 15vh);
 	background-color: rgba(230, 230, 230, 1);
 	height: 30vh;
 	width: 30vh;
@@ -1322,13 +1330,17 @@
 	.about-nav-container {
 		width: 300px;
 		height: 25vh;
+		position: absolute;
+		left: 10vw;
 	}
 
 	.about-text-block {
 		text-align: left;
-		position: relative;
-		width: calc(80vw - 300px - 2vw);
+		position: absolute;
+		left: calc(10vw + 300px + 1vw);
+		width: calc(70vw - 300px - 1vw);
 		margin-bottom: 2vh;
+		top: 27vh;
 	}
 
 	.company-director {
