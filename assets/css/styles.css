@@ -467,8 +467,8 @@
 }
 
 .about-nav-container {
-	width: 300px;
-	height: 25vh;
+	width: 80vw;
+	height: 15vh;
 }
 
 .about-nav-button {
@@ -493,9 +493,7 @@
 .about-text-block {
 	text-align: left;
 	position: relative;
-	top: -25vh;
-	left: calc(300px + 2vw);
-	width: calc(80vw - 300px - 2vw);
+	width: 80vw;
 	margin-bottom: 2vh;
 }
 
@@ -662,5 +660,19 @@
 
 	.smallhero {
 		padding-top: 10vh;
+	}
+
+	.about-nav-container {
+		width: 300px;
+		height: 25vh;
+	}
+
+	.about-text-block {
+		text-align: left;
+		position: relative;
+		top: -25vh;
+		left: calc(300px + 2vw);
+		width: calc(80vw - 300px - 2vw);
+		margin-bottom: 2vh;
 	}
 }
