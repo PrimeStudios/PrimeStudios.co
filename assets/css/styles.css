@@ -261,7 +261,7 @@
 	top: 10vh;
 	left: 10vw;
 	width: 80vw;
-	height: 81vh;
+	min-height: 1vh;
 	background-color: rgba(0,0,0,.75);
 	border-radius: 4px;
 	z-index: 3;
@@ -294,6 +294,7 @@
 	margin-left: 1vh;
 	padding-top: 1vh;
 	width: calc(100% - 2vh);
+	margin-bottom: 1vh;
 }
 
 .showcase .container {
