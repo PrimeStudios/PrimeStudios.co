@@ -12,8 +12,11 @@ include('header.php');
 <div id="showcase" class="showcase">
 	<h2>Showcase</h2>
 	<div class="container">
-		<p class="home-project-list"><a class="home-project-link" href="#">View More Here <span class="hover-left-padding fas fa-arrow-circle-right"></span></a></p>
+		<img class="showcase-item" src="assets/img/1.png">
+		<img class="showcase-item" src="assets/img/2.png">
+		<img class="showcase-item" src="assets/img/3.png">
 	</div>
+	<p class="home-project-list"><a class="home-project-link" href="#">View More Here <span class="hover-left-padding fas fa-arrow-circle-right"></span></a></p>
 </div>
 <div class="quote">
 	<a href="#">

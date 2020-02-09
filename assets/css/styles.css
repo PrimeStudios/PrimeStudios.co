@@ -266,6 +266,7 @@
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: center;
+	overflow: scroll;
 }
 
 .showcase h2 {
@@ -280,6 +281,11 @@
 .showcase i {
 	font-size: 3rem;
 	margin-bottom: 2.5vh;
+}
+
+.showcase-item {
+	height: 150%;
+	width: 150%;
 }
 
 .home-project-list {
