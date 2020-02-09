@@ -459,16 +459,17 @@
 	font-family: 'Lato', sans-serif;
 	font-size: 1.2rem;
 	padding-bottom: 4vh;
-	padding-left: 8vw;
-	padding-right: 8vw;
+	padding-left: 6vw;
+	padding-right: 6vw;
 	padding-top: 4vh;
 	text-align: center;
-	min-height: calc(100vh - 46vh);
+	min-height: 50vh;
 }
 
 .about-nav-container {
 	width: 80vw;
 	height: 15vh;
+	display: inline-block;
 }
 
 .about-nav-button {
@@ -494,11 +495,13 @@
 	text-align: left;
 	position: relative;
 	width: 80vw;
+	display: inline-block;
 }
 
 .main {
 	margin-bottom: 2vh;
 	padding: 2vh 2vw;
+	margin-left: 5vw;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.26), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -1324,8 +1327,6 @@
 	.about-text-block {
 		text-align: left;
 		position: relative;
-		top: -25vh;
-		left: calc(300px + 2vw);
 		width: calc(80vw - 300px - 2vw);
 		margin-bottom: 2vh;
 	}

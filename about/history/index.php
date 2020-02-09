@@ -17,7 +17,6 @@ include('../../header.php');
 	<div class="about-text-block">
 		<div id="timeline">
 			<p class="section-description">Milestones On Our Path To Where We Are Today</p>
-			<br>
 			<div class="history-card-wrapper">
 				<div class="history-card history-card-tier-1">
 					<div id="head_one" class="head">
