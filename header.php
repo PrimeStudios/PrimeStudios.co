@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" />
 		<link rel="stylesheet" href="<?php echo adjustRecursivity(); ?>assets/css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo adjustRecursivity(); ?>assets/css/animate.css">
 	</head>
 	<body>
 		<div class="header">

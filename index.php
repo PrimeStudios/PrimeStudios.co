@@ -12,11 +12,15 @@ include('header.php');
 <div id="showcase" class="showcase">
 	<h2>Showcase</h2>
 	<div class="container">
-		<img class="showcase-item" src="assets/img/showcase-1.png">
-		<img class="showcase-item" src="assets/img/showcase-2.png">
-		<img class="showcase-item" src="assets/img/showcase-3.png">
+		<img onclick="document.getElementById('showcase_popup').style.display = 'block';" class="showcase-item" src="assets/img/showcase-1.png">
+		<img onclick="document.getElementById('showcase_popup').style.display = 'block';" class="showcase-item" src="assets/img/showcase-2.png">
+		<img onclick="document.getElementById('showcase_popup').style.display = 'block'; document.getElementById('showcase_popup').src = 'assets/img/showcase-3.png';" class="showcase-item" src="assets/img/showcase-3.png">
 	</div>
 	<p class="home-project-list"><a class="home-project-link" href="#">View More Here <span class="hover-left-padding fas fa-arrow-circle-right"></span></a></p>
+</div>
+<div id="showcase_popup" class="showcase-popup animated zoomIn">
+	<p onclick="document.getElementById('showcase_popup').style.display ='none';" class="showcase-popup-close">x</p>
+	<img id="showcase_popup_image" class="showcase-popup-image" src="assets/img/showcase-1.png">
 </div>
 <div class="quote">
 	<a href="#">

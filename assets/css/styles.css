@@ -256,6 +256,46 @@
 	width: 20vw;
 }
 
+.showcase-popup {
+	position: fixed;
+	top: 10vh;
+	left: 10vw;
+	width: 80vw;
+	height: 81vh;
+	background-color: rgba(0,0,0,.75);
+	border-radius: 4px;
+	z-index: 3;
+	display: none;
+}
+
+.showcase-popup-close {
+	position: absolute;
+	right: -1vw;
+	top: -1vh;
+	font-size: 2vh;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	background-color: red;
+	width: 5vh;
+	height: 4vh;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 1vh;
+	transition: background-color ease .2s;
+}
+
+.showcase-popup-close:hover {
+	background-color: darkred;
+	transition: background-color ease .2s;
+	cursor: pointer;
+}
+
+.showcase-popup-image {
+	margin-left: 1vh;
+	padding-top: 1vh;
+	width: calc(100% - 2vh);
+}
+
 .showcase .container {
 	display: flex;
 	flex-direction: row;
