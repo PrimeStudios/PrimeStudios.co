@@ -1,0 +1,91 @@
+.web-services {
+	background: #FFFFFF;
+	text-align: center;
+	padding-top: 4vh;
+}
+
+.web-services p {
+	font-family: 'Lato', sans-serif;
+	color: #333333;
+	font-weight: 100;
+	font-size: 1.25rem;
+	margin-left: 6vw;
+	margin-right: 6vw;
+	margin-bottom: 4vh;
+}
+
+.web-services .technologies {
+	background-color: #F3F5F9;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+
+.web-services img {
+	width: 15vw;
+	height: auto;
+	margin: 2vh 3vw;
+	padding: 1vh 1vw;
+	-webkit-filter: grayscale(90%);
+	filter: grayscale(90%);
+	cursor: pointer;
+	-webkit-transition: 0.35s ease-in-out;
+	-o-transition: 0.35s ease-in-out;
+	transition: 0.35s ease-in-out;
+}
+
+.web-services img:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
+.web-hero {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../assets/img/webbg.jpg) !important;
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/img/webbg.jpg) !important;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/img/webbg.jpg) !important;
+	background-position: 50% 80% !important;
+}
+
+.web-quote {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../assets/img/webquotebg.jpg) !important;
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/img/webquotebg.jpg) !important;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/img/webquotebg.jpg) !important;
+	background-position: 50% 50% !important;
+}
+
+.web-showcase {
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+@media only screen and (min-width: 1000px) {
+	.web-services {
+		padding-top: 8vh;
+	}
+
+	.web-services p {
+		margin-bottom: 8vh;
+	}
+
+	.web-services img {
+		width: 2.5vw;
+		padding: 4vh 0.25vw;
+	}
+}
