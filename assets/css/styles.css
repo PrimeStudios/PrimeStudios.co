@@ -459,17 +459,16 @@
 	font-family: 'Lato', sans-serif;
 	font-size: 1.2rem;
 	padding-bottom: 4vh;
-	padding-left: 6vw;
-	padding-right: 6vw;
+	padding-left: 8vw;
+	padding-right: 8vw;
 	padding-top: 4vh;
 	text-align: center;
-	min-height: 54vh;
+	min-height: calc(100vh - 46vh);
 }
 
 .about-nav-container {
 	width: 80vw;
 	height: 15vh;
-	display: inline-block;
 }
 
 .about-nav-button {
@@ -493,17 +492,13 @@
 
 .about-text-block {
 	text-align: left;
-	position: absolute;
-	left: 1vw;
+	position: relative;
 	width: 80vw;
-	display: inline-block;
-	top: 62vh;
 }
 
 .main {
 	margin-bottom: 2vh;
 	padding: 2vh 2vw;
-	margin-left: 5vw;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.26), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -630,12 +625,6 @@
 	padding-top: 0.5vh;
 	padding-bottom: 0.5vh;
 	color: #F26419;
-}
-
-#timeline {
-	margin-left: 10vw;
-	margin-right: 10vw;
-	width: 80vw;
 }
 
 @media (min-width: 1000px) {
@@ -1087,7 +1076,7 @@
 }
 
 .company-director {
-	margin-left: calc(50vw - 15vh);
+	margin-left: 10vw;
 	background-color: rgba(230, 230, 230, 1);
 	height: 30vh;
 	width: 30vh;
@@ -1099,7 +1088,7 @@
 }
 
 .operations-director {
-	margin-left: calc(50vw - 15vh);
+	margin-left: 10vw;
 	background-color: rgba(230, 230, 230, 1);
 	height: 30vh;
 	width: 30vh;
@@ -1111,7 +1100,7 @@
 }
 
 .company-coder {
-	margin-left: calc(50vw - 15vh);
+	margin-left: 10vw;
 	background-color: rgba(230, 230, 230, 1);
 	height: 30vh;
 	width: 30vh;
@@ -1123,7 +1112,7 @@
 }
 
 .company-gfx {
-	margin-left: calc(50vw - 15vh);
+	margin-left: 10vw;
 	background-color: rgba(230, 230, 230, 1);
 	height: 30vh;
 	width: 30vh;
@@ -1330,17 +1319,15 @@
 	.about-nav-container {
 		width: 300px;
 		height: 25vh;
-		position: absolute;
-		left: 10vw;
 	}
 
 	.about-text-block {
 		text-align: left;
-		position: absolute;
-		left: calc(10vw + 300px + 1vw);
-		width: calc(70vw - 300px - 1vw);
+		position: relative;
+		top: -25vh;
+		left: calc(300px + 2vw);
+		width: calc(80vw - 300px - 2vw);
 		margin-bottom: 2vh;
-		top: 27vh;
 	}
 
 	.company-director {
