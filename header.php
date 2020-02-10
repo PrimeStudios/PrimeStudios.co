@@ -24,10 +24,10 @@
 			<ul>
 				<li <?php if ($pageName=='Home' ) {echo 'class="active"';}?>><a href="/">Home</a></li>
 				<li <?php if ($pageName == 'About' || $pageName == 'Our Team' || $pageName == 'Our History') {echo 'class="active"';}?>><a href="/about">About</a></li>
-				<li class="header-dropdown-button">Services <i class="fas fa-angle-down"></i></li>
+				<li class="<?php if ($pageName == 'Web Services' || $pageName == 'System Administration Services') {echo 'active ';}?>header-dropdown-button">Services <i class="fas fa-angle-down"></i></li>
 				<div class="header-dropdown">
-					<p class="hd-web-design"><a href="#">Web Design</a></p>
-					<p class="hd-sys-admin"><a href="#">Sys Admin</a></p>
+					<p class="hd-web-design"><a href="/web">Web Design</a></p>
+					<p class="hd-sys-admin"><a href="/sysadmin">Sys Admin</a></p>
 				</div>
 			</ul>
 		</div>
