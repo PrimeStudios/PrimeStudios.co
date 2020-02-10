@@ -70,9 +70,13 @@
 }
 
 .web-showcase {
-	background-color: #FFFFFF;
-	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+	background-color: #FFFFFF !important;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29) !important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29) !important;
+}
+
+.web-showcase .container {
+	background-color: #FFFFFF !important;
 }
 
 @media only screen and (min-width: 1000px) {
