@@ -1324,7 +1324,7 @@
 	.about-text-block {
 		text-align: left;
 		position: relative;
-		top: -25vh;
+		margin-top: -25vh;
 		left: calc(300px + 2vw);
 		width: calc(80vw - 300px - 2vw);
 		margin-bottom: 2vh;
