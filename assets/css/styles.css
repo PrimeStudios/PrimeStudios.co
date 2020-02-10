@@ -62,7 +62,7 @@
 .header .homelink {
 	position: absolute;
 	padding: 0 2vw;
-	top: 1vh;
+	top: 0.75vh;
 	left: 1vw;
 	display: none;
 }
