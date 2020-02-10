@@ -1076,7 +1076,7 @@
 }
 
 .company-director {
-	margin-left: 10vw;
+	margin-left: calc(50% - 15vh);
 	background-color: rgba(230, 230, 230, 1);
 	height: 30vh;
 	width: 30vh;
@@ -1088,7 +1088,7 @@
 }
 
 .operations-director {
-	margin-left: 10vw;
+	margin-left: calc(50% - 15vh);
 	background-color: rgba(230, 230, 230, 1);
 	height: 30vh;
 	width: 30vh;
@@ -1100,7 +1100,7 @@
 }
 
 .company-coder {
-	margin-left: 10vw;
+	margin-left: calc(50% - 15vh);
 	background-color: rgba(230, 230, 230, 1);
 	height: 30vh;
 	width: 30vh;
@@ -1112,7 +1112,7 @@
 }
 
 .company-gfx {
-	margin-left: 10vw;
+	margin-left: calc(50% - 15vh);
 	background-color: rgba(230, 230, 230, 1);
 	height: 30vh;
 	width: 30vh;
