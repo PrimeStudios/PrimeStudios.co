@@ -4,7 +4,6 @@ $pageLevel = 1;
 include('../includes/recursivity.php');
 include('../header.php');
 ?>
-<link rel="stylesheet" href="styles.css" />
 <div class="smallhero web-hero">
 	<h1>Prime Studios</h1>
 	<h2>Web Development Services</h2>
