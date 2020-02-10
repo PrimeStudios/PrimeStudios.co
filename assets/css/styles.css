@@ -1159,6 +1159,124 @@
 	text-decoration: none;
 }
 
+.contact {
+	background-color: #F7F7FF;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2rem;
+	padding-bottom: 4vh;
+	padding-left: 8vw;
+	padding-right: 8vw;
+	padding-top: 4vh;
+	text-align: center;
+	min-height: calc(100vh - 46vh);
+}
+
+.contact-container {
+	min-height: 58vh;
+	width: 100%;
+}
+
+.contact-page-header {
+	margin: 0;
+	margin-top: 1vh;
+	font-size: 3vh;
+}
+
+.business-hours-header {
+	font-size: 2vh;
+	color: black;
+	text-align: center;
+	padding-bottom: 2vh;
+}
+
+.contact-page-text {
+	padding-bottom: 2vh;
+	font-size: 2vh;
+}
+
+.contact-form {
+	width: 83vw;
+	padding-bottom: 2vh;
+	text-align: left;
+}
+
+input[type=text] {
+	font-size: 2vh;
+}
+
+input[type=text], select, textarea {
+  	width: 100%;
+  	padding: 1vh;
+  	border: 1px solid #ccc;
+  	border-radius: .5vh;
+  	box-sizing: border-box;
+  	margin-top: 1vh;
+  	margin-bottom: 1vh;
+  	resize: vertical;
+}
+
+input[type=number] {
+	font-size: 2vh;
+}
+
+input[type=number], select, textarea {
+  	width: 100%;
+  	padding: 1vh;
+  	border: 1px solid #ccc;
+  	border-radius: .5vh;
+  	box-sizing: border-box;
+  	margin-top: 1vh;
+  	margin-bottom: 1vh;
+  	resize: vertical;
+}
+
+input[type=submit] {
+  	background-color: rgba(230,230,230,1);
+  	color: black;
+  	font-size: 2vh;
+  	padding: 1vh 1vh;
+  	border: none;
+  	border-radius: .5vh;
+  	cursor: pointer;
+  	transition: background-color 0.6s ease;
+}
+
+input[type=submit]:hover {
+ 	background-color: rgba(220,220,220,1);
+ 	transition: background-color 0.6s ease;
+}
+
+.container {
+  	border-radius: 1vh;
+  	background-color: #f2f2f2;
+  	padding: 1vh;
+  	margin: 0;
+}
+
+.contact-title {
+	font-size: 2vh;
+}
+
+table {
+	text-align: center;
+  	border-collapse: collapse;
+	width: 83vw;
+	height: 40vh;
+	font-size: 2vh;
+}
+
+table, th, td {
+  	border: 1px solid rgba(230,230,230,1);
+}
+
+.package-header-table {
+	background-color: rgba(220,220,220,1);
+}
+
+.package-table-white {
+	background-color: white;
+}
+
 @media only screen and (min-width: 1000px) {
 	.header {
 		box-shadow: 0 5px 18px 5px rgba(0, 0, 0, 0.5);

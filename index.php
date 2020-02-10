@@ -49,7 +49,7 @@ include('header.php');
 	<img id="showcase_popup_image_three" class="showcase-popup-image" src="assets/img/showcase-3.png">
 </div>
 <div class="quote">
-	<a href="#">
+	<a href="contact">
 		<button>Request a Quote</button>
 	</a>
 </div>
