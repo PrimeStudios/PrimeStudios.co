@@ -23,7 +23,7 @@
 			<p class="header-title">Prime Studios</p>
 			<ul>
 				<li <?php if ($pageName=='Home' ) {echo 'class="active"';}?>><a href="/">Home</a></li>
-				<li <?php if ($pageName=='About' ) {echo 'class="active"';}?>><a href="/about">About</a></li>
+				<li <?php if ($pageName == 'About' || $pageName == 'Our Team' || $pageName == 'Our History') {echo 'class="active"';}?>><a href="/about">About</a></li>
 				<li class="header-dropdown-button">Services <i class="fas fa-angle-down"></i></li>
 				<div class="header-dropdown">
 					<p class="hd-web-design"><a href="#">Web Design</a></p>
