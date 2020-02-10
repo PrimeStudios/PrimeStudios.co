@@ -1204,53 +1204,57 @@ input[type=text] {
 	font-size: 2vh;
 }
 
-input[type=text], select, textarea {
-  	width: 100%;
-  	padding: 1vh;
-  	border: 1px solid #ccc;
-  	border-radius: .5vh;
-  	box-sizing: border-box;
-  	margin-top: 1vh;
-  	margin-bottom: 1vh;
-  	resize: vertical;
+input[type=text],
+select,
+textarea {
+	width: 100%;
+	padding: 1vh;
+	border: 1px solid #CCCCCC;
+	border-radius: 0.5vh;
+	box-sizing: border-box;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	resize: vertical;
 }
 
 input[type=number] {
 	font-size: 2vh;
 }
 
-input[type=number], select, textarea {
-  	width: 100%;
-  	padding: 1vh;
-  	border: 1px solid #ccc;
-  	border-radius: .5vh;
-  	box-sizing: border-box;
-  	margin-top: 1vh;
-  	margin-bottom: 1vh;
-  	resize: vertical;
+input[type=number],
+select,
+textarea {
+	width: 100%;
+	padding: 1vh;
+	border: 1px solid #CCCCCC;
+	border-radius: 0.5vh;
+	box-sizing: border-box;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	resize: vertical;
 }
 
 input[type=submit] {
-  	background-color: rgba(230,230,230,1);
-  	color: black;
-  	font-size: 2vh;
-  	padding: 1vh 1vh;
-  	border: none;
-  	border-radius: .5vh;
-  	cursor: pointer;
-  	transition: background-color 0.6s ease;
+	background-color: rgba(230, 230, 230, 1);
+	color: black;
+	font-size: 2vh;
+	padding: 1vh 1vh;
+	border: none;
+	border-radius: 0.5vh;
+	cursor: pointer;
+	transition: background-color 0.6s ease;
 }
 
 input[type=submit]:hover {
- 	background-color: rgba(220,220,220,1);
- 	transition: background-color 0.6s ease;
+	background-color: rgba(220, 220, 220, 1);
+	transition: background-color 0.6s ease;
 }
 
 .container {
-  	border-radius: 1vh;
-  	background-color: #f2f2f2;
-  	padding: 1vh;
-  	margin: 0;
+	border-radius: 1vh;
+	background-color: #F2F2F2;
+	padding: 1vh;
+	margin: 0;
 }
 
 .contact-title {
@@ -1259,18 +1263,20 @@ input[type=submit]:hover {
 
 table {
 	text-align: center;
-  	border-collapse: collapse;
+	border-collapse: collapse;
 	width: 83vw;
 	height: 40vh;
 	font-size: 2vh;
 }
 
-table, th, td {
-  	border: 1px solid rgba(230,230,230,1);
+table,
+th,
+td {
+	border: 1px solid rgba(230, 230, 230, 1);
 }
 
 .package-header-table {
-	background-color: rgba(220,220,220,1);
+	background-color: rgba(220, 220, 220, 1);
 }
 
 .package-table-white {
@@ -1497,8 +1503,21 @@ table, th, td {
 	}
 
 	.notfound {
+		background: #FFFFFF;
 		padding-top: 10vh;
-		padding-bottom: 6vh;
+		padding-bottom: 10vh;
+		overflow: hidden;
+	}
+
+	.not-found-footer {
+		background-color: #FFFFFF;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		box-shadow: 0 5px 18px 5px rgba(0, 0, 0, 0.5);
+		-webkit-box-shadow: 0 5px 18px 5px rgba(0, 0, 0, 0.5);
+		-moz-box-shadow: 0 5px 18px 5px rgba(0, 0, 0, 0.5);
 	}
 
 	.notfound img {
