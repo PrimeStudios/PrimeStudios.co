@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 	<head>
 		<meta charset="utf-8">
 		<title><?php echo $pageName; ?> - Prime Studios</title>
@@ -19,9 +18,8 @@
 		<link rel="stylesheet" href="<?php echo adjustRecursivity(); ?>assets/css/styles.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo adjustRecursivity(); ?>assets/css/animate.css">
 	</head>
-
 	<body>
-		<div class="header">
+		<div class="header" id="header">
 			<div class="homelink">
 				<a href="/" title="Home"><img src="<?php echo adjustRecursivity(); ?>assets/img/logo.png"></a>
 				<a href="/" title="Home"><p class="header-title">prime studios</p></a>
@@ -36,3 +34,18 @@
 				</div>
 			</ul>
 		</div>
+		<p id="menu_drop_one" class="header-menu-mobile" onclick="document.getElementById('header').style.display = 'block'; document.getElementById('menu_drop_one').style.display = 'none'; document.getElementById('menu_drop_two').style.display = 'block';">MENU</p>
+		<p id="menu_drop_two" class="header-menu-mobile hidden" onclick="document.getElementById('header').style.display = 'none';  document.getElementById('menu_drop_one').style.display = 'block'; document.getElementById('menu_drop_two').style.display = 'none';">MENU</p>
+		<script>
+			window.onresize = function() {
+				if (window.innerWidth >= 1000) {
+					document.getElementById('menu_drop_one').style.display = 'none';
+					document.getElementById('menu_drop_two').style.display = 'none';
+					document.getElementById('header').style.display = 'block';
+				} else {
+					document.getElementById('menu_drop_one').style.display = 'block';
+					document.getElementById('menu_drop_two').style.display = 'none';
+					document.getElementById('header').style.display = 'none';
+				}
+			}
+		</script>
