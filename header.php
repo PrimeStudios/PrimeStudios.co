@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 	<head>
 		<meta charset="utf-8">
 		<title><?php echo $pageName; ?> - Prime Studios</title>
 		<meta name="title" content="<?php echo $pageName; ?> | Prime Studios">
-		<meta name="description" content="Prime Studios is a freelance company focused on building powerful websites for our clients. We strive to provide user-friendly and affordable websites through our service. Whatever your needs, we can fill all your needs with our design team's creativity.">
+		<meta name="description"
+		 content="Prime Studios is a freelance company focused on building powerful websites for our clients. We strive to provide user-friendly and affordable websites through our service. Whatever your needs, we can fill all your needs with our design team's creativity.">
 		<meta name="keywords" content="Prime Studios,Web Development,Web Design,Freelancer,Web Freelancer,Web Developer">
 		<meta name="robots" content="index, follow">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -17,12 +19,15 @@
 		<link rel="stylesheet" href="<?php echo adjustRecursivity(); ?>assets/css/styles.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo adjustRecursivity(); ?>assets/css/animate.css">
 	</head>
+
 	<body>
 		<div class="header">
-			<a href="/" title="Home"><img src="<?php echo adjustRecursivity(); ?>assets/img/logo.png"></a>
-			<a href="/" title="Home"><p class="header-title">Prime Studios</p></a>
+			<div class="homelink">
+				<a href="/" title="Home"><img src="<?php echo adjustRecursivity(); ?>assets/img/logo.png"></a>
+				<a href="/" title="Home"><p class="header-title">prime studios</p></a>
+			</div>
 			<ul>
-				<li <?php if ($pageName=='Home' ) {echo 'class="active"';}?>><a href="/">Home</a></li>
+				<li <?php if ($pageName=='Home') {echo 'class="active"';}?>><a href="/">Home</a></li>
 				<li <?php if ($pageName == 'About' || $pageName == 'Our Team' || $pageName == 'Our History') {echo 'class="active"';}?>><a href="/about">About</a></li>
 				<li class="<?php if ($pageName == 'Web Services' || $pageName == 'System Administration Services') {echo 'active ';}?>header-dropdown-button">Services <i class="fas fa-angle-down"></i></li>
 				<div class="header-dropdown">
