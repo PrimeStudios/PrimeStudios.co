@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 	<head>
 		<meta charset="utf-8">
 		<title><?php echo $pageName; ?> - Prime Studios</title>
@@ -18,17 +19,30 @@
 		<link rel="stylesheet" href="<?php echo adjustRecursivity(); ?>assets/css/styles.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo adjustRecursivity(); ?>assets/css/animate.css">
 	</head>
+
 	<body>
-<div class="header">
-<div class="left">
-	<a href="/"><img src="<?php echo adjustRecursivity(); ?>assets/img/logo.png" />
-	<h1>prime studios</h1></a>
-</div>
-<div class="right">
-<a href="/"><p>Home</p></a>
-<a href="/about"><p>About</p></a>
-<a class="services"><p>Services <span class="fas fa-caret-down"></span></p><div class="idvservices">
-	<a href="/web"><p>Web Services</p></a>
-	<a href="/sysadmin"><p>System Administration Services</p></a></div></a>
-</div>
-</div>
+		<div class="header">
+			<div class="left">
+				<a href="/"><img src="<?php echo adjustRecursivity(); ?>assets/img/logo.png" />
+					<h1>prime studios</h1>
+				</a>
+			</div>
+			<div class="right">
+				<a <?php if ($pageName=='Home') {echo 'class="active"';}?>href="/">
+					<p>Home</p>
+				</a>
+				<a <?php if ($pageName == 'About' || $pageName == 'Our Team' || $pageName == 'Our History') {echo 'class="active"';}?>href="/about">
+					<p>About</p>
+				</a>
+				<a class="<?php if ($pageName == 'Web Services' || $pageName == 'System Administration Services') {echo 'active ';}?>services">
+					<p>Services <span class="fas fa-caret-down"></span></p>
+					<div class="idvservices">
+						<a href="/web">
+							<p>Web Services</p>
+						</a>
+						<a href="/sysadmin">
+							<p>System Administration Services</p>
+						</a></div>
+				</a>
+			</div>
+		</div>

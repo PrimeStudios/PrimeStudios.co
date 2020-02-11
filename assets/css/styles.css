@@ -16,6 +16,11 @@
 	background-color: #FFFFFF;
 }
 
+header .active::after {
+	background: #F26419;
+	width: 100%;
+}
+
 .header .left {
 	display: inline-flex;
 	flex-direction: column;
