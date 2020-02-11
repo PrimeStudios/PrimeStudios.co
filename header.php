@@ -19,7 +19,6 @@
 		<link rel="stylesheet" href="<?php echo adjustRecursivity(); ?>assets/css/styles.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo adjustRecursivity(); ?>assets/css/animate.css">
 	</head>
-
 	<body>
 		<div class="header">
 			<div class="left">
@@ -42,7 +41,8 @@
 						</a>
 						<a href="/sysadmin">
 							<p>System Administration Services</p>
-						</a></div>
+						</a>
+					</div>
 				</a>
 			</div>
 		</div>
