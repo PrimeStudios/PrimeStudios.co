@@ -9,6 +9,7 @@ excluded_files:
   - ".typo-ci.yml"
 
 excluded_words:
+  - idvservices
   - typoci
   - rizzuto
   - uikit
