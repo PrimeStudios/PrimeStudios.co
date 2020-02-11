@@ -5,6 +5,7 @@
 }
 
 /* Header */
+
 .header {
 	display: flex;
 	flex-direction: column;
@@ -14,6 +15,7 @@
 	flex-wrap: nowrap;
 	text-align: center;
 	background-color: #FFFFFF;
+	z-index: 6;
 }
 
 .header .active::after {
