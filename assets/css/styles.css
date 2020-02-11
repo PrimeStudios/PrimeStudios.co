@@ -39,7 +39,7 @@
 }
 
 .header .left a {
-	padding: 1vh 20vw;
+	padding: 1vh 0;
 	text-decoration: none;
 	width: 100%;
 	border-bottom: 1px solid #9F9F9F;
