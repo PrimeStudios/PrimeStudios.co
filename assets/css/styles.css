@@ -204,6 +204,7 @@
 }
 
 .social-media-container {
+	display: none;
 	left: 15vw;
 	position: absolute;
 	top: 3vh;
@@ -1835,6 +1836,10 @@ td {
 
 	.web-services {
 		padding-top: 8vh;
+	}
+
+	.social-media-container {
+		display: block;
 	}
 
 	.sysadmin-services img {
