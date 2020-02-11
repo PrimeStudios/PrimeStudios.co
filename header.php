@@ -19,33 +19,16 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo adjustRecursivity(); ?>assets/css/animate.css">
 	</head>
 	<body>
-		<div class="header" id="header">
-			<div class="homelink">
-				<a href="/" title="Home"><img src="<?php echo adjustRecursivity(); ?>assets/img/logo.png"></a>
-				<a href="/" title="Home"><p class="header-title">prime studios</p></a>
-			</div>
-			<ul>
-				<li <?php if ($pageName=='Home') {echo 'class="active"';}?>><a href="/">Home</a></li>
-				<li <?php if ($pageName == 'About' || $pageName == 'Our Team' || $pageName == 'Our History') {echo 'class="active"';}?>><a href="/about">About</a></li>
-				<li class="<?php if ($pageName == 'Web Services' || $pageName == 'System Administration Services') {echo 'active ';}?>header-dropdown-button">Services <i class="fas fa-angle-down"></i></li>
-				<div class="header-dropdown">
-					<p class="hd-web-design"><a href="/web">Web Design</a></p>
-					<p class="hd-sys-admin"><a href="/sysadmin">Sys Admin</a></p>
-				</div>
-			</ul>
-		</div>
-		<p id="menu_drop_one" class="header-menu-mobile" onclick="document.getElementById('header').style.display = 'block'; document.getElementById('menu_drop_one').style.display = 'none'; document.getElementById('menu_drop_two').style.display = 'block';">MENU</p>
-		<p id="menu_drop_two" class="header-menu-mobile hidden" onclick="document.getElementById('header').style.display = 'none';  document.getElementById('menu_drop_one').style.display = 'block'; document.getElementById('menu_drop_two').style.display = 'none';">MENU</p>
-		<script>
-			window.onresize = function() {
-				if (window.innerWidth >= 1000) {
-					document.getElementById('menu_drop_one').style.display = 'none';
-					document.getElementById('menu_drop_two').style.display = 'none';
-					document.getElementById('header').style.display = 'block';
-				} else {
-					document.getElementById('menu_drop_one').style.display = 'block';
-					document.getElementById('menu_drop_two').style.display = 'none';
-					document.getElementById('header').style.display = 'none';
-				}
-			}
-		</script>
+<div class="header">
+<div class="left">
+	<a href="/"><img src="<?php echo adjustRecursivity(); ?>assets/img/logo.png" />
+	<h1>prime studios</h1></a>
+</div>
+<div class="right">
+<a href="/"><p>Home</p></a>
+<a href="/about"><p>About</p></a>
+<a class="services"><p>Services <span class="fas fa-caret-down"></span></p><div class="idvservices">
+	<a href="/web"><p>Web Services</p></a>
+	<a href="/sysadmin"><p>System Administration Services</p></a></div></a>
+</div>
+</div>
