@@ -16,9 +16,9 @@
 	background-color: #FFFFFF;
 }
 
-header .active::after {
-	background: #F26419;
-	width: 100%;
+.header .active::after {
+	background: #F26419 !important;
+	width: 100% !important;
 }
 
 .header .left {
