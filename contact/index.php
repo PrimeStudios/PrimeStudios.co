@@ -34,8 +34,15 @@ include('../header.php');
 			<input type="text" name="name"><br>
 			<span class="contact-title">E-mail:</span><br>
 			<input type="text" name="email"><br>
-			<span class="contact-title">Requirements:</span><br>
-			<input type="text" name="comment" size="50"><br>
+			<span class="contact-title">Requirements:</span><br><br>
+			<input type="checkbox" name="webdesign" size="50">
+			<label for="webdesign">Web Design</label><br>
+			<input type="checkbox" name="sysadmin" size="50">
+			<label for="sysadmin">Sys Admin</label><br>
+			<input type="checkbox" name="seo" size="50">
+			<label for="seo">SEO</label><br>
+			<input type="checkbox" name="other" size="50">
+			<label for="other">Other (Put in comments)</label><br><br>
 			<span class="contact-title">Budget:</span><br>
 			<input type="number" name="budget" size="50"><br>
 			<span class="contact-title">Comments:</span><br>
