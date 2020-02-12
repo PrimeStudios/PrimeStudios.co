@@ -63,6 +63,7 @@
 				} else {
 					document.getElementById('right').style.display = 'none';
 					document.getElementById('open_header').style.display = 'initial';
+					document.getElementById('close_header').style.display = 'none';
 				}
 			}
 		</script>

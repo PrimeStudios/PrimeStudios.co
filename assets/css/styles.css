@@ -160,7 +160,7 @@
 .header-bars {
 	width: 100vw;
 	text-align: right;
-	font-size: 2vh;
+	font-size: 1.6rem;
 	position: absolute;
 	top: 0;
 	padding-top: 1.5vh;
@@ -175,16 +175,19 @@
 .bars-border {
 	border: 1px solid black;
 	border-radius: 4px;
-	padding: .5vh;
+	padding-top: .5vh;
+	padding-bottom: .1vh;
+	padding-left: .7vh;
+	padding-right: .7vh;
 }
 
 .bars-border-two {
 	border: 1px solid black;
 	border-radius: 4px;
 	padding-top: .5vh;
-	padding-bottom: .5vh;
-	padding-left: .7vh;
-	padding-right: .7vh;
+	padding-bottom: .1vh;
+	padding-left: .95vh;
+	padding-right: .95vh;
 }
 
 .right {
