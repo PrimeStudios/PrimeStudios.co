@@ -273,6 +273,7 @@
 }
 
 /* Features */
+
 .features .card {
 	background: transparent;
 	box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
@@ -338,6 +339,7 @@
 }
 
 /* Showcase */
+
 .home-project-link {
 	-o-transition: 0.4s ease-in-out;
 	-webkit-transition: 0.4s ease-in-out;
@@ -357,7 +359,7 @@
 	font-variant: small-caps;
 	font-weight: regular;
 	margin-bottom: 0.5vh;
-	margin-top: 0.5vh;
+	margin-top: 2.5vh;
 }
 
 .showcase .container {
@@ -401,7 +403,7 @@
 .showcase {
 	background-color: #F6F8FA;
 	overflow: hidden;
-	padding: 0 0 8vh 0;
+	padding: 0 0 4vh 0;
 	text-align: center;
 }
 
@@ -795,6 +797,7 @@
 }
 
 /* Web Services */
+
 .web-hero {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/webbg.jpg) !important;
 	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/webbg.jpg) !important;
@@ -878,6 +881,7 @@
 }
 
 /* System Administration Services */
+
 .sysadmin-hero {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/sysadminbg.jpg) !important;
 	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/sysadminbg.jpg) !important;
@@ -949,7 +953,8 @@
 	margin-right: 6vw;
 }
 
-/* Things */
+/* Timeline */
+
 @media (min-width: 1000px) {
 	#timeline .history-card:nth-child(odd) .head::after,
 	#timeline .history-card:nth-child(even) .head::after {

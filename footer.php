@@ -24,7 +24,7 @@
 			<p class="copyright-text">&copy; 2019-<script>document.write(new Date().getFullYear())</script> Prime Studios. All Rights Reserved.</p>
 		</div>
 		<div id="cookie_notice" class="cookie-notice animated slideInUp">
-			<p class="cookie-text">We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media. <a class="cookie-link" href="privacy">Learn more</a>.</p>
+			<p class="cookie-text">We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media. <a class="cookie-link" href="/privacy">Learn more</a>.</p>
 			<p class="cookie_button" onclick="CookieAgreement()"><span class="fa fa-check"></span> I agree</p>
 		</div>
 		<script>
