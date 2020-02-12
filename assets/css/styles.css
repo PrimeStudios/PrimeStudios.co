@@ -313,7 +313,7 @@
 
 .features {
 	background-color: #FFFFFF;
-	padding: 4vh 7.5%;
+	padding: 8vh 7.5% 2vh 7.5%;
 	text-align: center;
 }
 
@@ -401,7 +401,7 @@
 .showcase {
 	background-color: #F6F8FA;
 	overflow: hidden;
-	padding-bottom: 2vh;
+	padding: 0 0 8vh 0;
 	text-align: center;
 }
 
