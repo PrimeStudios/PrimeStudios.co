@@ -17,6 +17,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" />
 		<link rel="stylesheet" href="<?php echo adjustRecursivity(); ?>assets/css/styles.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo adjustRecursivity(); ?>assets/css/animate.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<span class="header-container">
