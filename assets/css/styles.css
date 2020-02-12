@@ -134,6 +134,28 @@
 	display: none;
 }
 
+.browser-support-banner {
+	width: 100vw;
+	height: 3vh;
+	background-color: gold;
+	z-index: 5;
+	text-align: center;
+	display: none;
+}
+
+.browser-support-banner p {
+	font-size: 1.5vh;
+	font-family: 'Roboto', sans-serif;
+	padding-top: .75vh;
+	padding-left: 3vw;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.browser-support-banner {
+		display: block;
+	}
+}
+
 /* Footer */
 .company-header {
 	padding-top: 2vh;
@@ -2034,6 +2056,16 @@ td {
 		-ms-transform: scale(1);
 		transform: scale(1);
 		background-color: transparent;
+	}
+
+	.browser-support-banner {
+		width: 100vw;
+		height: 3vh;
+		background-color: gold;
+		position: fixed;
+		top: 7vh;
+		z-index: 5;
+		text-align: left;
 	}
 
 	.notfound .notfound-description,
