@@ -4,17 +4,17 @@
 					<li>
 						<h2>Services</h2>
 					</li>
-					<li><a href="#">System Administration</a></li>
-					<li><a href="#">Web Development</a></li>
-					<li><a href="#">Request a Quote</a></li>
+					<li><a href="/sysadmin">System Administration</a></li>
+					<li><a href="/web">Web Development</a></li>
+					<li><a href="/contact">Request a Quote</a></li>
 				</ul>
 				<ul class="company-header">
 					<li>
 						<h2>Company</h2>
 					</li>
-					<li><a href="#">Terms of Service</a></li>
-					<li><a href="#">Privacy Policy</a></li>
-					<li><a href="#">Our Team</a></li>
+					<li><a href="/tos">Terms of Service</a></li>
+					<li><a href="/privacy">Privacy Policy</a></li>
+					<li><a href="/about/team">Our Team</a></li>
 				</ul>
 			</div>
 			<span class="social-media-container">
