@@ -424,7 +424,7 @@
 	position: fixed;
 	top: calc(50vh - 40vh);
 	width: 80vw;
-	z-index: 3;
+	z-index: 9999;
 }
 
 .showcase-popup-background {
@@ -435,7 +435,7 @@
 	position: fixed;
 	top: 0;
 	width: 100vw;
-	z-index: 2;
+	z-index: 9998;
 }
 
 .showcase-popup-close {

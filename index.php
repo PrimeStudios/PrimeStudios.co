@@ -53,5 +53,4 @@ include('header.php');
 		<button>Request a Quote</button>
 	</a>
 </div>
-
 <?php include('footer.php'); ?>
