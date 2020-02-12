@@ -26,6 +26,11 @@
 	text-align: center;
 	background-color: #FFFFFF;
 	z-index: 6;
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .header .active::after {
@@ -92,6 +97,7 @@
 	-ms-flex-wrap: nowrap;
 	flex-wrap: nowrap;
 	width: 100%;
+	display: none;
 }
 
 .header .right p {
@@ -149,6 +155,45 @@
 	font-family: 'Roboto', sans-serif;
 	padding-top: .75vh;
 	padding-left: 3vw;
+}
+
+.header-bars {
+	width: 100vw;
+	text-align: right;
+	font-size: 2vh;
+	position: absolute;
+	top: 0;
+	padding-top: 1.5vh;
+	padding-right: 10vw;
+	height: 3.5vh;
+}
+
+.header-bars:hover {
+	cursor: pointer;
+}
+
+.bars-border {
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.bars-border-two {
+	border: 1px solid black;
+	border-radius: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.right {
+	padding-top: 1vh;
+	background-color: #F6F8FA;
+}
+
+.hidden {
+	display: none;
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -1971,6 +2016,7 @@ td {
 		margin-right: 1vw;
 		padding: 0 2vw;
 		width: auto;
+		display: inherit;
 	}
 
 	.header .right a {
@@ -2057,6 +2103,16 @@ td {
 		-ms-transform: scale(1);
 		transform: scale(1);
 		background-color: transparent;
+	}
+
+	.header-bars {
+		display: none;
+	}
+
+	.right {
+		padding-top: 0;
+		background-color: white;
+		display: initial;
 	}
 
 	.browser-support-banner {
