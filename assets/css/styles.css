@@ -163,7 +163,7 @@
 	font-size: 1.6rem;
 	position: absolute;
 	top: 0;
-	padding-top: 1.5vh;
+	padding-top: .75rem;
 	padding-right: 10vw;
 	height: 3.5vh;
 }
@@ -175,8 +175,8 @@
 .bars-border {
 	border: 1px solid black;
 	border-radius: 4px;
-	padding-top: .5vh;
-	padding-bottom: .1vh;
+	padding-top: .4rem;
+	padding-bottom: .1rem;
 	padding-left: .7vh;
 	padding-right: .7vh;
 }
@@ -184,8 +184,8 @@
 .bars-border-two {
 	border: 1px solid black;
 	border-radius: 4px;
-	padding-top: .5vh;
-	padding-bottom: .1vh;
+	padding-top: .4rem;
+	padding-bottom: .1rem;
 	padding-left: .95vh;
 	padding-right: .95vh;
 }
