@@ -721,40 +721,40 @@
 	text-align: center;
 }
 
-/* Privacy */
+/* Legal */
 
-.privacy-hero {
+.legal-hero {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/privacybg.jpg) !important;
 	background-position: 50% 50% !important;
 }
 
-.privacy {
+.legal {
 	text-align: left;
-	padding: 2.5vh 25vw;
+	padding: 5vh 25vw;
 	background-color: #F7F7FF;
 }
 
-.privacy h1 {
+.legal h2 {
 	font-family: 'Roboto', sans-serif;
 	font-variant-caps: all-petite-caps;
-	margin: 2vh 0;
+	margin-bottom: 2vh;
 	color: #24292E;
 }
 
-.privacy h2 {
+.legal h3 {
 	font-family: 'Roboto', sans-serif;
 	font-variant-caps: all-petite-caps;
 	color: #24292E;
 	margin: 1.5vh 0;
 }
 
-.privacy p {
+.legal p {
 	font-family: 'Lato', sans-serif;
 	margin: 0.75vh 0;
 	color: #444444;
 }
 
-.privacy ul {
+.legal ul {
 	font-family: 'Lato', sans-serif;
 	list-style: circle;
 	margin: 0.75vh 0;
@@ -762,11 +762,22 @@
 	margin-left: 2vw;
 }
 
-.privacy ul li {
+.legal ol {
+	font-family: 'Lato', sans-serif;
+	margin: 0.75vh 0;
+	color: #444444;
+	margin-left: 2vw;
+}
+
+.legal ul li {
 	margin: 0.5vh 0;
 }
 
-.privacy img {
+.legal ol li {
+	margin: 0.5vh 0;
+}
+
+.legal img {
 	width: 250px;
 	padding-top: 1vh;
 }
@@ -1604,7 +1615,7 @@ td {
 	bottom: 0;
 	width: 100%;
 	height: 7vh;
-	background-color: rgba(0,0,0,.9);
+	background-color: rgba(0, 0, 0, 0.9);
 	user-select: none;
 	z-index: 9999999;
 	font-family: 'Lato', sans-serif;
@@ -1623,7 +1634,7 @@ td {
 	top: 1.5vh;
 	right: 1vw;
 	color: white;
-	border: .2vh solid gold;
+	border: 0.2vh solid gold;
 	padding-top: 1vh;
 	padding-bottom: 1vh;
 	padding-left: 1vw;
