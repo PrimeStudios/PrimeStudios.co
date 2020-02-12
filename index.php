@@ -5,7 +5,7 @@ include('includes/recursivity.php');
 include('header.php');
 ?>
 <div class="hero">
-	<h1>Prime Studios</h1>
+	<h1>prime studios</h1>
 	<p>Quality, affordable development and design services.</p>
 	<a onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})"><i class="fas fa-chevron-down"></i></a>
 </div>
@@ -27,7 +27,8 @@ include('header.php');
 	</div>
 </div>
 <div class="showcase">
-	<h2>Showcase</h2>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFFFFF" fill-opacity="1" d="M0,64L40,85.3C80,107,160,149,240,144C320,139,400,85,480,90.7C560,96,640,160,720,197.3C800,235,880,245,960,229.3C1040,213,1120,171,1200,138.7C1280,107,1360,85,1400,74.7L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+		<h2>showcase</h2>
 	<div class="container">
 		<img
 		 onclick="document.getElementById('showcase_popup').style.display = 'block'; document.getElementById('showcase_popup_image_one').style.display = 'block'; document.getElementById('showcase_popup_image_two').style.display = 'none'; document.getElementById('showcase_popup_image_three').style.display = 'none'; document.getElementById('showcase_popup_background').style.display = 'block';"
