@@ -1741,6 +1741,7 @@ td {
 	user-select: none;
 	z-index: 9999999;
 	font-family: 'Lato', sans-serif;
+	display: none;
 }
 
 .cookie-text {
@@ -2161,5 +2162,9 @@ td {
 
 	.sysadmin-services {
 		padding-top: 8vh;
+	}
+
+	.cookie-notice {
+		display: block;
 	}
 }
