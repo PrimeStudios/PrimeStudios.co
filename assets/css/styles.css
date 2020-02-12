@@ -370,7 +370,7 @@
 	font-family: 'Roboto', sans-serif;
 	color: #24292E;
 	font-size: 2.25rem;
-	font-variant: small-caps;
+	font-variant-caps: all-petite-caps;
 	font-weight: black;
 	margin-bottom: 2vh;
 }
