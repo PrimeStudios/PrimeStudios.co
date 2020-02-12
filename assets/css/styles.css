@@ -141,6 +141,7 @@
 	z-index: 5;
 	text-align: center;
 	display: none;
+	color: black;
 }
 
 .browser-support-banner p {
