@@ -104,6 +104,7 @@
 	color: #24292E;
 	font-size: 1.2rem;
 	font-family: 'Lato', sans-serif;
+	padding: 1vh 0;
 }
 
 .header .right a {
@@ -124,8 +125,6 @@
 }
 
 .header .right .idvservices p {
-	padding-top: 1vh;
-	padding-bottom: 1vh;
 	-webkit-transition: 0.3s ease-in-out;
 	-o-transition: 0.3s ease-in-out;
 	transition: 0.3s ease-in-out;
