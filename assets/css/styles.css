@@ -2097,7 +2097,7 @@ td {
 	}
 	
 	.header .right p {
-		padding: none;
+		padding: 0 0;
 	}
 
 	.header .right .idvservices:hover {
