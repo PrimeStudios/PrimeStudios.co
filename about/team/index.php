@@ -40,4 +40,16 @@ include('../../header.php');
 		</div>
 	</div>
 </div>
+<script>
+	window.addEventListener('resize', HeaderFix);
+
+	function HeaderFix() {
+	    if (window.innerWidth > 1000) {
+		    document.getElementById('about_header').style.fontWeight = '500';
+		} else {
+			document.getElementById('about_header').style.fontWeight = '900';
+		}
+	}
+	HeaderFix();
+</script>
 <?php include('../../footer.php'); ?>

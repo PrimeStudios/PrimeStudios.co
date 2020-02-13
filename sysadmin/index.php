@@ -24,4 +24,16 @@ include('../header.php');
 		<button>Request a Quote</button>
 	</a>
 </div>
+<script>
+	window.addEventListener('resize', HeaderFix);
+
+	function HeaderFix() {
+	    if (window.innerWidth > 1000) {
+		    document.getElementById('sysadmin_header').style.fontWeight = '500';
+		} else {
+			document.getElementById('sysadmin_header').style.fontWeight = '900';
+		}
+	}
+	HeaderFix();
+</script>
 <?php include('../footer.php'); ?>

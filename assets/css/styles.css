@@ -78,6 +78,22 @@
 	width: 100%;
 }
 
+.left p {
+	transition: background-color ease .2s;
+}
+
+.left p:hover {
+	background-color: lightgrey;
+}
+
+#right p {
+	transition: background-color ease .2s;
+}
+
+#right p:hover {
+	background-color: lightgrey;
+}
+
 .header .right {
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
@@ -2121,6 +2137,14 @@ td {
 		padding-top: 0;
 		background-color: white;
 		display: initial;
+	}
+
+	.left p:hover {
+		background-color: white;
+	}
+
+	#right p:hover {
+		background-color: white;
 	}
 
 	.browser-support-banner {

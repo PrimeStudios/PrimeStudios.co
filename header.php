@@ -28,19 +28,19 @@
 				</div>
 				<div id="right" class="right">
 					<a <?php if ($pageName=='Home') {echo 'class="active"';}?>href="/">
-						<p>Home</p>
+						<p id="home_header">Home</p>
 					</a>
 					<a <?php if ($pageName == 'About' || $pageName == 'Our Team' || $pageName == 'Our History') {echo 'class="active"';}?>href="/about">
-						<p>About</p>
+						<p id="about_header">About</p>
 					</a>
 					<a class="<?php if ($pageName == 'Web Services' || $pageName == 'System Administration Services') {echo 'active ';}?>services">
 						<p>Services <span class="fas fa-caret-down"></span></p>
 						<div class="idvservices">
 							<a href="/web">
-								<p>Web Services</p>
+								<p id="web_header">Web Services</p>
 							</a>
 							<a href="/sysadmin">
-								<p>System Administration Services</p>
+								<p id="sysadmin_header">System Administration Services</p>
 							</a>
 						</div>
 					</a>
