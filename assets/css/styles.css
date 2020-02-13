@@ -2095,6 +2095,10 @@ td {
 	.header .right .idvservices p {
 		padding: 0 0;
 	}
+	
+	.header .right p {
+		padding: none;
+	}
 
 	.header .right .idvservices:hover {
 		-webkit-transform: scale(1);
