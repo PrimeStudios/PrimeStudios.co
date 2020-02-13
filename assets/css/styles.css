@@ -633,6 +633,7 @@
 	color: #F26419;
 	font-family: 'Roboto', sans-serif;
 	margin-bottom: 2vh;
+	margin-top: 5vh;
 }
 
 .smallhero h2 {
@@ -2127,6 +2128,10 @@ td {
 		top: 7vh;
 		z-index: 5;
 		text-align: left;
+	}
+
+	.smallhero h1 {
+		margin-top: 0vh;
 	}
 
 	.notfound .notfound-description,
