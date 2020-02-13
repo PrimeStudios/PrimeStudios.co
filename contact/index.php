@@ -29,7 +29,7 @@ include('../header.php');
 		  	</tr>
 		</table>
 		<div id="contact_form" class="contact-form">
-			<form action="mailto:sales@primestudios.co" method="post" enctype="text/plain" target="_blank">
+			<form id="contactform" enctype="text/plain">
 			<span class="contact-title">Name:</span><br>
 			<input type="text" name="name"><br>
 			<span class="contact-title">E-mail:</span><br>
@@ -46,10 +46,11 @@ include('../header.php');
 			<span class="contact-title">Budget:</span><br>
 			<input type="number" name="budget" size="50"><br>
 			<span class="contact-title">Comments:</span><br>
-			<input type="text" name="budget" size="50"><br><br>
-			<input type="submit" value="Send">
+			<input type="text" name="comments" size="50"><br><br>
+			<input type="submit" value="Submit">
 			</form>
 		</div>
 	</div>
 </div>
+<script src="../includes/contact.js"></script>
 <?php include('../footer.php'); ?>
