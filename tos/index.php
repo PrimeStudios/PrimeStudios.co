@@ -50,6 +50,6 @@ include('../header.php');
 	<h3>8. Governing Law</h3>
 	<p>These terms and conditions are governed by and construed in accordance with the laws of United States and you irrevocably submit to the exclusive jurisdiction of the courts in the United States.</p>
 	<h3>9. Legal Inquires</h3>
-	<p>Inquires in relation to Prime Studios' policies can be directed to <a href="mailto:legal@primestudios.co">legal@primestudios.co</a>.</p>
+	<p>Inquires in relation to Prime Studios' policies can be directed to <a href="mailto:legal@primestudios.co" target="_blank">legal@primestudios.co</a>.</p>
 </div>
 <?php include('../footer.php'); ?>
