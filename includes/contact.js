@@ -8,7 +8,7 @@ window.addEventListener( "load", function () {
     XHR.addEventListener( "error", function( event ) {
       alert( 'Oops! Something went wrong.' );
     } );
-    XHR.open( "POST", "http://primeservers.co:85/" );
+    XHR.open( "POST", "https://api.primeservers.co/" );
     XHR.send( FD );
   }
   let form = document.getElementById( "contactform" );
