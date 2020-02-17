@@ -29,7 +29,7 @@ include('../header.php');
 		  	</tr>
 		</table>
 		<div id="contact_form" class="contact-form">
-			<form id="contactform" enctype="text/plain">
+			<form id="contactform" enctype="text/plain" action="../includes/contact.php" method="get">
 			<span class="contact-title">Name:</span><br>
 			<input type="text" name="name"><br>
 			<span class="contact-title">E-mail:</span><br>
@@ -52,5 +52,4 @@ include('../header.php');
 		</div>
 	</div>
 </div>
-<script src="../includes/contact.js"></script>
 <?php include('../footer.php'); ?>
