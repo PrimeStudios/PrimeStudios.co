@@ -17,9 +17,9 @@ $mySQLPort = 3306;
 $mySQLInstance = mysqli_connect($mySQLHost, $mySQLUser, $mySQLPassword, $mySQLDBName, $mySQLPort);
 
 if (!$mySQLInstance) {
-	header('Location: ../');
+    header('Location: ../');
 } else {
-	mysqli_query($mySQLInstance, 'insert INTO requests (name, email, webdesign, sysadmin, seo, budget, comments) values('. $name .', '. $email .', '. $webdesign .', '. $sysadmin .', '. $seo .', '. $budget.', '. $comments .');');
-	header('Location: ../contact');
+    mysqli_query($mySQLInstance, "insert INTO requests (name, email, webdesign, sysadmin, seo, budget, comments) values('". $name ."', '". $email ."', '". $webdesign ."', '". $sysadmin ."', '". $seo ."', '". $budget ."', '". $comments ."');");
+    header('Location: ../contact');
 }
 ?>
