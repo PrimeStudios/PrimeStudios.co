@@ -1,11 +1,23 @@
 <?php
 $name = $_GET['name'];
 $email = $_GET['email'];
-$weddesign = $_GET['webdesign'];
+$webdesign = $_GET['webdesign'];
 $sysadmin = $_GET['sysadmin'];
 $seo = $_GET['seo'];
 $budget = $_GET['budget'];
 $comments = $_GET['comments'];
+
+if ($webdesign == 'on') {
+	$webdesign = 1;
+}
+
+if ($sysadmin == 'on') {
+	$sysadmin = 1;
+}
+
+if ($seo == 'on') {
+	$seo = 1;
+}
 
 $mySQLHost = 'localhost';
 $mySQLUser = 'root';
