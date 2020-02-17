@@ -917,6 +917,79 @@
 	padding-top: 1vh;
 }
 
+/* Requests */
+.requests-hero {
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/0d/9b/24/0d9b24189f42fb3f2563ef854b41ab0f.png') !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url('https://i.pinimg.com/originals/0d/9b/24/0d9b24189f42fb3f2563ef854b41ab0f.png') !important;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/0d/9b/24/0d9b24189f42fb3f2563ef854b41ab0f.png') !important;
+	background-position: 50% 50% !important;
+}
+
+.requests {
+	text-align: left;
+	padding: 5vh 25vw;
+	background-color: #F7F7FF;
+	min-height: 52vh;
+}
+
+.requests table, th, td {
+  	border: 1px solid rgba(230,230,230,1);
+}
+
+.requests h2 {
+	font-family: 'Roboto', sans-serif;
+	font-variant-caps: all-petite-caps;
+	margin-bottom: 2vh;
+	color: #24292E;
+}
+
+.requests h3 {
+	font-family: 'Roboto', sans-serif;
+	font-variant-caps: all-petite-caps;
+	color: #24292E;
+	margin: 1.5vh 0;
+}
+
+.requests p {
+	font-family: 'Lato', sans-serif;
+	margin: 0.75vh 0;
+	color: #444444;
+}
+
+.requests tr {
+	font-family: 'Lato', sans-serif;
+	margin: 0.75vh 0;
+	color: #444444;
+}
+
+.requests ul {
+	font-family: 'Lato', sans-serif;
+	list-style: circle;
+	margin: 0.75vh 0;
+	color: #444444;
+	margin-left: 2vw;
+}
+
+.requests ol {
+	font-family: 'Lato', sans-serif;
+	margin: 0.75vh 0;
+	color: #444444;
+	margin-left: 2vw;
+}
+
+.requests ul li {
+	margin: 0.5vh 0;
+}
+
+.requests ol li {
+	margin: 0.5vh 0;
+}
+
+.requests img {
+	width: 250px;
+	padding-top: 1vh;
+}
+
 /* Web Services */
 .web-hero {
 	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/webbg.jpg) !important;
