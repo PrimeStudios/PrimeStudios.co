@@ -226,9 +226,10 @@
 }
 
 .copyright-text {
-	bottom: 2vh;
-	left: calc(50vw - 8rem);
-	position: absolute;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+	width: 100%;
 }
 
 .fa-github:hover {
@@ -1934,9 +1935,13 @@ td {
 	}
 
 	.copyright-text {
+		margin-top: 0vh;
+		margin-bottom: 0vh;
+		width: auto;
+		position: absolute;
 		bottom: 2vh;
 		left: 15vw;
-		position: absolute;
+		text-align: left;
 	}
 
 	.features .card {
