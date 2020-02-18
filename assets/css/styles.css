@@ -1217,14 +1217,14 @@
 	position: relative;
 	display: block;
 	margin: 10px auto 80px;
-	max-width: 94%;
+	width: 80vw;
 	overflow: hidden;
 	z-index: 3;
 }
 
 @media (min-width: 650px) {
 	#timeline .history-card {
-		max-width: 100%;
+		max-width: 105%;
 		-webkit-box-shadow: 0 1px 22px 4px rgba(0, 0, 0, 0.07);
 		box-shadow: 0 1px 22px 4px rgba(0, 0, 0, 0.07);
 		overflow: hidden;
@@ -2271,5 +2271,55 @@ td {
 
 	.cookie-notice {
 		display: block;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.company-director {
+		margin-left: calc(50% - 15vh);
+		background-color: rgba(230, 230, 230, 1);
+		height: 30vh;
+		width: 30vh;
+		border-radius: 1vh;
+		margin-top: calc(35vh - 30vh);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	.operations-director {
+		margin-left: calc(50% - 15vh);
+		background-color: rgba(230, 230, 230, 1);
+		height: 30vh;
+		width: 30vh;
+		border-radius: 1vh;
+		margin-top: 5vh;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	.company-coder {
+		margin-left: calc(50% - 15vh);
+		background-color: rgba(230, 230, 230, 1);
+		height: 30vh;
+		width: 30vh;
+		border-radius: 1vh;
+		margin-top: 5vh;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	.company-gfx {
+		margin-left: calc(50% - 15vh);
+		background-color: rgba(230, 230, 230, 1);
+		height: 30vh;
+		width: 30vh;
+		border-radius: 1vh;
+		margin-top: 5vh;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 }
