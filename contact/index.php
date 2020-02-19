@@ -44,7 +44,7 @@ include('../header.php');
 			<input type="checkbox" name="other" size="50">
 			<label for="other">Other (Put in comments)</label><br><br>
 			<span class="contact-title">Budget:</span><br>
-			<input type="number" name="budget" size="50"><br>
+			<input type="number" name="budget" size="50" min="0"><br>
 			<span class="contact-title">Comments:</span><br>
 			<input type="text" name="comments" size="50"><br><br>
 			<input type="submit" value="Submit">
