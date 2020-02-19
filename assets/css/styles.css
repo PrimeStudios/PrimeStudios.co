@@ -396,9 +396,9 @@
 /* Features */
 .features .card {
 	background: transparent;
-	box-shadow: 20px 15px 20px 0 rgba(36, 41, 46, 0.49);
-	-webkit-box-shadow: 20px 15px 20px 0 rgba(36, 41, 46, 0.49);
-	-moz-box-shadow: 20px 15px 20px 0 rgba(36, 41, 46, 0.49);
+	box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
+	-webkit-box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
+	-moz-box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
 	margin-bottom: 2.5vh;
 	margin-left: 2.5%;
 	margin-right: 2.5%;
@@ -411,7 +411,8 @@
 	color: #24292E;
 	font-size: 2rem;
 	font-weight: bold;
-	margin-bottom: 2vh;
+	margin-bottom: 8vh;
+	padding-top: 8vh;
 	letter-spacing: -0.5px;
 }
 
@@ -525,7 +526,7 @@
 .showcase {
 	background-color: #F6F8FA;
 	overflow: hidden;
-	padding: 4vh 0 4vh 0;
+	padding: 0vh 0 4vh 0;
 	text-align: center;
 }
 
