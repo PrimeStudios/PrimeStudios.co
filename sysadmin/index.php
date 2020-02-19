@@ -9,7 +9,8 @@ include('../header.php');
 	<h2>System Administration Services</h2>
 </div>
 <div class="sysadmin-services">
-	<p>We provide configuration and management for web servers on both Windows and Linux. We're capable of assisting in data and content migration upon request. Configuration also covers the cost of domain registration if necessary. No matter your needs, don't worry about the technical side of your website - rely on us to do the hard part for you. </p>
+	<p>We provide configuration and management for web servers on both Windows  and Linux. We're capable of assisting in data and content migration upon request. Our team can also assist Clients using unmanaged hosting setup their web server. Configuration also covers the cost of domain registration if  necessary.</p>
+	<p>No matter your needs, don't worry about the technical side of  your website - rely on us to do the hard part for you.</p>
 	<div class="technologies">
 		<img src="../assets/img/technologies/centos.png" />
 		<img src="../assets/img/technologies/debian.png" />
