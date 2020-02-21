@@ -16,7 +16,7 @@
   background: #29d;
   position: fixed;
   z-index: 2000;
-  top: 7vh;
+  top: 5vh;
   right: 100%;
   width: 100%;
   height: .3vh;
@@ -1925,6 +1925,16 @@ td {
 
 /* Desktop Media Queries */
 @media only screen and (min-width: 1000px) {
+	.pace .pace-progress {
+	  background: #29d;
+	  position: fixed;
+	  z-index: 2000;
+	  top: 7vh;
+	  right: 100%;
+	  width: 100%;
+	  height: .3vh;
+	}
+
 	.about-nav-container {
 		height: 25vh;
 		width: 300px;
