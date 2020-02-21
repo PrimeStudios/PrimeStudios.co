@@ -1098,6 +1098,22 @@ td {
 	text-align: center;
 }
 
+.sysadmin-img {
+	height: 20vh;
+	background-image: url('../img/sysadmin.jpg');
+	background-position: 50% 50% !important;
+	background-size: cover;
+}
+
+.sysadmin-example-header {
+	font-family: 'Lato', sans-serif;
+	color: #24292E;
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 5vh;
+	letter-spacing: -0.5px;
+}
+
 .sysadmin-services .technologies {
 	-ms-flex-align: center;
 	-ms-flex-direction: row;
