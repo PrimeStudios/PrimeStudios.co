@@ -1775,6 +1775,10 @@ td {
 	width: 83vw;
 	padding-bottom: 2vh;
 	text-align: left;
+	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;     
 }
 
 input[type=text] {

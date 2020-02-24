@@ -17,7 +17,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" />
 		<link rel="stylesheet" href="<?php echo adjustRecursivity(); ?>assets/css/styles.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo adjustRecursivity(); ?>assets/css/animate.css">
-		<script src="<?php echo adjustRecursivity(); ?>assets/js/pace.js"></script>
+		<script src="<?php echo adjustRecursivity(); ?>assets/js/main.js"></script>
 	</head>
 	<body>
 		<span class="header-container">
@@ -53,18 +53,3 @@
 				<p><i class="fas fa-exclamation-triangle"></i> This site does not fully provide support for your browser.</p>
 			</div>
 		</span>
-		<script>
-			window.addEventListener('resize', resize);
-
-			function resize() {
-			    if (window.innerWidth > 1000) {
-				    document.getElementById('open_header').style.display = 'none';
-				    document.getElementById('close_header').style.display = 'none';
-				    document.getElementById('right').style.display = 'inherit';
-				} else {
-					document.getElementById('right').style.display = 'none';
-					document.getElementById('open_header').style.display = 'initial';
-					document.getElementById('close_header').style.display = 'none';
-				}
-			}
-		</script>
