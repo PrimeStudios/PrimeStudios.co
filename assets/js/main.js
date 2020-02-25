@@ -15,8 +15,8 @@ function resize() {
 }
 
 function CookieAgreement() {
-	document.cookie = "cookieagreement=yes;"
-	document.getElementById("cookie_notice").style.display = "none";
+	document.cookie = 'cookieagreement=yes;'
+	document.getElementById('cookie_notice').style.display = 'none';
 }
 function getCookie(name) {
 	var dc = document.cookie;
@@ -29,20 +29,21 @@ function getCookie(name) {
 	else
 	{
 		begin += 2;
-		var end = document.cookie.indexOf(";", begin);
+		var end = document.cookie.indexOf(';', begin);
 		if (end == -1) {
 		end = dc.length;
 		}
 	}
 	return decodeURI(dc.substring(begin + prefix.length, end));
 }
+
 function CookieAgreed() {
-	var Cookieagreement = getCookie("cookieagreement");
+	var Cookieagreement = getCookie('cookieagreement');
 
 	if (Cookieagreement == null) {
-		document.getElementById("cookie_notice").style.display = "d-block";
+		document.getElementById('cookie_notice').style.display = 'd-block';
 	} else {
-		document.getElementById("cookie_notice").style.display = "none";
+		document.getElementById('cookie_notice').style.display = 'none';
 	}
 }
-CookieAgreed()
+window.onload = CookieAgreed;
