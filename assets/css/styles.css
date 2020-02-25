@@ -1874,7 +1874,7 @@ td {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	height: 7vh;
+	height: 14vh;
 	background-color: rgba(0, 0, 0, 0.9);
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -1882,27 +1882,26 @@ td {
 	user-select: none;
 	z-index: 9999999;
 	font-family: 'Lato', sans-serif;
-	display: none;
 }
 
 .cookie-text {
-	font-size: 1vw;
-	padding-top: 2.5vh;
+	font-size: 1.5vh;
+	padding-top: 1.5vh;
 	padding-left: 1vw;
+	padding-right: 1vw;
 	color: white;
 }
 
 .cookie_button {
-	font-size: 1vw;
+	font-size: 2vh;
 	position: absolute;
-	top: 1.5vh;
-	right: 1vw;
-	color: white;
-	border: 0.2vh solid gold;
+	bottom: 0vh;
+	height: 4vh;
 	padding-top: 1vh;
-	padding-bottom: 1vh;
-	padding-left: 1vw;
-	padding-right: 1vw;
+	text-align: center;
+	color: white;
+	background-color: gold;
+	width: 100vw;
 	-webkit-transition: color 0.6s ease, background-color 0.6s ease;
 	-o-transition: color 0.6s ease, background-color 0.6s ease;
 	transition: color 0.6s ease, background-color 0.6s ease;
@@ -1910,7 +1909,7 @@ td {
 
 .cookie_button:hover {
 	color: black;
-	background-color: gold;
+	background-color: orange;
 	cursor: pointer;
 	-webkit-transition: color 0.6s ease, background-color 0.6s ease;
 	-o-transition: color 0.6s ease, background-color 0.6s ease;
@@ -2336,7 +2335,62 @@ td {
 	}
 
 	.cookie-notice {
-		display: block;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		height: 7vh;
+		background-color: rgba(0, 0, 0, 0.9);
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		z-index: 9999999;
+		font-family: 'Lato', sans-serif;
+	}
+
+	.cookie-text {
+		font-size: 1vw;
+		padding-top: 2.5vh;
+		padding-left: 1vw;
+		color: white;
+	}
+
+	.cookie_button {
+		font-size: 1vw;
+		position: absolute;
+		top: 1.5vh;
+		right: 1vw;
+		color: white;
+		width: auto;
+		height: calc(1vw + .5vh);
+		background-color: rgba(0,0,0,0);
+		border: 0.2vh solid gold;
+		padding-top: 1vh;
+		padding-bottom: 1vh;
+		padding-left: 1vw;
+		padding-right: 1vw;
+		-webkit-transition: color 0.6s ease, background-color 0.6s ease;
+		-o-transition: color 0.6s ease, background-color 0.6s ease;
+		transition: color 0.6s ease, background-color 0.6s ease;
+	}
+
+	.cookie_button:hover {
+		color: black;
+		background-color: gold;
+		cursor: pointer;
+		-webkit-transition: color 0.6s ease, background-color 0.6s ease;
+		-o-transition: color 0.6s ease, background-color 0.6s ease;
+		transition: color 0.6s ease, background-color 0.6s ease;
+	}
+
+	.cookie-link {
+		color: white;
+		text-decoration: none;
+	}
+
+	.cookie-link:hover {
+		color: white;
+		text-decoration: underline;
 	}
 }
 
