@@ -3,13 +3,13 @@ dictionaries:
   - en_GB
 
 excluded_files:
-  - "assets/img/**"
+  - ".typo-ci.yml"
   - "*.css"
   - "*.js"
-  - ".typo-ci.yml"
+  - "assets/img/**"
 
 excluded_words:
   - idvservices
-  - typoci
   - rizzuto
+  - typoci
   - uikit

@@ -9,7 +9,8 @@ include('../header.php');
 	<h2>Web Development Services</h2>
 </div>
 <div class="web-services">
-	<p>Prime Studios offers a variety of web services to our clients. Our Team has been working in the industry for several years and will ensure a high quality product. We utilize modern technologies and custom frameworks to provide a unique product to our clients.</p>
+	<p>Prime Studios offers a variety of web services to our clients. Our Team has been working in the industry for several years and will ensure a high quality product. We utilize modern technologies and custom frameworks to provide a unique product
+		to our clients.</p>
 	<p>We don't have set plans or pricing, our team works tailored to your needs. No matter how simple or complex your needs, we got you covered.</p>
 	<div class="technologies">
 		<img src="../assets/img/technologies/bootstrap.png" />
@@ -38,9 +39,13 @@ include('../header.php');
 	</div>
 	<p class="home-project-list"><a class="home-project-link" href="#">view more</a></p>
 </div>
-<span onclick="document.getElementById('showcase_popup').classList.add('zoomOut'); document.getElementById('showcase_popup_background').style.display = 'none'; setTimeout(function() {document.getElementById('showcase_popup').style.display ='none';}, 300);" id="showcase_popup_background" class="showcase-popup-background"></span>
+<span
+ onclick="document.getElementById('showcase_popup').classList.add('zoomOut'); document.getElementById('showcase_popup_background').style.display = 'none'; setTimeout(function() {document.getElementById('showcase_popup').style.display ='none';}, 300);"
+ id="showcase_popup_background" class="showcase-popup-background"></span>
 <div id="showcase_popup" class="showcase-popup animated zoomIn">
-	<p onclick="document.getElementById('showcase_popup').classList.add('zoomOut'); document.getElementById('showcase_popup_background').style.display = 'none'; setTimeout(function() {document.getElementById('showcase_popup').style.display ='none';}, 300);" class="showcase-popup-close">x</p>
+	<p
+	 onclick="document.getElementById('showcase_popup').classList.add('zoomOut'); document.getElementById('showcase_popup_background').style.display = 'none'; setTimeout(function() {document.getElementById('showcase_popup').style.display ='none';}, 300);"
+	 class="showcase-popup-close">x</p>
 	<img id="showcase_popup_image_one" class="showcase-popup-image" src="../assets/img/showcase-1.png">
 	<img id="showcase_popup_image_two" class="showcase-popup-image" src="../assets/img/showcase-2.png">
 	<img id="showcase_popup_image_three" class="showcase-popup-image" src="../assets/img/showcase-3.png">

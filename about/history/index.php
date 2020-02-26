@@ -10,9 +10,15 @@ include('../../header.php');
 </div>
 <div class="about">
 	<div class="about-nav-container">
-		<a class="about-nav-link" href="/about"><p class="about-nav-button">Introduction</p></a>
-		<a class="about-nav-link" href="/about/team"><p class="about-nav-button">Our Team</p></a>
-		<a class="about-nav-link" href="/about/history"><p class="about-nav-button about-nav-active">Our History</p></a>
+		<a class="about-nav-link" href="/about">
+			<p class="about-nav-button">Introduction</p>
+		</a>
+		<a class="about-nav-link" href="/about/team">
+			<p class="about-nav-button">Our Team</p>
+		</a>
+		<a class="about-nav-link" href="/about/history">
+			<p class="about-nav-button about-nav-active">Our History</p>
+		</a>
 	</div>
 	<div class="about-text-block">
 		<div id="timeline">
@@ -27,7 +33,8 @@ include('../../header.php');
 						<h2><span class="small">Prime Studios</span> Our Inception</h2>
 					</div>
 					<div class="body">
-						<p>Prime Studios officially launched in December of 2019. It is here that our journey started with just two members of our team with a dream to succeed. We got a foundation and basic site down and arranged our packages and services that we would initially offer as we got the company off of it's feet.</p>
+						<p>Prime Studios officially launched in December of 2019. It is here that our journey started with just two members of our team with a dream to succeed. We got a foundation and basic site down and arranged our packages and
+							services that we would initially offer as we got the company off of it's feet.</p>
 					</div>
 				</div>
 				<div class="history-card history-card-tier-2">
@@ -38,14 +45,15 @@ include('../../header.php');
 						<h2><span class="small">ONE YEAR</span> DETERMINATION</h2>
 					</div>
 					<div class="body">
-						<p>Offically opening our doors. Still writing the books of history. We start the year of strong and obtain as many clients as possible to start building our brand. We also added two more people to our team bringing our employee count to four.</p>
+						<p>Offically opening our doors. Still writing the books of history. We start the year of strong and obtain as many clients as possible to start building our brand. We also added two more people to our team bringing our
+							employee count to four.</p>
 					</div>
 				</div>
 				<div class="history-card history-card-tier-3">
 					<div id="head_three" class="head">
 						<div class="number-box">
 							<span>20++</span>
-					</div>
+						</div>
 						<h2><span class="small">SUCCESS</span> FUTURE STEPS</h2>
 					</div>
 					<div class="body">

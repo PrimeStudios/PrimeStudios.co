@@ -10,9 +10,15 @@ include('../../header.php');
 </div>
 <div class="about">
 	<div class="about-nav-container">
-		<a class="about-nav-link" href="/about"><p class="about-nav-button">Introduction</p></a>
-		<a class="about-nav-link" href="/about/team"><p class="about-nav-button about-nav-active">Our Team</p></a>
-		<a class="about-nav-link" href="/about/history"><p class="about-nav-button">Our History</p></a>
+		<a class="about-nav-link" href="/about">
+			<p class="about-nav-button">Introduction</p>
+		</a>
+		<a class="about-nav-link" href="/about/team">
+			<p class="about-nav-button about-nav-active">Our Team</p>
+		</a>
+		<a class="about-nav-link" href="/about/history">
+			<p class="about-nav-button">Our History</p>
+		</a>
 	</div>
 	<div class="about-text-block">
 		<p class="team-header">The staff team that makes this business run.</p>

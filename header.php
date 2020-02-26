@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 	<head>
 		<meta charset="utf-8">
 		<title><?php echo $pageName; ?> - Prime Studios</title>
@@ -19,6 +20,7 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo adjustRecursivity(); ?>assets/css/animate.css">
 		<script src="<?php echo adjustRecursivity(); ?>assets/js/main.js"></script>;
 	</head>
+
 	<body>
 		<span class="header-container">
 			<div class="header">
@@ -46,8 +48,12 @@
 						</div>
 					</a>
 				</div>
-				<p id="open_header" class="header-bars" onclick="document.getElementById('right').style.display = 'initial'; document.getElementById('open_header').style.display = 'none'; document.getElementById('close_header').style.display = 'block';"><span class="bars-border"><i class="fas fa-bars"></i></span></p>
-				<p id="close_header" class="header-bars hidden" onclick="document.getElementById('right').style.display = 'none'; document.getElementById('open_header').style.display = 'block'; document.getElementById('close_header').style.display = 'none';"><span class="bars-border-two"><i class="fas fa-times"></i></span></p>
+				<p id="open_header" class="header-bars"
+				 onclick="document.getElementById('right').style.display = 'initial'; document.getElementById('open_header').style.display = 'none'; document.getElementById('close_header').style.display = 'block';"><span class="bars-border"><i
+						 class="fas fa-bars"></i></span></p>
+				<p id="close_header" class="header-bars hidden"
+				 onclick="document.getElementById('right').style.display = 'none'; document.getElementById('open_header').style.display = 'block'; document.getElementById('close_header').style.display = 'none';"><span class="bars-border-two"><i
+						 class="fas fa-times"></i></span></p>
 			</div>
 			<div class="browser-support-banner">
 				<p><i class="fas fa-exclamation-triangle"></i> This site does not fully provide support for your browser.</p>

@@ -9,8 +9,9 @@ include('../header.php');
 	<h2>System Administration Services</h2>
 </div>
 <div class="sysadmin-services">
-	<p>We provide configuration and management for web servers on both Windows  and Linux. We're capable of assisting in data and content migration upon request. Our team can also assist Clients using unmanaged hosting setup their web server. Configuration also covers the cost of domain registration if  necessary.</p>
-	<p>No matter your needs, don't worry about the technical side of  your website - rely on us to do the hard part for you.</p>
+	<p>We provide configuration and management for web servers on both Windows and Linux. We're capable of assisting in data and content migration upon request. Our team can also assist Clients using unmanaged hosting setup their web server.
+		Configuration also covers the cost of domain registration if necessary.</p>
+	<p>No matter your needs, don't worry about the technical side of your website - rely on us to do the hard part for you.</p>
 	<div class="technologies">
 		<img src="../assets/img/technologies/centos.png" />
 		<img src="../assets/img/technologies/debian.png" />
@@ -28,9 +29,13 @@ include('../header.php');
 		 class="showcase-item" src="../assets/img/sysadmin.jpg" style="max-width: 40vw">
 	</div>
 </div>
-<span onclick="document.getElementById('showcase_popup').classList.add('zoomOut'); document.getElementById('showcase_popup_background').style.display = 'none'; setTimeout(function() {document.getElementById('showcase_popup').style.display ='none';}, 300);" id="showcase_popup_background" class="showcase-popup-background"></span>
+<span
+ onclick="document.getElementById('showcase_popup').classList.add('zoomOut'); document.getElementById('showcase_popup_background').style.display = 'none'; setTimeout(function() {document.getElementById('showcase_popup').style.display ='none';}, 300);"
+ id="showcase_popup_background" class="showcase-popup-background"></span>
 <div id="showcase_popup" class="showcase-popup animated zoomIn">
-	<p onclick="document.getElementById('showcase_popup').classList.add('zoomOut'); document.getElementById('showcase_popup_background').style.display = 'none'; setTimeout(function() {document.getElementById('showcase_popup').style.display ='none';}, 300);" class="showcase-popup-close">x</p>
+	<p
+	 onclick="document.getElementById('showcase_popup').classList.add('zoomOut'); document.getElementById('showcase_popup_background').style.display = 'none'; setTimeout(function() {document.getElementById('showcase_popup').style.display ='none';}, 300);"
+	 class="showcase-popup-close">x</p>
 	<img id="showcase_popup_image_one" class="showcase-popup-image" src="../assets/img/showcase-1.png">
 	<img id="showcase_popup_image_two" class="showcase-popup-image" src="../assets/img/sysadmin.jpg">
 	<img id="showcase_popup_image_three" class="showcase-popup-image" src="../assets/img/showcase-3.png">

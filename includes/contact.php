@@ -8,15 +8,15 @@ $budget = $_GET['budget'];
 $comments = $_GET['comments'];
 
 if ($webdesign == 'on') {
-	$webdesign = 1;
+    $webdesign = 1;
 }
 
 if ($sysadmin == 'on') {
-	$sysadmin = 1;
+    $sysadmin = 1;
 }
 
 if ($seo == 'on') {
-	$seo = 1;
+    $seo = 1;
 }
 
 $mySQLHost = 'localhost';
