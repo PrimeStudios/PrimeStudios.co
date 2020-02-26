@@ -37,43 +37,75 @@ function getCookie(name) {
 	return decodeURI(dc.substring(begin + prefix.length, end));
 }
 
-function Header_Sorter() {
+const headerFix = {};
+
+headerFix.sorter = () => {
 	if (document.getElementById('home')) {
-		window.addEventListener('load', HeaderFix);
-		function HeaderFix() {
-		    if (window.innerWidth > 1000) {
-			    document.getElementById('home_header').style.fontWeight = '500';
-			} else {
-				document.getElementById('home_header').style.fontWeight = '900';
-			}
-		}
-		window.addEventListener('resize', HeaderFix);
+		window.onload = () => {
+			headerFix.home();
+		};
+
+		window.addEventListener('resize', headerFix.home());
 	}
 	if (document.getElementById('about')) {
-		window.onload = HeaderFix;
-		function HeaderFix() {
-		    if (window.innerWidth > 1000) {
-		    	document.getElementById('about_header').style.fontWeight = '500';
-			} else {
-				document.getElementById('about_header').style.fontWeight = '900';
-			}
-		}
-		window.addEventListener('resize', HeaderFix);
+		window.onload = () => {
+			headerFix.about();
+		};
+
+		window.addEventListener('resize', headerFix.about());
 	}
 	if (document.getElementById('services')) {
-		window.onload = HeaderFix;
-		function HeaderFix() {
-		    if (window.innerWidth > 1000) {
-		    	document.getElementById('about_header').style.fontWeight = '500';
-			} else {
-				document.getElementById('about_header').style.fontWeight = '900';
-			}
-		}
-		window.addEventListener('resize', HeaderFix);
+		window.onload = () => {
+			headerFix.services();
+		};
+
+		window.addEventListener('resize', headerFix.services());
 	}
-}
-window.addEventListener('load', Header_Sorter);
-window.addEventListener('resize', Header_Sorter);
+};
+
+headerFix.home = 	() => {
+	if (window.innerWidth > 1000) {
+		document
+			.getElementById('home_header')
+			.style
+			.fontWeight = '500';
+	} else {
+		document
+			.getElementById('home_header')
+			.style
+			.fontWeight = '900';
+	}
+};
+
+headerFix.about = () => {
+	if (window.innerWidth > 1000) {
+		document
+			.getElementById('about_header')
+			.style
+			.fontWeight = '500';
+	} else {
+		document
+			.getElementById('about_header')
+			.style
+			.fontWeight = '900';
+	}
+};
+
+headerFix.services = () => {
+	if (window.innerWidth > 1000) {
+		document
+			.getElementById('about_header')
+			.style
+			.fontWeight = '500';
+	} else {
+		document
+			.getElementById('about_header')
+			.style
+			.fontWeight = '900';
+	}
+};
+window.addEventListener('load', headerFix.sorter());
+window.addEventListener('resize', headerFix.sorter());
 
 function CookieAgreed() {
 	var Cookieagreement = getCookie('cookieagreement');
