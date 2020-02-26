@@ -39,7 +39,7 @@ function getCookie(name) {
 
 function Header_Sorter() {
 	if (document.getElementById('home')) {
-		window.onload = HeaderFix;
+		window.addEventListener('load', HeaderFix);
 		function HeaderFix() {
 		    if (window.innerWidth > 1000) {
 			    document.getElementById('home_header').style.fontWeight = '500';
@@ -72,7 +72,7 @@ function Header_Sorter() {
 		window.addEventListener('resize', HeaderFix);
 	}
 }
-window.onload = Header_Sorter;
+window.addEventListener('load', Header_Sorter);
 window.addEventListener('resize', Header_Sorter);
 
 function CookieAgreed() {
