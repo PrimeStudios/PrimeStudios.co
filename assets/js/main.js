@@ -37,6 +37,45 @@ function getCookie(name) {
 	return decodeURI(dc.substring(begin + prefix.length, end));
 }
 
+function Header_Sorter() {
+	if (document.getElementById('home')) {
+		alert('test');
+		window.onload = HeaderFix;
+		function HeaderFix() {
+		    if (window.innerWidth > 1000) {
+			    document.getElementById('home_header').style.fontWeight = '500';
+			} else {
+				document.getElementById('home_header').style.fontWeight = '900';
+			}
+		}
+		window.addEventListener('resize', HeaderFix);
+	}
+	if (document.getElementById('about')) {
+		window.onload = HeaderFix;
+		function HeaderFix() {
+		    if (window.innerWidth > 1000) {
+		    	document.getElementById('about_header').style.fontWeight = '500';
+			} else {
+				document.getElementById('about_header').style.fontWeight = '900';
+			}
+		}
+		window.addEventListener('resize', HeaderFix);
+	}
+	if (document.getElementById('services')) {
+		window.onload = HeaderFix;
+		function HeaderFix() {
+		    if (window.innerWidth > 1000) {
+		    	document.getElementById('about_header').style.fontWeight = '500';
+			} else {
+				document.getElementById('about_header').style.fontWeight = '900';
+			}
+		}
+		window.addEventListener('resize', HeaderFix);
+	}
+}
+window.onload = Header_Sorter;
+window.addEventListener('resize', Header_Sorter);
+
 function CookieAgreed() {
 	var Cookieagreement = getCookie('cookieagreement');
 

@@ -4,7 +4,7 @@ $pageLevel = 0;
 include('includes/recursivity.php');
 include('header.php');
 ?>
-<div class="hero">
+<div id="home" class="hero">
 	<h1>prime studios</h1>
 	<p>Quality, affordable development and design services.</p>
 	<a onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})"><i class="fas fa-chevron-down"></i></a>
@@ -61,16 +61,4 @@ include('header.php');
 		<button>Request a Quote</button>
 	</a>
 </div>
-<script>
-	window.addEventListener('resize', HeaderFix);
-
-	function HeaderFix() {
-	    if (window.innerWidth > 1000) {
-		    document.getElementById('home_header').style.fontWeight = '500';
-		} else {
-			document.getElementById('home_header').style.fontWeight = '900';
-		}
-	}
-	HeaderFix();
-</script>
 <?php include('footer.php'); ?>

@@ -4,7 +4,7 @@ $pageLevel = 1;
 include('../includes/recursivity.php');
 include('../header.php');
 ?>
-<div class="smallhero sysadmin-hero">
+<div id="services" class="smallhero sysadmin-hero">
 	<h1>Prime Studios</h1>
 	<h2>System Administration Services</h2>
 </div>
@@ -40,16 +40,4 @@ include('../header.php');
 		<button>Request a Quote</button>
 	</a>
 </div>
-<script>
-	window.addEventListener('resize', HeaderFix);
-
-	function HeaderFix() {
-	    if (window.innerWidth > 1000) {
-		    document.getElementById('sysadmin_header').style.fontWeight = '500';
-		} else {
-			document.getElementById('sysadmin_header').style.fontWeight = '900';
-		}
-	}
-	HeaderFix();
-</script>
 <?php include('../footer.php'); ?>

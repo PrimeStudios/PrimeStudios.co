@@ -4,7 +4,7 @@ $pageLevel = 2;
 include('../../includes/recursivity.php');
 include('../../header.php');
 ?>
-<div class="smallhero">
+<div id="about" class="smallhero">
 	<h1>Prime Studios</h1>
 	<h2>Our History</h2>
 </div>
@@ -66,16 +66,4 @@ include('../../header.php');
 		</div>
 	</div>
 </div>
-<script>
-	window.addEventListener('resize', HeaderFix);
-
-	function HeaderFix() {
-	    if (window.innerWidth > 1000) {
-		    document.getElementById('about_header').style.fontWeight = '500';
-		} else {
-			document.getElementById('about_header').style.fontWeight = '900';
-		}
-	}
-	HeaderFix();
-</script>
 <?php include('../../footer.php'); ?>
