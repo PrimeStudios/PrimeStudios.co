@@ -39,7 +39,6 @@ function getCookie(name) {
 
 function Header_Sorter() {
 	if (document.getElementById('home')) {
-		alert('test');
 		window.onload = HeaderFix;
 		function HeaderFix() {
 		    if (window.innerWidth > 1000) {
