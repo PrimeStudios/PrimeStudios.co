@@ -9,9 +9,8 @@ include('../header.php');
 	<h2>Web Development Services</h2>
 </div>
 <div class="web-services">
-	<p>Prime Studios offers a variety of web services to our clients. Our Team has been working in the industry for several years and will ensure a high quality product. We utilize modern technologies and custom frameworks to provide a unique product
-		to our clients.</p>
-	<p>We don't have set plans or pricing, our team works tailored to your needs. No matter how simple or complex your needs, we got you covered.</p>
+	<p>Prime Studios offers a variety of web services to our clients. Our team has been working in the industry for several years and will ensure a high quality product. We utilize modern technologies and custom frameworks to provide a unique product to our consumers.</p>
+	<p>We don't have set plans or pricing, our team works tailored to your needs. No matter how simple or complex your next project, we got you covered.</p>
 	<div class="technologies">
 		<img src="../assets/img/technologies/bootstrap.png" />
 		<img src="../assets/img/technologies/css.png" />
