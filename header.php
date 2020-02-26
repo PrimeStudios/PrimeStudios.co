@@ -31,19 +31,19 @@
 				</div>
 				<div id="right" class="right">
 					<a <?php if ($pageName=='Home') {echo 'class="active"';}?>href="/">
-						<p id="home_header">Home</p>
+						<p <?php if ($pageName=='Home') {echo 'style="font-weight: bold;"';}?> id="home_header">Home</p>
 					</a>
 					<a <?php if ($pageName == 'About' || $pageName == 'Our Team' || $pageName == 'Our History') {echo 'class="active"';}?>href="/about">
-						<p id="about_header">About</p>
+						<p <?php if ($pageName == 'About' || $pageName == 'Our Team' || $pageName == 'Our History') {echo 'style="font-weight: bold;"';}?> id="about_header">About</p>
 					</a>
 					<a class="<?php if ($pageName == 'Web Services' || $pageName == 'System Administration Services') {echo 'active ';}?>services">
-						<p>Services <span class="fas fa-caret-down"></span></p>
+						<p <?php if ($pageName == 'Web Services' || $pageName == 'System Administration Services') {echo 'style="font-weight: bold;"';}?>>Services <span class="fas fa-caret-down"></span></p>
 						<div class="idvservices">
 							<a href="/web">
-								<p id="web_header">Web Services</p>
+								<p <?php if ($pageName == 'Web Services') {echo 'style="font-weight: bold;"';}?> id="web_header">Web Services</p>
 							</a>
 							<a href="/sysadmin">
-								<p id="sysadmin_header">System Administration Services</p>
+								<p <?php if ($pageName == 'System Administration Services') {echo 'style="font-weight: bold;"';}?> id="sysadmin_header">System Administration Services</p>
 							</a>
 						</div>
 					</a>
