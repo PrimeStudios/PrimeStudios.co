@@ -10,6 +10,7 @@ include('../header.php');
 </div>
 <div class="legal">
 	<h2>Prime Studios Terms of Service</h2>
+	<p>Last Updated: Febuary 26th, 2020</p>
 	<h3>1. Terms</h3>
 	<p>By accessing the website at <a href="https://primestudios.co/">https://primestudios.co/</a>, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with
 		any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.</p>
@@ -49,7 +50,7 @@ include('../header.php');
 	<p>Prime Studios may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.</p>
 	<h3>8. Governing Law</h3>
 	<p>These terms and conditions are governed by and construed in accordance with the laws of United States and you irrevocably submit to the exclusive jurisdiction of the courts in the United States.</p>
-	<h3>9. Legal Inquires</h3>
+	<h3>9. Inquires</h3>
 	<p>Inquires in relation to Prime Studios' policies can be directed to <a href="mailto:legal@primestudios.co" target="_blank">legal@primestudios.co</a>.</p>
 </div>
 <?php include('../footer.php'); ?>

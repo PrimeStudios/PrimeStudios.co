@@ -9,7 +9,9 @@ include('../header.php');
 	<h2>Privacy Policy</h2>
 </div>
 <div class="legal">
-	<h2>Privacy Policy for Prime Studios</h2>
+	<h2>Prime Studios Privacy Policy </h2>
+	<p>Last Updated: Febuary 26th, 2020</p>
+		<h3>1. Privacy Policy</h3>
 	<p>At Prime Studios, accessible from PrimeStudios.co, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Prime Studios and how we use it.</p>
 	<p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
 	<h3>General Data Protection Regulation (GDPR)</h3>
