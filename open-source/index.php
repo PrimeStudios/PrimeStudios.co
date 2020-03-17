@@ -11,9 +11,9 @@ include('../header.php');
 	<div class="open_source">
 		<h2 class="open_source_nav_header">Our Open Source Projects</h2>
 		<div class="open_source_navigation">
-			<p class="open_source_project_nav_date"><b>Febuary 12th, 2020</b></p>
+			<p class="open_source_project_nav_date"><b>February 12th, 2020</b></p>
 			<p class="open_source_project_nav_project">&#xb7; Contact API <span class="align-text-right"> <a title="Github" href="https://github.com/PrimeStudios/Contact-API" target="_blank"><i class="fab fa-github"></i></a> &nbsp; <a title="Download" href="https://github.com/PrimeStudios/Contact-API/archive/master.zip" target="_blank"><i class="fas fa-download"></i></a></span></p>
-			<p class="open_source_project_nav_date"><b>Febuary 8th, 2020</b></p>
+			<p class="open_source_project_nav_date"><b>February 8th, 2020</b></p>
 			<p class="open_source_project_nav_project">&#xb7; Discord Widgets <span class="align-text-right"> <a title="Github" href="https://github.com/PrimeStudios/Discord-Webhooks" target="_blank"><i class="fab fa-github"></i></a> &nbsp; <a title="Download" href="https://github.com/PrimeStudios/Discord-Webhooks/archive/master.zip" target="_blank"><i class="fas fa-download"></i></a></span></p>
 			<p class="open_source_project_nav_date"><b>January 29th, 2020</b></p>
 			<p class="open_source_project_nav_project">&#xb7; Steam Group Counter <span class="align-text-right"> <a title="Github" href="https://github.com/PrimeStudios/Steam-Group-Members-JS" target="_blank"><i class="fab fa-github"></i></a> &nbsp; <a title="Download" href="https://github.com/PrimeStudios/Steam-Group-Members-JS/archive/master.zip" target="_blank"><i class="fas fa-download"></i></a></span></p>
