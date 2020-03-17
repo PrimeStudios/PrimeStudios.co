@@ -1,5 +1,7 @@
 # Prime Studios Website
 
+[![Page Preview](./assets/img/preview.png)](https://primestudios.co/)
+
 ## Overview
 
 This repository contains the project files for Prime Studios' Website.
