@@ -13,7 +13,7 @@ include('../header.php');
 		Configuration also covers the cost of domain registration if necessary.</p>
 	<p>No matter your needs, don't worry about the technical side of your website - rely on us to do the hard part for you.</p>
 	<div class="technologies">
-		<img src="../assets/img/technologies/centos.png" />
+		<img alt="CentOS" src="../assets/img/technologies/centos.png" />
 		<img src="../assets/img/technologies/debian.png" />
 		<img src="../assets/img/technologies/fedora.png" />
 		<img src="../assets/img/technologies/linux.png" />
