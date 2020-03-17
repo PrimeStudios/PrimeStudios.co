@@ -10,8 +10,6 @@ This repository contains the project files for Prime Studios' Website.
 
 **[Michael Rizzuto](https://github.com/MichaelRizzuto)** - Full Stack Developer
 
-## Legal Disclaimer
+## License
 
-##### This project and its contents are the intellectual property of Prime Studios and its development team. Not for use outside Prime Studios' Services unless otherwise authorized.
-
-#### &copy; 2019-2020 Prime Studios. All Rights Reserved. Do not Redistribute.
+This project is licensed under the [MIT](./LICENSE.md) License &copy; 2019-2020 [Prime Studios](https://github.com/PrimeStudios/).
