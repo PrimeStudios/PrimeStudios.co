@@ -1,9 +1,7 @@
-<?php
-$pageName = 'Open Source';
+<?php $pageName = 'Open Source';
 $pageLevel = 1;
 include('../includes/recursivity.php');
-include('../header.php');
-?>
+include('../header.php'); ?>
 	<div class="smallhero open_source-hero">
 		<h1>Prime Studios</h1>
 		<h2>Open Source</h2>
@@ -24,4 +22,4 @@ include('../header.php');
 		<p class="open_source_text">This page is still under development. But in the mean time you can find a little navigation box to the left where you can still use our open source projects. What are these open source projects? They consist of different tools we use in our work or things that we have made for vast amount of different hobbies we have that we've decided to make public for the use of everyone to enjoy. Be sure to check back from time to time as we continue to grow the list.
 		</p>
 	</div>
-	<?php include('../footer.php'); ?>
+<?php include('../footer.php'); ?>
