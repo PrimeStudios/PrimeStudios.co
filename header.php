@@ -36,14 +36,17 @@
 					<a <?php if ($pageName == 'About' || $pageName == 'Our Team' || $pageName == 'Our History') {echo 'class="active"';}?>href="/about">
 						<p <?php if ($pageName == 'About' || $pageName == 'Our Team' || $pageName == 'Our History') {echo 'style="font-weight: bold;"';}?> id="about_header">About</p>
 					</a>
-					<a class="<?php if ($pageName == 'Web Services' || $pageName == 'System Administration Services') {echo 'active ';}?>services">
-						<p <?php if ($pageName == 'Web Services' || $pageName == 'System Administration Services') {echo 'style="font-weight: bold;"';}?>>Services <span class="fas fa-caret-down"></span></p>
+					<a class="<?php if ($pageName == 'Web Services' || $pageName == 'System Administration Services' || $pageName == 'Open Source') {echo 'active ';}?>services">
+						<p <?php if ($pageName == 'Web Services' || $pageName == 'System Administration Services' || $pageName == 'Open Source') {echo 'style="font-weight: bold;"';}?>>Services <span class="fas fa-caret-down"></span></p>
 						<div class="idvservices">
 							<a href="/web">
 								<p <?php if ($pageName == 'Web Services') {echo 'style="font-weight: bold;"';}?> id="web_header">Web Services</p>
 							</a>
 							<a href="/sysadmin">
 								<p <?php if ($pageName == 'System Administration Services') {echo 'style="font-weight: bold;"';}?> id="sysadmin_header">System Administration Services</p>
+							</a>
+							<a href="/open-source">
+								<p <?php if ($pageName == 'Open Source') {echo 'style="font-weight: bold;"';}?> id="open_source_header">Open Source</p>
 							</a>
 						</div>
 					</a>
