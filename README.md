@@ -1,6 +1,12 @@
-# Prime Studios Website
+<div align="center">
 
 [![Page Preview](./assets/img/preview.png)](https://primestudios.co/)
+
+# Prime Studios Website
+
+[![CodeFactor](https://www.codefactor.io/repository/github/primestudios/primestudios.co/badge)](https://www.codefactor.io/repository/github/primestudios/primestudios.co)
+
+</div>
 
 ## Overview
 
