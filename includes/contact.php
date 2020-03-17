@@ -1,5 +1,4 @@
-<?php
-$name = $_GET['name'];
+<?php $name = $_GET['name'];
 $email = $_GET['email'];
 $webdesign = $_GET['webdesign'];
 $sysadmin = $_GET['sysadmin'];
@@ -33,5 +32,4 @@ if (!$mySQLInstance) {
 } else {
     mysqli_query($mySQLInstance, "insert INTO requests (name, email, webdesign, sysadmin, seo, budget, comments) values('". $name ."', '". $email ."', '". $webdesign ."', '". $sysadmin ."', '". $seo ."', '". $budget ."', '". $comments ."');");
     header('Location: ../contact');
-}
-?>
+} ?>

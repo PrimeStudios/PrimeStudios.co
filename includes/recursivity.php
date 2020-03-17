@@ -1,5 +1,4 @@
-<?php
-function adjustRecursivity()
+<?php function adjustRecursivity()
 {
     global $pageLevel;
     $recursivityLevel = 0;
@@ -9,5 +8,4 @@ function adjustRecursivity()
         $recursivityLevel++;
     }
     return $output;
-}
-?>
+} ?>
