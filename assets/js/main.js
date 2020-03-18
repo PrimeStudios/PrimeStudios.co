@@ -117,3 +117,39 @@ function CookieAgreed() {
 	}
 }
 window.onload = CookieAgreed;
+
+function Quote_Selector_One() {
+	document.getElementById('quote_one_chose').style.display = 'inline';
+	document.getElementById('quote_two_chose').style.display = 'none';
+	document.getElementById('quote_three_chose').style.display = 'none';
+	document.getElementById('quote_one_not').style.display = 'none';
+	document.getElementById('quote_two_not').style.display = 'inline';
+	document.getElementById('quote_three_not').style.display = 'inline';
+	document.getElementById('quote_one').style.display = 'block';
+	document.getElementById('quote_two').style.display = 'none';
+	document.getElementById('quote_three').style.display = 'none';
+}
+
+function Quote_Selector_Two() {
+	document.getElementById('quote_one_chose').style.display = 'none';
+	document.getElementById('quote_two_chose').style.display = 'inline';
+	document.getElementById('quote_three_chose').style.display = 'none';
+	document.getElementById('quote_one_not').style.display = 'inline';
+	document.getElementById('quote_two_not').style.display = 'none';
+	document.getElementById('quote_three_not').style.display = 'inline';
+	document.getElementById('quote_one').style.display = 'none';
+	document.getElementById('quote_two').style.display = 'block';
+	document.getElementById('quote_three').style.display = 'none';
+}
+
+function Quote_Selector_Three() {
+	document.getElementById('quote_one_chose').style.display = 'none';
+	document.getElementById('quote_two_chose').style.display = 'none';
+	document.getElementById('quote_three_chose').style.display = 'inline';
+	document.getElementById('quote_one_not').style.display = 'inline';
+	document.getElementById('quote_two_not').style.display = 'inline';
+	document.getElementById('quote_three_not').style.display = 'none';
+	document.getElementById('quote_one').style.display = 'none';
+	document.getElementById('quote_two').style.display = 'none';
+	document.getElementById('quote_three').style.display = 'block';
+}

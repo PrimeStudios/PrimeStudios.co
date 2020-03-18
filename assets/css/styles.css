@@ -1343,7 +1343,7 @@ td {
 	font-family: 'Lato', sans-serif;
 }
 
-/* Open Source */
+/* Showcase */
 .full_showcase-hero {
 	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/showcase-bg.jpg) !important;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/showcase-bg.jpg) !important;
@@ -1382,8 +1382,64 @@ td {
 .showcase-title {
 	text-align: center;
 	font-variant: small-caps;
-	padding-bottom: 5vh;
+	padding-bottom: 2vh;
 	font-size: 2vh;
+	padding-left: 10vw;
+	width: 80vw;
+}
+
+.quote-actual {
+	font-family: 'Lato', sans-serif;
+	color: black;
+	font-size: 2vh;
+	font-variant: small-caps;
+}
+
+.quote-positioner {
+	padding-left: 10vw;
+	padding-right: 10vw;
+	width: 80vw;
+	text-align: center;
+	padding-bottom: 2vh;
+}
+
+.quote-left-img {
+	color: rgba(100,100,100);
+	font-size: 3vh;
+}
+
+.quote-right-img {
+	color: rgba(100,100,100);
+	font-size: 3vh;
+}
+
+.quote-person-group {
+	position: relative;
+}
+
+.quote-img {
+	color: black;
+	font-size: 2vh;
+	position: absolute;
+	left: calc(48vw - 2vh);
+	top: .5vh;
+}
+
+.quote-person {
+	color: black;
+	font-size: 2vh;
+	text-align: center;
+}
+
+.quote-selector {
+	font-size: 2vh;
+	text-align: center;
+	padding-bottom: 3vh;
+	cursor: default;
+}
+
+.hover:hover {
+	cursor: pointer;
 }
 
 @media (min-width: 1600px) {
