@@ -257,11 +257,11 @@
 	width: 100%;
 }
 
-.fa-github:hover {
+.footer .fa-github:hover {
 	color: #6E5494;
 }
 
-.fa-linkedin:hover {
+.footer .fa-linkedin:hover {
 	color: #2867B2;
 }
 
@@ -2689,10 +2689,12 @@ td {
 
 	.open_source_project_nav_project {
 		padding-left: 1.5vw;
+		cursor: default;
 	}
 
 	.open_source_project_nav_project a {
 		color: black;
+		transition: color ease .2s;
 	}
 
 	.open_source_project_nav_project a:hover {
