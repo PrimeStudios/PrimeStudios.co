@@ -1404,12 +1404,12 @@ td {
 }
 
 .quote-left-img {
-	color: rgba(100,100,100);
+	color: rgba(100, 100, 100, 1);
 	font-size: 3vh;
 }
 
 .quote-right-img {
-	color: rgba(100,100,100);
+	color: rgba(100, 100, 100, 1);
 	font-size: 3vh;
 }
 
@@ -1422,7 +1422,7 @@ td {
 	font-size: 2vh;
 	position: absolute;
 	left: calc(48vw - 2vh);
-	top: .5vh;
+	top: 0.5vh;
 }
 
 .quote-person {
