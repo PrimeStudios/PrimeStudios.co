@@ -265,6 +265,10 @@
 	color: #2867B2;
 }
 
+.footer .fa-discord:hover {
+	color: #7289da;
+}
+
 .footer .links {
 	padding-bottom: 0.25vh;
 	padding-top: 0.25vh;

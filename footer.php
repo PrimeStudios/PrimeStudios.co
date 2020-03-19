@@ -20,6 +20,7 @@
 				<span class="social-media-container">
 					<a href="https://github.com/PrimeStudios" target="_blank"><span class="social-media-icon fab fa-github"></span></a>
 					<a href="https://www.linkedin.com/company/prime-studios-official" target="_blank"><span class="social-media-icon fab fa-linkedin"></span></a>
+					<a href="https://discord.gg/z7wScKW" target="_blank"><span class="social-media-icon fab fa-discord"></span></a>
 				</span>
 				<p class="copyright-text">&copy; 2019-<script>
 						document.write(new Date().getFullYear())
