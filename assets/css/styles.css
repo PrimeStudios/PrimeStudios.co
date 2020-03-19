@@ -1937,8 +1937,10 @@
 	font-family: 'Lato', sans-serif;
 	font-size: 1.2rem;
 	min-height: calc(100vh - 46vh);
-	padding: 4vh 10vw;
+	padding: 4vh 0vw;
 	text-align: center;
+	max-width: 100vw;
+	overflow-y: hidden;
 }
 
 .contact-container {
@@ -1952,17 +1954,6 @@
 	font-weight: 100;
 	margin: 25px auto;
 	border-collapse: collapse;
-	border-bottom: 2px solid rgba(242, 100, 25, 0.6);
-	-webkit-box-shadow:
-		0 0 20px rgba(0, 0, 0, 0.1),
-		0 10px 20px rgba(0, 0, 0, 0.05),
-		0 20px 20px rgba(0, 0, 0, 0.05),
-		0 30px 20px rgba(0, 0, 0, 0.05);
-	box-shadow:
-		0 0 20px rgba(0, 0, 0, 0.1),
-		0 10px 20px rgba(0, 0, 0, 0.05),
-		0 20px 20px rgba(0, 0, 0, 0.05),
-		0 30px 20px rgba(0, 0, 0, 0.05);
 
 	tr {
 		&:hover {
@@ -2419,6 +2410,16 @@ input[type=submit]:hover {
 	text-decoration: underline;
 }
 
+/* Other */
+
+.display-big-only {
+	display: none;
+}
+
+.display-small-only {
+	display: initial;
+}
+
 @media only screen and (min-width: 1000px) {
 	.pace .pace-progress {
 		background: #2299DD;
@@ -2839,6 +2840,56 @@ input[type=submit]:hover {
 		padding-top: 8vh;
 	}
 
+	.contact {
+		background-color: #F7F7FF;
+		font-family: 'Lato', sans-serif;
+		font-size: 1.2rem;
+		min-height: calc(100vh - 46vh);
+		padding: 4vh 10vw;
+		text-align: center;
+	}
+
+	.contact-container table {
+		width: 100%;
+		font-family: 'Lato', sans-serif;
+		font-weight: 100;
+		margin: 25px auto;
+		border-collapse: collapse;
+		border-bottom: 2px solid rgba(242, 100, 25, 0.6);
+		-webkit-box-shadow:
+			0 0 20px rgba(0, 0, 0, 0.1),
+			0 10px 20px rgba(0, 0, 0, 0.05),
+			0 20px 20px rgba(0, 0, 0, 0.05),
+			0 30px 20px rgba(0, 0, 0, 0.05);
+		box-shadow:
+			0 0 20px rgba(0, 0, 0, 0.1),
+			0 10px 20px rgba(0, 0, 0, 0.05),
+			0 20px 20px rgba(0, 0, 0, 0.05),
+			0 30px 20px rgba(0, 0, 0, 0.05);
+
+		tr {
+			&:hover {
+				background: #F4F4F4;
+			}
+		}
+
+		th,
+		td {
+			color: #999999;
+			border-collapse: collapse;
+		}
+
+		th {
+			background: #F26419;
+			text-transform: uppercase;
+			font-size: 12px;
+
+			&.last {
+				border-right: none;
+			}
+		}
+	}
+
 	.cookie-notice {
 		-moz-user-select: none;
 		-ms-user-select: none;
@@ -3016,6 +3067,15 @@ input[type=submit]:hover {
 		top: 55vh;
 		width: calc(100vw - 300px - 30%);
 	}
+
+	.display-big-only {
+		display: initial;
+	}
+
+	.display-small-only {
+		display: none;
+	}
+
 }
 
 @media only screen and (max-width: 1200px) {

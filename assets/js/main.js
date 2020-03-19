@@ -163,3 +163,16 @@ function copyemail() {
 		console.error('Async: Could not copy text: ', err);
 	});
 }
+
+function resize_two() {
+	if ( !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	    document.getElementById('contact_table').style.display = 'none';
+		document.getElementById('contact_table').style.display = 'initial';
+		document.getElementById('business_hours_header').style.paddingBottom = '25px';
+		if (window.innerWidth > 1000) {
+			location.reload();
+		}
+	}
+}
+
+window.addEventListener('resize', resize_two);

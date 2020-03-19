@@ -7,11 +7,11 @@ include('../header.php'); ?>
 		<h2>Contact</h2> </div>
 	<div class="contact">
 		<div class="contact-container">
-			<div class="contact-top"> <img src="/assets/img/contact.svg" />
+			<div class="contact-top"> <img src="../assets/img/contact.svg" />
 				<p class="contact-page-text">Are you interested in our services? Looking for a quote to just looking into us a little bit more? Feel free to shoot us an email at <b title="Copy to Clipboard" onclick="copyemail()" style="cursor: pointer;">sales@primestudios.co</b> and we will respond to you within one business day!</p>
 			</div>
-			<p class="business-hours-header">business hours</p>
-			<table style="height: 2vh; margin-bottom: 2vh;">
+			<p id="business_hours_header" class="business-hours-header">business hours</p>
+			<table id="contact_table" style="height: 2vh; margin-bottom: 2vh;">
 				<tr class="package-header-table">
 					<th>Monday</th>
 					<th>Tuesday</th>
@@ -37,7 +37,8 @@ include('../header.php'); ?>
 					<br> <span class="contact-title"><i class="fas fa-comments"></i>comments</span>
 					<input type="text" name="comments" size="50">
 					<br>
-					<input type="submit" value="submit" class="contact-submit"> </form>
+					<input type="submit" value="submit" class="contact-submit">
+			</form>
 			</div>
 		</div>
 	</div>
