@@ -2136,7 +2136,6 @@ input[type=submit]:hover {
 	-webkit-transition: all 0.25s ease-in-out;
 	-o-transition: all 0.25s ease-in-out;
 	transition: all 0.25s ease-in-out;
-	width: 100%;
 }
 
 #contactform input:focus {
