@@ -32,6 +32,15 @@ include('../header.php'); ?>
 					<input type="text" name="name">
 					<br> <span class="contact-title"><i class="fas fa-envelope"></i>email address</span>
 					<input type="text" name="email">
+					<span class="contact-title"><i class="fas fa-list"></i> requirements:</span><br><br>
+					<input id="webdesign" type="checkbox" name="webdesign" size="50">
+					<label for="webdesign">Web Design</label><br>
+					<input id="sysadmin" type="checkbox" name="sysadmin" size="50">
+					<label for="sysadmin">Sys Admin</label><br>
+					<input id="seo" type="checkbox" name="seo" size="50">
+					<label for="seo">SEO</label><br>
+					<input id="other" type="checkbox" name="other" size="50">
+					<label for="other">Other (Put in comments)</label><br><br>
 					<br> <span class="contact-title"><i class="fas fa-money-bill-wave"></i>budget</span>
 					<input type="number" name="budget" size="50" min="0">
 					<br> <span class="contact-title"><i class="fas fa-comments"></i>comments</span>

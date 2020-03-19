@@ -2188,9 +2188,11 @@ input[type=submit]:hover {
 	color: #FFFFFF;
 }
 
+/*
 #contactform input[type="checkbox"] {
 	display: none;
 }
+*/
 
 #contactform input[type="checkbox"] + #contactform label {
 	display: block;
