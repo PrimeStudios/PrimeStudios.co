@@ -1937,7 +1937,7 @@
 	font-family: 'Lato', sans-serif;
 	font-size: 1.2rem;
 	min-height: calc(100vh - 46vh);
-	padding: 4vh 0vw;
+	padding: 4vh 0;
 	text-align: center;
 	max-width: 100vw;
 	overflow-x: hidden;
@@ -3095,7 +3095,6 @@ input[type=submit]:hover {
 	.display-small-only {
 		display: none;
 	}
-
 }
 
 @media only screen and (max-width: 1200px) {
