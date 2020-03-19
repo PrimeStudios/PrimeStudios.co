@@ -2024,6 +2024,8 @@
 	font-family: 'Lato', sans-serif;
 	font-size: 1rem;
 	padding-bottom: 2vh;
+	margin-left: 10vw;
+	margin-right: 10vw;
 }
 
 .contact-form {
@@ -2847,6 +2849,15 @@ input[type=submit]:hover {
 		min-height: calc(100vh - 46vh);
 		padding: 4vh 10vw;
 		text-align: center;
+	}
+
+	.contact-page-text {
+		color: rgba(36, 41, 46, 0.85);
+		font-family: 'Lato', sans-serif;
+		font-size: 1rem;
+		padding-bottom: 2vh;
+		margin-left: 0vw;
+		margin-right: 0vw;
 	}
 
 	.contact-container table {
