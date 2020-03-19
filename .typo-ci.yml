@@ -7,8 +7,11 @@ excluded_files:
   - "*.css"
   - "*.js"
   - "assets/img/**"
+  - "showcase/index.php"
 
 excluded_words:
+  - centos
+  - company-gfx
   - idvservices
   - rizzuto
   - typoci
