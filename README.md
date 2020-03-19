@@ -20,4 +20,4 @@ This repository contains the project files for Prime Studios' Website.
 
 ## License
 
-This project is licensed under the [MIT](./LICENSE.md) License &copy; 2019-2020 [Prime Studios](https://github.com/PrimeStudios/).
+This project is licensed under the [MIT License](./LICENSE.md) &copy; 2019-2020 [Prime Studios](https://github.com/PrimeStudios/).
