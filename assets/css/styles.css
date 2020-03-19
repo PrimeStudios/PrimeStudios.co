@@ -2117,7 +2117,7 @@ input[type=submit]:hover {
 	font-variant: small-caps;
 	margin: 0 auto;
 	text-align: center;
-	width: 25% !important;
+	width: 35% !important;
 }
 
 #contactform input,
@@ -2849,6 +2849,15 @@ input[type=submit]:hover {
 		min-height: calc(100vh - 46vh);
 		padding: 4vh 10vw;
 		text-align: center;
+	}
+
+	.contact-submit {
+		font-family: 'Lato', sans-serif;
+		font-size: 1.4rem;
+		font-variant: small-caps;
+		margin: 0 auto;
+		text-align: center;
+		width: 25% !important;
 	}
 
 	.contact-page-text {
