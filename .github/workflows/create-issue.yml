@@ -1,7 +1,7 @@
 name: Create Issue From File
 on:
   repository_dispatch:
-    types: [ciff-example-command]
+    types: [create-issue-example-command]
 jobs:
   createPullRequest:
     runs-on: ubuntu-latest
