@@ -10,7 +10,7 @@ include('../header.php');
 </div>
 <div class="contact">
 	<div class="contact-container">
-		<p class="contact-page-text">Are you interested in our services? Looking for a quote to just looking into us a little bit more? Feel free to shoot us an email at <b>sales@primestudios.co</b> and we will respond to you within one business day!
+		<p class="contact-page-text">Are you interested in our services? Looking for a quote to just looking into us a little bit more? Feel free to shoot us an email at <b title="Copy to Clipboard" onclick="copyemail()" style="cursor: pointer;">sales@primestudios.co</b> and we will respond to you within one business day!
 		</p>
 		<p class="business-hours-header"><i><b>Business Hours</b></i></p>
 		<table style="height: 2vh; margin-bottom: 2vh;">
