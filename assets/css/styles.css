@@ -410,6 +410,52 @@
 	margin-top: 4vh;
 }
 
+.contact-container table {
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	margin: 25px auto;
+	border-collapse: collapse;
+	border-bottom: 2px solid rgba(242, 100, 25, 0.6);
+	box-shadow:
+		0 0 20px rgba(0, 0, 0, 0.1),
+		0 10px 20px rgba(0, 0, 0, 0.05),
+		0 20px 20px rgba(0, 0, 0, 0.05),
+		0 30px 20px rgba(0, 0, 0, 0.05);
+
+	tr {
+		&:hover {
+			background: #F4F4F4;
+		}
+	}
+
+	th,
+	td {
+		color: #999999;
+		border-collapse: collapse;
+	}
+
+	th {
+		background: #F26419;
+		text-transform: uppercase;
+		font-size: 12px;
+
+		&.last {
+			border-right: none;
+		}
+	}
+}
+
+.package-header-table th {
+	color: rgba(36, 41, 46, 0.9);
+	padding: 2vh 0;
+}
+
+.package-table-white th {
+	padding: 3vh 5%;
+	color: rgba(36, 41, 46, 0.85);
+}
+
 .hero {
 	background-image: url(../img/hero-bg.png);
 	background-position: 50% 70%;
@@ -965,12 +1011,6 @@
 	padding: 5vh 25vw;
 	background-color: #F7F7FF;
 	min-height: 52vh;
-}
-
-.requests table,
-th,
-td {
-	border: 1px solid rgba(230, 230, 230, 1);
 }
 
 .requests h2 {
@@ -1957,8 +1997,8 @@ td {
 	font-family: 'Lato', sans-serif;
 	font-size: 1.2rem;
 	padding-bottom: 4vh;
-	padding-left: 8vw;
-	padding-right: 8vw;
+	padding-left: 10vw;
+	padding-right: 10vw;
 	padding-top: 4vh;
 	text-align: center;
 	min-height: calc(100vh - 46vh);
@@ -1975,26 +2015,46 @@ td {
 	font-size: 3vh;
 }
 
+.contact-top {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: flex-start;
+	align-items: center;
+}
+
+.contact-top img {
+	height: auto;
+	width: 66%;
+	margin: 2vh 0;
+}
+
 .business-hours-header {
-	font-size: 2vh;
-	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-variant: small-caps;
+	font-size: 1.75rem;
+	color: #24292E;
 	text-align: center;
-	padding-bottom: 2vh;
+	margin-top: 3vh;
 }
 
 .contact-page-text {
+	font-family: 'Lato', sans-serif;
 	padding-bottom: 2vh;
-	font-size: 2vh;
+	font-size: 1rem;
+	color: rgba(36, 41, 46, 0.85);
 }
 
 .contact-form {
-	width: 83vw;
-	padding-bottom: 2vh;
+	width: 66%;
 	text-align: left;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	margin: 0 auto;
+	padding: 8vh 0;
 }
 
 input[type=text] {
@@ -2036,7 +2096,6 @@ textarea {
 input[type=submit] {
 	background-color: rgba(230, 230, 230, 1);
 	color: black;
-	font-size: 2vh;
 	padding: 1vh 1vh;
 	border: none;
 	border-radius: 0.5vh;
@@ -2060,21 +2119,256 @@ input[type=submit]:hover {
 }
 
 .contact-title {
-	font-size: 2vh;
+	font-size: 1.25rem;
+	font-variant: small-caps;
 }
 
-table {
+.contact-title i {
+	font-size: 1rem;
+	margin-right: 0.5%;
+	color: rgba(36, 41, 46, 0.85);
+}
+
+.contact-submit {
+	width: 25% !important;
+	margin: 0 auto;
 	text-align: center;
-	border-collapse: collapse;
-	width: 83vw;
-	height: 40vh;
-	font-size: 2vh;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.4rem;
+	font-variant: small-caps;
 }
 
-table,
-th,
-td {
-	border: 1px solid rgba(230, 230, 230, 1);
+#contactform input,
+#contactform input[type="radio"] + #contactform label,
+#contactform input[type="checkbox"] + #contactform label::before,
+#contactform select option,
+#contactform select {
+	width: 100%;
+	padding: 0.75em;
+	line-height: 1.4;
+	background-color: transparent;
+	border: 1px solid #E5E5E5;
+	border-radius: 0;
+	-webkit-transition: 0.25s ease-in-out;
+	-moz-transition: 0.25s ease-in-out;
+	-o-transition: 0.25s ease-in-out;
+	transition: 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	margin-top: 2vh;
+	margin-bottom: 4vh;
+	color: rgba(36, 41, 46, 0.9);
+}
+
+#contactform input:focus {
+	outline: 0;
+	border-color: #F26419;
+}
+
+#contactform input:focus + .input-icon i {
+	color: #55D9CB;
+}
+
+#contactform input:focus + .input-icon::after {
+	border-right-color: #55D9CB;
+}
+
+#contactform input[type="radio"] {
+	display: none;
+}
+
+#contactform input[type="radio"] + #contactform label,
+#contactform select {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	float: left;
+	border-radius: 0;
+}
+
+#contactform input[type="radio"] + #contactform label:first-of-type {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+#contactform input[type="radio"] + #contactform label:last-of-type {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+#contactform input[type="radio"] + #contactform label i {
+	padding-right: 0.4em;
+}
+
+#contactform input[type="radio"]:checked + #contactform label,
+#contactform input:checked + #contactform label::before,
+#contactform select:focus,
+#contactform select:active {
+	background-color: #55D9CB;
+	color: #FFFFFF;
+	border-color: #F26419;
+}
+
+#contactform input[type="checkbox"] {
+	display: none;
+}
+
+#contactform input[type="checkbox"] + #contactform label {
+	position: relative;
+	display: block;
+	padding-left: 1.6em;
+}
+
+#contactform input[type="checkbox"] + #contactform label::before {
+	position: absolute;
+	top: 0.2em;
+	left: 0;
+	display: block;
+	width: 1em;
+	height: 1em;
+	padding: 0;
+	content: "";
+}
+
+#contactform input[type="checkbox"] + #contactform label::after {
+	position: absolute;
+	top: 0.45em;
+	left: 0.2em;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	opacity: 0;
+	font-family: FontAwesome;
+	content: "\f00c";
+}
+
+#contactform input:checked + #contactform label::after {
+	opacity: 1;
+}
+
+#contactform select {
+	height: 3.4em;
+	line-height: 2;
+	width: 100%;
+}
+
+#contactform select:first-of-type {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+#contactform select:last-of-type {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+#contactform select:focus,
+#contactform select:active {
+	outline: 0;
+}
+
+#contactform select option {
+	background-color: #55D9CB;
+	color: #FFFFFF;
+}
+
+#contactform .input-group {
+	margin-bottom: 1em;
+	zoom: 1;
+}
+
+#contactform .input-group::before,
+#contactform .input-group::after {
+	content: "";
+	display: table;
+}
+
+#contactform .input-group::after {
+	clear: both;
+}
+
+#contactform .input-group-icon {
+	position: relative;
+}
+
+#contactform .input-group-icon input {
+	padding-left: 4.4em;
+}
+
+#contactform .input-group-icon .input-icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 3.4em;
+	height: 3.4em;
+	line-height: 3.4em;
+	text-align: center;
+	pointer-events: none;
+}
+
+#contactform .input-group-icon .input-icon::after {
+	position: absolute;
+	top: 0.6em;
+	bottom: 0.6em;
+	left: 3.4em;
+	display: block;
+	border-right: 1px solid #E5E5E5;
+	content: "";
+	-webkit-transition: 0.35s ease-in-out;
+	-moz-transition: 0.35s ease-in-out;
+	-o-transition: 0.35s ease-in-out;
+	transition: 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+}
+
+#contactform .input-group-icon .input-icon i {
+	-webkit-transition: 0.35s ease-in-out;
+	-moz-transition: 0.35s ease-in-out;
+	-o-transition: 0.35s ease-in-out;
+	transition: 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+}
+
+#contactform .container {
+	max-width: 38em;
+	padding: 1em 3em 2em 3em;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	border-radius: 4.2px;
+	box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2);
+}
+
+#contactform .row {
+	zoom: 1;
+}
+
+#contactform .row::before,
+#contactform .row::after {
+	content: "";
+	display: table;
+}
+
+#contactform .row::after {
+	clear: both;
+}
+
+#contactform .col-half {
+	padding-right: 10px;
+	float: left;
+	width: 50%;
+	display: inline-block;
+}
+
+#contactform .col-half:last-of-type {
+	padding-right: 0;
+}
+
+#contactform .col-third {
+	padding-right: 10px;
+	float: left;
+	width: 33.33333333%;
+}
+
+#contactform .col-third:last-of-type {
+	padding-right: 0;
 }
 
 .package-header-table {
@@ -2279,6 +2573,16 @@ td {
 	.showcase .card {
 		margin-bottom: 0;
 		width: 20%;
+	}
+
+	.contact-top {
+		flex-direction: row;
+		padding: 0 15%;
+	}
+
+	.contact-top img {
+		width: 33%;
+		margin-right: 5%;
 	}
 
 	.showcase .container {
@@ -2698,7 +3002,7 @@ td {
 
 	.open_source_project_nav_project a {
 		color: black;
-		transition: color ease .2s;
+		transition: color ease 0.2s;
 	}
 
 	.open_source_project_nav_project a:hover {
