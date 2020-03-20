@@ -155,7 +155,7 @@ function Quote_Selector_Three() {
 }
 
 function copyemail() {
-	var text = "sales@primestudios.co";
+	var text = 'sales@primestudios.co';
 	navigator.clipboard.writeText(text).then(function() {
 		console.log('Async: Copying to clipboard was successful!');
 		alert('Successfully copied to clipboard!')
