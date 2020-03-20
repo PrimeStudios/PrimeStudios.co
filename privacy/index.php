@@ -50,13 +50,3 @@ include('../header.php'); ?>
 		<h3>Consent</h3>
 		<p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p> <img src="../assets/img/ssl.png" /> </div>
 	<?php include('../footer.php'); ?>
-		y 29th, 2020</b>
-		</p>
-		<p class="open_source_project_nav_project">&#xb7; Steam Group Counter <span class="align-text-right"> <a title="Github" href="https://github.com/PrimeStudios/Steam-Group-Members-JS" target="_blank"><i class="fab fa-github"></i></a> &nbsp; <a title="Download" href="https://github.com/PrimeStudios/Steam-Group-Members-JS/archive/master.zip" target="_blank"><i class="fas fa-download"></i></a></span></p>
-		<p class="open_source_project_nav_date"><b>January 18th, 2020</b></p>
-		<p class="open_source_project_nav_project">&#xb7; Prime Studios Website <span class="align-text-right"> <a title="Github" href="https://github.com/PrimeStudios/PrimeStudios.co" target="_blank"><i class="fab fa-github"></i></a> &nbsp; <a title="Download" href="https://github.com/PrimeStudios/PrimeStudios.co/archive/master.zip" target="_blank"><i class="fas fa-download"></i></a></span></p>
-		</div>
-		<h1 class="open_source_header">NOTICE</h1>
-		<p class="open_source_text">This page is still under development. But in the mean time you can find a little navigation box to the left where you can still use our open source projects. What are these open source projects? They consist of different tools we use in our work or things that we have made for vast amount of different hobbies we have that we've decided to make public for the use of everyone to enjoy. Be sure to check back from time to time as we continue to grow the list. </p>
-		</div>
-		<?php include('../footer.php'); ?>

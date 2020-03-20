@@ -47,7 +47,7 @@ include('../header.php'); ?>
 					<input type="text" name="comments" size="50">
 					<br>
 					<input type="submit" value="submit" class="contact-submit">
-			</form>
+				</form>
 			</div>
 		</div>
 	</div>
