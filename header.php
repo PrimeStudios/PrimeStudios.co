@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 	<head>
 		<meta charset="utf-8">
 		<title><?php echo $pageName; ?> - Prime Studios</title>
@@ -19,7 +18,6 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo adjustRecursivity(); ?>assets/css/animate.css">
 		<script src="<?php echo adjustRecursivity(); ?>assets/js/main.js"></script>;
 	</head>
-
 	<body>
 		<span class="header-container">
 			<div class="header">

@@ -32,5 +32,4 @@
 			<p class="cookie_button" onclick="CookieAgreement()"><span class="fa fa-check"></span> I agree</p>
 		</div>
 	</body>
-
 </html>

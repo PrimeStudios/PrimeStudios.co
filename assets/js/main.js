@@ -176,3 +176,82 @@ function resize_two() {
 }
 
 window.addEventListener('resize', resize_two);
+
+function Showcase_Actual_One() {
+	document.getElementById('showcase_popup').classList.remove('zoomOut');
+	document.getElementById('showcase_popup').style.display = 'block';
+	document.getElementById('showcase_popup_image_one').style.display = 'block';
+	document.getElementById('showcase_popup_image_two').style.display = 'none';
+	document.getElementById('showcase_popup_image_three').style.display = 'none';
+	document.getElementById('showcase_popup_image_four').style.display = 'none';
+	document.getElementById('showcase_popup_background').style.display = 'block';
+}
+
+function Showcase_Actual_Two() {
+	document.getElementById('showcase_popup').classList.remove('zoomOut');
+	document.getElementById('showcase_popup').style.display = 'block';
+	document.getElementById('showcase_popup_image_one').style.display = 'none';
+	document.getElementById('showcase_popup_image_two').style.display = 'block';
+	document.getElementById('showcase_popup_image_three').style.display = 'none';
+	document.getElementById('showcase_popup_image_four').style.display = 'none';
+	document.getElementById('showcase_popup_background').style.display = 'block';
+}
+
+function Showcase_Actual_Three() {
+	document.getElementById('showcase_popup').classList.remove('zoomOut');
+	document.getElementById('showcase_popup').style.display = 'block';
+	document.getElementById('showcase_popup_image_one').style.display = 'none';
+	document.getElementById('showcase_popup_image_two').style.display = 'none';
+	document.getElementById('showcase_popup_image_three').style.display = 'block';
+	document.getElementById('showcase_popup_image_four').style.display = 'none';
+	document.getElementById('showcase_popup_background').style.display = 'block';
+}
+
+function Showcase_Actual_Four() {
+	document.getElementById('showcase_popup').classList.remove('zoomOut');
+	document.getElementById('showcase_popup').style.display = 'block';
+	document.getElementById('showcase_popup_image_one').style.display = 'none';
+	document.getElementById('showcase_popup_image_two').style.display = 'none';
+	document.getElementById('showcase_popup_image_three').style.display = 'none';
+	document.getElementById('showcase_popup_image_four').style.display = 'block';
+	document.getElementById('showcase_popup_background').style.display = 'block';
+}
+
+function Showcase_Close() {
+	document.getElementById('showcase_popup').classList.add('zoomOut');
+	document.getElementById('showcase_popup_background').style.display = 'none';
+	setTimeout(function() {
+		document.getElementById('showcase_popup').style.display ='none';
+	}, 300);
+}
+
+function Down_Arrow() {
+	document.getElementById('features').scrollIntoView({behavior: 'smooth'})
+}
+
+function Showcase_Home_One() {
+	document.getElementById('showcase_popup').classList.remove('zoomOut');
+	document.getElementById('showcase_popup').style.display = 'block';
+	document.getElementById('showcase_popup_image_one').style.display = 'block';
+	document.getElementById('showcase_popup_image_two').style.display = 'none';
+	document.getElementById('showcase_popup_image_three').style.display = 'none';
+	document.getElementById('showcase_popup_background').style.display = 'block';
+}
+
+function Showcase_Home_Two() {
+	document.getElementById('showcase_popup').classList.remove('zoomOut');
+	document.getElementById('showcase_popup').style.display = 'block';
+	document.getElementById('showcase_popup_image_one').style.display = 'none';
+	document.getElementById('showcase_popup_image_two').style.display = 'block';
+	document.getElementById('showcase_popup_image_three').style.display = 'none';
+	document.getElementById('showcase_popup_background').style.display = 'block';
+}
+
+function Showcase_Home_Three() {
+	document.getElementById('showcase_popup').classList.remove('zoomOut');
+	document.getElementById('showcase_popup').style.display = 'block';
+	document.getElementById('showcase_popup_image_one').style.display = 'none';
+	document.getElementById('showcase_popup_image_two').style.display = 'none';
+	document.getElementById('showcase_popup_image_three').style.display = 'block';
+	document.getElementById('showcase_popup_background').style.display = 'block';
+}

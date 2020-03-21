@@ -5,7 +5,7 @@ include('header.php'); ?>
 	<div id="home" class="hero">
 		<h1>prime studios</h1>
 		<p>Quality, affordable development and design services.</p>
-		<a onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})"><i class="fas fa-chevron-down"></i></a>
+		<a onclick="Down_Arrow()"><i class="fas fa-chevron-down"></i></a>
 	</div>
 	<div id="features" class="features">
 		<h2>Prime does it different</h2>
@@ -35,15 +35,15 @@ include('header.php'); ?>
 		</svg>
 		<h2>Showcase</h2>
 		<div class="container">
-			<img onclick="document.getElementById('showcase_popup').classList.remove('zoomOut'); document.getElementById('showcase_popup').style.display = 'block'; document.getElementById('showcase_popup_image_one').style.display = 'block'; document.getElementById('showcase_popup_image_two').style.display = 'none'; document.getElementById('showcase_popup_image_three').style.display = 'none'; document.getElementById('showcase_popup_background').style.display = 'block';" class="showcase-item" src="assets/img/showcase-1.png">
-			<img onclick="document.getElementById('showcase_popup').classList.remove('zoomOut'); document.getElementById('showcase_popup').style.display = 'block'; document.getElementById('showcase_popup_image_one').style.display = 'none'; document.getElementById('showcase_popup_image_two').style.display = 'block'; document.getElementById('showcase_popup_image_three').style.display = 'none'; document.getElementById('showcase_popup_background').style.display = 'block';" class="showcase-item" src="assets/img/showcase-2.png">
-			<img onclick="document.getElementById('showcase_popup').classList.remove('zoomOut'); document.getElementById('showcase_popup').style.display = 'block'; document.getElementById('showcase_popup_image_one').style.display = 'none'; document.getElementById('showcase_popup_image_two').style.display = 'none'; document.getElementById('showcase_popup_image_three').style.display = 'block'; document.getElementById('showcase_popup_background').style.display = 'block';" class="showcase-item" src="assets/img/showcase-3.png">
+			<img onclick="Showcase_Home_One()" class="showcase-item" src="assets/img/showcase-1.png">
+			<img onclick="Showcase_Home_Two()" class="showcase-item" src="assets/img/showcase-2.png">
+			<img onclick="Showcase_Home_Three()" class="showcase-item" src="assets/img/showcase-3.png">
 		</div>
 		<p class="home-project-list"><a class="home-project-link" href="showcase">view more</a></p>
 	</div>
-	<span onclick="document.getElementById('showcase_popup').classList.add('zoomOut'); document.getElementById('showcase_popup_background').style.display = 'none'; setTimeout(function() {document.getElementById('showcase_popup').style.display ='none';}, 300);" id="showcase_popup_background" class="showcase-popup-background"></span>
+	<span onclick="Showcase_Close()" id="showcase_popup_background" class="showcase-popup-background"></span>
 	<div id="showcase_popup" class="showcase-popup animated zoomIn">
-		<p onclick="document.getElementById('showcase_popup').classList.add('zoomOut'); document.getElementById('showcase_popup_background').style.display = 'none'; setTimeout(function() {document.getElementById('showcase_popup').style.display ='none';}, 300);" class="showcase-popup-close">x</p>
+		<p onclick="Showcase_Close()" class="showcase-popup-close">x</p>
 		<img id="showcase_popup_image_one" class="showcase-popup-image" src="assets/img/showcase-1.png">
 		<img id="showcase_popup_image_two" class="showcase-popup-image" src="assets/img/showcase-2.png">
 		<img id="showcase_popup_image_three" class="showcase-popup-image" src="assets/img/showcase-3.png">
