@@ -31,16 +31,6 @@ include('../../header.php'); ?>
 				<p class="employee-desc">Company Director</p>
 				<p class="employee-contact"><a class="link" title="Email" href="mailto:jconley@primestudios.co" target="_blank"><span class="fa fa-envelope"></span></a></p>
 			</div>
-			<div class="company-coder">
-				<p class="employee-image"><span class="fa fa-user"></span></p>
-				<p class="employee-name"><b>Steven D.</b></p>
-				<p class="employee-desc">Web Technician</p>
-			</div>
-			<div class="company-gfx">
-				<p class="employee-image"><span class="fa fa-user"></span></p>
-				<p class="employee-name"><b>Leo C.</b></p>
-				<p class="employee-desc">Graphics Designer</p>
-			</div>
 		</div>
 	</div>
 	<?php include('../../footer.php'); ?>
