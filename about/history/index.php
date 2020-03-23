@@ -35,7 +35,7 @@ include('../../header.php'); ?>
 							<div class="number-box"> <span>2020</span> </div>
 							<h2><span class="small">ONE YEAR</span> DETERMINATION</h2> </div>
 						<div class="body">
-							<p>Officially opening our doors. Still writing the books of history. We start the year of strong and obtain as many clients as possible to start building our brand. We also added two more people to our team bringing our employee count to four.</p>
+							<p>Officially opening our doors. Still writing the books of history. We start the year off strong with one goal in mind to obtain as many clients as possible to start building our brand. We also brought a second person onto the team in form of an Operations Director in charge of infastructure related operations. With this came a new refreshing design for our site.</p>
 						</div>
 					</div>
 					<div class="history-card history-card-tier-3">

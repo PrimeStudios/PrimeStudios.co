@@ -702,7 +702,7 @@
 	background-color: #F6F8FA;
 	font-family: 'Lato', sans-serif;
 	font-size: 1.2rem;
-	min-height: 54vh;
+	min-height: 52vh;
 	padding: 4vh 8vw;
 	text-align: center;
 }
@@ -738,7 +738,7 @@
 .about-text-block {
 	position: relative;
 	text-align: left;
-	width: 76vw;
+	width: 80vw;
 }
 
 .history-card:nth-child(1) {
@@ -818,6 +818,7 @@
 }
 
 .main {
+	width: 76vw;
 	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.26), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.26), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 	margin-bottom: 2vh;
