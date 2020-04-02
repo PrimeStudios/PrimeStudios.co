@@ -21,7 +21,7 @@ if ($seo == 'on') {
 $mySQLHost = 'localhost';
 $mySQLUser = 'root';
 $mySQLPassword = '';
-$mySQLDBName = 'contact-api';
+$mySQLDBName = 'contact';
 $mySQLPort = 3306;
 
 
