@@ -39,6 +39,7 @@ include('../header.php'); ?>
 			</div>
 			<div class="container">
 				<img onclick="Showcase_Actual_Four()" class="showcase-item" src="../assets/img/showcase-4.png">
+				<img onclick="Showcase_Actual_Five()" class="showcase-item" src="../assets/img/showcase-5.png">
 			</div>
 		</div>
 	</div>
@@ -49,5 +50,6 @@ include('../header.php'); ?>
 		<img id="showcase_popup_image_two" class="showcase-popup-image" src="../assets/img/showcase-2.png">
 		<img id="showcase_popup_image_three" class="showcase-popup-image" src="../assets/img/showcase-3.png">
 		<img id="showcase_popup_image_four" class="showcase-popup-image" src="../assets/img/showcase-4.png">
+		<img id="showcase_popup_image_five" class="showcase-popup-image" src="../assets/img/showcase-5.png">
 	</div>
 	<?php include('../footer.php'); ?>
