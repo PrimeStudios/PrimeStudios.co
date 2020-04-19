@@ -28,7 +28,7 @@ include('../header.php'); ?>
 			<img onclick="document.getElementById('showcase_popup').classList.remove('zoomOut'); document.getElementById('showcase_popup').style.display = 'block'; document.getElementById('showcase_popup_image_one').style.display = 'none'; document.getElementById('showcase_popup_image_two').style.display = 'block'; document.getElementById('showcase_popup_image_three').style.display = 'none'; document.getElementById('showcase_popup_background').style.display = 'block';" class="showcase-item" src="../assets/img/showcase-2.png">
 			<img onclick="document.getElementById('showcase_popup').classList.remove('zoomOut'); document.getElementById('showcase_popup').style.display = 'block'; document.getElementById('showcase_popup_image_one').style.display = 'none'; document.getElementById('showcase_popup_image_two').style.display = 'none'; document.getElementById('showcase_popup_image_three').style.display = 'block'; document.getElementById('showcase_popup_background').style.display = 'block';" class="showcase-item" src="../assets/img/showcase-3.png">
 		</div>
-		<p class="home-project-list"><a class="home-project-link" href="#">view more</a></p>
+		<p class="home-project-list"><a class="home-project-link" href="showcase">view more</a></p>
 	</div>
 	<span onclick="document.getElementById('showcase_popup').classList.add('zoomOut'); document.getElementById('showcase_popup_background').style.display = 'none'; setTimeout(function() {document.getElementById('showcase_popup').style.display ='none';}, 300);" id="showcase_popup_background" class="showcase-popup-background"></span>
 	<div id="showcase_popup" class="showcase-popup animated zoomIn">
