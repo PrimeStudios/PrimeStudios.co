@@ -7,9 +7,9 @@ include('../header.php'); ?>
 		<h2>Contact Successful</h2>
 	</div>
 	<div class="success">
-		<h2><i class="fas fa-check-circle" style="color: green; font-size: 1rem"></i> You successfuly sent your message to us!</h2>
+		<h2><i class="fas fa-check-circle" style="color: green; font-size: 1rem"></i> You successfully sent your message to us!</h2>
 		<h3>What does this mean?</h3>
-		<p>Your inquery has successfuly reached our inbox!</p>
+		<p>Your inquery has successfully reached our inbox!</p>
 		<h3>What now?</h3>
 		<p>You should keep an eye on your inbox awaiting a reply from us within one business day of the message being sent.</p>
 		<h3>Made an error?</h3>

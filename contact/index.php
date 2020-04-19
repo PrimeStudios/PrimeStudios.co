@@ -46,7 +46,7 @@ include('../header.php'); ?>
 					<br> <span class="contact-title"><i class="fas fa-comments"></i>comments</span>
 					<input type="text" name="comments" size="50">
 					<br>
-					<input type="submit" value="submit" class="contact-submit">
+					<input type="submit" value="submit" class="contact-submit" onclick="window.location.href = 'https://primestudios.co/success';">
 				</form>
 			</div>
 		</div>
