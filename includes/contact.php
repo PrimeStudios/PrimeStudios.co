@@ -31,5 +31,5 @@ if (!$mySQLInstance) {
     header('Location: ../');
 } else {
     mysqli_query($mySQLInstance, "insert INTO requests (name, email, webdesign, sysadmin, seo, budget, comments) values('". $name ."', '". $email ."', '". $webdesign ."', '". $sysadmin ."', '". $seo ."', '". $budget ."', '". $comments ."');");
-    header('Location: ../contact');
+    header('Location: ../success');
 } ?>
