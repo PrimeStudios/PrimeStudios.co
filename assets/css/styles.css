@@ -2424,6 +2424,40 @@ input[type=submit]:hover {
 	display: initial;
 }
 
+.success {
+	background-color: #F7F7FF;
+	padding: 5vh 25vw;
+	text-align: left;
+	min-height: 50vh;
+}
+
+.success-hero {
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/success-bg.jpg) !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/privacy-bg.png) !important;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/success-bg.jpg) !important;
+	background-position: 50% 50% !important;
+}
+
+.success h2 {
+	color: #24292E;
+	font-family: 'Roboto', sans-serif;
+	font-variant-caps: all-petite-caps;
+	margin-bottom: 2vh;
+}
+
+.success h3 {
+	color: #24292E;
+	font-family: 'Roboto', sans-serif;
+	font-variant-caps: all-petite-caps;
+	margin: 1.5vh 0;
+}
+
+.success p {
+	color: #444444;
+	font-family: 'Lato', sans-serif;
+	margin: 0.75vh 0;
+}
+
 @media only screen and (min-width: 1000px) {
 	.pace .pace-progress {
 		background: #2299DD;
