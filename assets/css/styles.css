@@ -587,7 +587,6 @@
 	background-color: rgba(0, 0, 0, 0.75);
 	border-radius: 4px;
 	display: none;
-	height: 81vh;
 	left: 10vw;
 	min-height: 1vh;
 	position: fixed;
@@ -637,7 +636,6 @@
 	-o-object-fit: cover;
 	background-size: cover;
 	display: none;
-	height: 79vh;
 	margin-bottom: 1vh;
 	margin-left: 1vh;
 	object-fit: cover;
