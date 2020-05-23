@@ -136,6 +136,7 @@
 	flex-wrap: nowrap;
 	justify-content: center;
 	width: 100%;
+	padding-bottom: .5rem;
 }
 
 .header .right p {
