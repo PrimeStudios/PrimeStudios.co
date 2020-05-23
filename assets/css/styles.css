@@ -204,8 +204,8 @@
 	top: 0;
 	right: 2rem;
 	width: 2.35rem;
-	height: 1.85rem;
-	padding-top: .35rem;
+	height: calc(1.6rem + .45vh);
+	padding-top: .45vh;
 	border: 1px solid black;
 	text-align: center;
 	border-radius: 4px;
