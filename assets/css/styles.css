@@ -198,12 +198,17 @@
 .header-bars {
 	font-size: 1.6rem;
 	height: 3.5vh;
-	padding-right: 10vw;
-	padding-top: 1.25vh;
+	margin-top: .65vh;
 	position: absolute;
 	text-align: right;
 	top: 0;
-	width: 100vw;
+	right: 2rem;
+	width: 2.35rem;
+	height: 1.85rem;
+	padding-top: .35rem;
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 4px;
 }
 
 .header-bars:hover {
@@ -211,15 +216,17 @@
 }
 
 .bars-border {
+	font-size: 1.5rem;
 	border: 1px solid black;
 	border-radius: 4px;
 	padding: 0.4rem 0.7vh 0.1rem;
 }
 
 .bars-border-two {
+	font-size: 1.5rem;
 	border: 1px solid black;
 	border-radius: 4px;
-	padding: 0.4rem 0.95vh 0.1rem;
+	padding: 0.2rem 0.97vh 0.3rem;
 }
 
 .right {

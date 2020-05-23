@@ -48,8 +48,10 @@
 						</div>
 					</a>
 				</div>
-				<p id="open_header" class="header-bars" onclick="openHeader()"><span class="bars-border"><i class="fas fa-bars"></i></span></p>
-				<p id="close_header" class="header-bars hidden" onclick="closeHeader()"><span class="bars-border-two"><i class="fas fa-times"></i></span></p>
+				<p class="header-bars" onclick="toggleHeader()">
+					<i id="open_header" class="fas fa-bars"></i>
+					<i id="close_header" class="hidden fas fa-times"></i></span>
+				</p>
 			</div>
 			<div class="browser-support-banner">
 				<p><i class="fas fa-exclamation-triangle"></i> This site does not fully provide support for your browser.</p>

@@ -352,14 +352,17 @@ function Showcase_Home_Three() {
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
-function openHeader() {
-	document.getElementById('right').style.display = 'initial';
-	document.getElementById('open_header').style.display = 'none';
-	document.getElementById('close_header').style.display = 'block';
-}
-
-function closeHeader() {
-	document.getElementById('right').style.display = 'none';
-	document.getElementById('open_header').style.display = 'block';
-	document.getElementById('close_header').style.display = 'none';
+var isExpanded = false
+function toggleHeader() {
+	if (isExpanded) {
+		document.getElementById('right').style.display = 'none';
+		document.getElementById('open_header').style.display = 'block';
+		document.getElementById('close_header').style.display = 'none';
+		isExpanded = false
+	} else {
+		document.getElementById('right').style.display = 'initial';
+		document.getElementById('open_header').style.display = 'none';
+		document.getElementById('close_header').style.display = 'block';
+		isExpanded = true
+	}
 }
