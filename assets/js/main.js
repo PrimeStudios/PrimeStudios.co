@@ -118,40 +118,64 @@ function CookieAgreed() {
 }
 window.onload = CookieAgreed;
 
-function Quote_Selector_One() {
-	document.getElementById('quote_one_chose').style.display = 'inline';
-	document.getElementById('quote_two_chose').style.display = 'none';
-	document.getElementById('quote_three_chose').style.display = 'none';
-	document.getElementById('quote_one_not').style.display = 'none';
-	document.getElementById('quote_two_not').style.display = 'inline';
-	document.getElementById('quote_three_not').style.display = 'inline';
-	document.getElementById('quote_one').style.display = 'block';
-	document.getElementById('quote_two').style.display = 'none';
-	document.getElementById('quote_three').style.display = 'none';
+function Quote_Selector_One() {	
+	document.getElementById('quote_one').classList.add('zoomIn');
+	document.getElementById('quote_one').classList.remove('zoomOut');
+	document.getElementById('quote_two').classList.remove('zoomIn');
+	document.getElementById('quote_two').classList.add('zoomOut');
+	document.getElementById('quote_three').classList.remove('zoomIn');
+	document.getElementById('quote_three').classList.add('zoomOut');
+	setTimeout(function(){
+		document.getElementById('quote_one_chose').style.display = 'inline';
+		document.getElementById('quote_two_chose').style.display = 'none';
+		document.getElementById('quote_three_chose').style.display = 'none';
+		document.getElementById('quote_one_not').style.display = 'none';
+		document.getElementById('quote_two_not').style.display = 'inline';
+		document.getElementById('quote_three_not').style.display = 'inline';
+		document.getElementById('quote_one').style.display = 'block';
+		document.getElementById('quote_two').style.display = 'none';
+		document.getElementById('quote_three').style.display = 'none';
+	}, 500);
 }
 
 function Quote_Selector_Two() {
-	document.getElementById('quote_one_chose').style.display = 'none';
-	document.getElementById('quote_two_chose').style.display = 'inline';
-	document.getElementById('quote_three_chose').style.display = 'none';
-	document.getElementById('quote_one_not').style.display = 'inline';
-	document.getElementById('quote_two_not').style.display = 'none';
-	document.getElementById('quote_three_not').style.display = 'inline';
-	document.getElementById('quote_one').style.display = 'none';
-	document.getElementById('quote_two').style.display = 'block';
-	document.getElementById('quote_three').style.display = 'none';
+	document.getElementById('quote_one').classList.remove('zoomIn');
+	document.getElementById('quote_one').classList.add('zoomOut');
+	document.getElementById('quote_two').classList.add('zoomIn');
+	document.getElementById('quote_two').classList.remove('zoomOut');
+	document.getElementById('quote_three').classList.remove('zoomIn');
+	document.getElementById('quote_three').classList.add('zoomOut');
+	setTimeout(function(){
+		document.getElementById('quote_one_chose').style.display = 'none';
+		document.getElementById('quote_two_chose').style.display = 'inline';
+		document.getElementById('quote_three_chose').style.display = 'none';
+		document.getElementById('quote_one_not').style.display = 'inline';
+		document.getElementById('quote_two_not').style.display = 'none';
+		document.getElementById('quote_three_not').style.display = 'inline';
+		document.getElementById('quote_one').style.display = 'none';
+		document.getElementById('quote_two').style.display = 'block';
+		document.getElementById('quote_three').style.display = 'none';
+	}, 500);
 }
 
 function Quote_Selector_Three() {
-	document.getElementById('quote_one_chose').style.display = 'none';
-	document.getElementById('quote_two_chose').style.display = 'none';
-	document.getElementById('quote_three_chose').style.display = 'inline';
-	document.getElementById('quote_one_not').style.display = 'inline';
-	document.getElementById('quote_two_not').style.display = 'inline';
-	document.getElementById('quote_three_not').style.display = 'none';
-	document.getElementById('quote_one').style.display = 'none';
-	document.getElementById('quote_two').style.display = 'none';
-	document.getElementById('quote_three').style.display = 'block';
+	document.getElementById('quote_one').classList.remove('zoomIn');
+	document.getElementById('quote_one').classList.add('zoomOut');
+	document.getElementById('quote_two').classList.remove('zoomIn');
+	document.getElementById('quote_two').classList.add('zoomOut');
+	document.getElementById('quote_three').classList.add('zoomIn');
+	document.getElementById('quote_three').classList.remove('zoomOut');
+	setTimeout(function(){
+		document.getElementById('quote_one_chose').style.display = 'none';
+		document.getElementById('quote_two_chose').style.display = 'none';
+		document.getElementById('quote_three_chose').style.display = 'inline';
+		document.getElementById('quote_one_not').style.display = 'inline';
+		document.getElementById('quote_two_not').style.display = 'inline';
+		document.getElementById('quote_three_not').style.display = 'none';
+		document.getElementById('quote_one').style.display = 'none';
+		document.getElementById('quote_two').style.display = 'none';
+		document.getElementById('quote_three').style.display = 'block';
+	}, 500);
 }
 
 function copyemail() {
