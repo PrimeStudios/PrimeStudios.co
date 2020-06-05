@@ -302,7 +302,7 @@ function Showcase_Actual_Seven() {
 	document.getElementById('showcase_popup_image_six').style.display = 'none';
 	document.getElementById('showcase_popup_image_seven').style.display = 'block';
 	document.getElementById('showcase_popup_image_eight').style.display = 'none';
-	\document.getElementById('showcase_popup_image_nine').style.display = 'none';
+	document.getElementById('showcase_popup_image_nine').style.display = 'none';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
