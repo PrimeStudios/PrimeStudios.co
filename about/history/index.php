@@ -27,7 +27,7 @@ include('../../header.php'); ?>
 							<div class="number-box"> <span>2019</span> </div>
 							<h2><span class="small">Prime Studios</span> Our Inception</h2> </div>
 						<div class="body">
-							<p>Prime Studios officially launched in December of 2019. It is here that our journey started with just two members of our team with a dream to succeed. We got a foundation and basic site down and arranged our packages and services that we would initially offer as we got the company off of it's feet.</p>
+							<p>Prime Studios officially launched in December of 2019. It is here that our journey started with just one member of our team with a dream to succeed. We got a foundation and basic site down and arranged our packages and services that we would initially offer as we got the company off of it's feet.</p>
 						</div>
 					</div>
 					<div class="history-card history-card-tier-2">
