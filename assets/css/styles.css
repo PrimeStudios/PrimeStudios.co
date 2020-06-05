@@ -1695,7 +1695,7 @@
 	background-color: lightgrey;
 	border: 0.2vh solid grey;
 	border-radius: 50%;
-	bottom: 445px;
+	bottom: 450px;
 	display: none;
 	height: 25px;
 	margin-left: calc(50% - 12.5px);
@@ -1770,7 +1770,7 @@
 }
 
 #triangle_three {
-	bottom: 420px;
+	bottom: 425px;
 	color: #E91E63;
 	display: none;
 	font-size: 100px;
