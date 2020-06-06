@@ -4,7 +4,8 @@ include('../includes/recursivity.php');
 include('../header.php'); ?>
 	<div class="smallhero legal-hero">
 		<h1>Prime Studios</h1>
-		<h2>Privacy Policy</h2> </div>
+		<h2>Privacy Policy</h2>
+	</div>
 	<div class="legal">
 		<h2>Prime Studios Privacy Policy </h2>
 		<p>Last Updated: February 26th, 2020</p>
@@ -48,5 +49,6 @@ include('../header.php'); ?>
 		<h3>Online Privacy Policy Only</h3>
 		<p>Our Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Prime Studios. This policy is not applicable to any information collected offline or via channels other than this website.</p>
 		<h3>Consent</h3>
-		<p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p> <img src="../assets/img/ssl.png" /> </div>
+		<p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
+	</div>
 	<?php include('../footer.php'); ?>
