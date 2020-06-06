@@ -48,7 +48,7 @@
 						</div>
 					</a>
 				</div>
-				<p class="header-bars" onclick="toggleHeader()">
+				<p class="header-bars">
 					<i id="open_header" class="fas fa-bars"></i>
 					<i id="close_header" class="hidden fas fa-times"></i></span>
 				</p>
@@ -56,4 +56,5 @@
 			<div class="browser-support-banner">
 				<p><i class="fas fa-exclamation-triangle"></i> This site does not fully provide support for your browser.</p>
 			</div>
+			<div class="header-toggle" onclick="toggleHeader()"></div>
 		</span>

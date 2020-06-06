@@ -229,6 +229,19 @@
 	padding: 0.2rem 0.97vh 0.3rem;
 }
 
+.header-toggle {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 4.5rem;
+	z-index: 7;
+}
+
+.header-toggle:hover {
+	cursor: pointer;
+}
+
 .right {
 	background-color: #F6F8FA;
 	padding-top: 1vh;
