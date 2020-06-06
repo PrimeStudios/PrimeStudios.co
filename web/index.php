@@ -23,6 +23,7 @@ include('../header.php'); ?>
 		</div>
 	</div>
 	<div class="showcase web-showcase">
+		<h2>Showcase</h2>
 		<div class="container">
 			<img onclick="document.getElementById('showcase_popup').classList.remove('zoomOut'); document.getElementById('showcase_popup').style.display = 'block'; document.getElementById('showcase_popup_image_one').style.display = 'block'; document.getElementById('showcase_popup_image_two').style.display = 'none'; document.getElementById('showcase_popup_image_three').style.display = 'none'; document.getElementById('showcase_popup_background').style.display = 'block';" class="showcase-item" src="../assets/img/showcase-1.png">
 			<img onclick="document.getElementById('showcase_popup').classList.remove('zoomOut'); document.getElementById('showcase_popup').style.display = 'block'; document.getElementById('showcase_popup_image_one').style.display = 'none'; document.getElementById('showcase_popup_image_two').style.display = 'block'; document.getElementById('showcase_popup_image_three').style.display = 'none'; document.getElementById('showcase_popup_background').style.display = 'block';" class="showcase-item" src="../assets/img/showcase-2.png">
