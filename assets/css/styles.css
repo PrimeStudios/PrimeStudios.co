@@ -730,9 +730,9 @@
 	-o-transition: background-color ease 0.2s;
 	-webkit-transition: background-color ease 0.2s;
 	background-color: rgba(235, 235, 235, 1);
-	font-size: 2vh;
-	padding-bottom: 1vh;
-	padding-top: 1vh;
+	font-size: 1.25rem;
+	padding-bottom: .5rem;
+	padding-top: .5rem;
 	transition: background-color ease 0.2s;
 	width: 100%;
 }
@@ -745,7 +745,7 @@
 }
 
 .about-nav-container {
-	height: 15vh;
+	height: 10rem;
 	width: 80vw;
 }
 
