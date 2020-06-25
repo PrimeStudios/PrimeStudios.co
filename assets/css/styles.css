@@ -234,7 +234,7 @@
 	left: 0;
 	top: 0;
 	width: 100vw;
-	height: 4.5rem;
+	height: calc(1.8rem + 2.25vh);
 	z-index: 7;
 }
 
