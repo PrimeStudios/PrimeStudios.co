@@ -47,6 +47,10 @@ include('../header.php'); ?>
 				<img onclick="Showcase_Actual_Eight()" class="showcase-item" src="../assets/img/showcase-8.png">
 				<img onclick="Showcase_Actual_Nine()" class="showcase-item" src="../assets/img/showcase-9.png">
 			</div>
+			<div class="container">
+				<img onclick="Showcase_Actual_Ten()" class="showcase-item" src="../assets/img/showcase-10.png">
+				<img onclick="Showcase_Actual_Eleven()" class="showcase-item" src="../assets/img/showcase-11.png">
+			</div>
 		</div>
 	</div>
 	<span onclick="Showcase_Close()" id="showcase_popup_background" class="showcase-popup-background"></span>
@@ -61,5 +65,7 @@ include('../header.php'); ?>
 		<img id="showcase_popup_image_seven" class="showcase-popup-image" src="../assets/img/showcase-7.png">
 		<img id="showcase_popup_image_eight" class="showcase-popup-image" src="../assets/img/showcase-8.png">
 		<img id="showcase_popup_image_nine" class="showcase-popup-image" src="../assets/img/showcase-9.png">
+		<img id="showcase_popup_image_ten" class="showcase-popup-image" src="../assets/img/showcase-10.png">
+		<img id="showcase_popup_image_eleven" class="showcase-popup-image" src="../assets/img/showcase-11.png">
 	</div>
 	<?php include('../footer.php'); ?>
