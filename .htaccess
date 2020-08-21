@@ -3,8 +3,4 @@ RewriteEngine on
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-ErrorDocument 404 https://primestudios.co/404/
-
-RewriteRule ^(.+)\.php$ /$1 [R,L]
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*?)/?$ /$1.php [NC,END]
+ErrorDocument 404 https://primestudios.co/
