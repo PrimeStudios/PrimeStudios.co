@@ -308,6 +308,7 @@ html {
 	-ms-flex-pack: center;
 	justify-content: center;
 	padding-top: 3rem;
+	margin-right: 5rem;
 }
 
 .home-container .keypoints-container .keypoint-container {
