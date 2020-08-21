@@ -629,6 +629,7 @@ footer .footer-socials li a:hover {
 @media only screen and (max-width: 1200px) {
 	.home-container .home-hero .typeit-container {
 		padding-left: 3rem;
+		padding-top: 25rem;
 	}
 
 	.home-container .home-hero h1 {
@@ -637,7 +638,10 @@ footer .footer-socials li a:hover {
 	}
 
 	.home-container .home-hero img {
-		display: none;
+		height: 20rem;
+		position: absolute;
+		right: 5rem;
+		top: 30rem;
 	}
 
 	.home-container .keypoints-container {
