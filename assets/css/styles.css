@@ -657,7 +657,7 @@ footer .footer-socials li a:hover {
 		width: 80vw;
 		border-radius: 8px;
 		text-align: center;
-		margin-left: 10%;
+		margin-left: 10vw;
 		padding-top: 2rem;
 		padding-bottom: 1rem;
 		margin-top: 5rem;
@@ -665,11 +665,11 @@ footer .footer-socials li a:hover {
 
 
 	.home-container .keypoints-container .kp-padding {
-		margin-left: 0;
+		margin-left: 10vw;
 	}
 
 	.home-container .keypoints-container .kp-padding-two {
-		margin-left: 0;
+		margin-left: 10vw;
 		margin-right: 0;
 	}
 
