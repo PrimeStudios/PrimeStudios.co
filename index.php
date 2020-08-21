@@ -58,8 +58,8 @@ require_once('includes/header.php'); ?>
 		<h1>Showcase</h1>
 		<div class="showcase-container">
 			<img onclick="Showcase_Home_One()" src="/assets/img/showcase-11.png" />
-			<img onclick="Showcase_Home_Two()" src="/assets/img/showcase-11.png" />
-			<img onclick="Showcase_Home_Three()" src="/assets/img/showcase-11.png" />	
+			<img onclick="Showcase_Home_Two()" src="/assets/img/showcase-4.png" />
+			<img onclick="Showcase_Home_Three()" src="/assets/img/showcase-10.png" />	
 		</div>
 		<p><a href="/">view more</a></p>
 	</div>
@@ -72,8 +72,8 @@ require_once('includes/header.php'); ?>
 	<div id="showcase_popup" class="showcase-popup animated zoomIn">
 		<p onclick="Showcase_Close()" class="showcase-popup-close">x</p>
 		<img id="showcase_popup_image_one" class="showcase-popup-image" src="assets/img/showcase-11.png">
-		<img id="showcase_popup_image_two" class="showcase-popup-image" src="assets/img/showcase-11.png">
-		<img id="showcase_popup_image_three" class="showcase-popup-image" src="assets/img/showcase-11.png">
+		<img id="showcase_popup_image_two" class="showcase-popup-image" src="assets/img/showcase-4.png">
+		<img id="showcase_popup_image_three" class="showcase-popup-image" src="assets/img/showcase-10.png">
 	</div>
 <script>
 particlesJS('particles-js',
