@@ -649,6 +649,19 @@ footer .footer-socials li a:hover {
 		flex-direction: column;
 	}
 
+	.home-container .keypoints-container .keypoint-container {
+		background-color: rgba(50, 50, 50, 1);
+		height: 12rem;
+		width: 80vw;
+		border-radius: 8px;
+		text-align: center;
+		margin-left: 10%;
+		padding-top: 2rem;
+		padding-bottom: 1rem;
+		margin-top: 5rem;
+	}
+
+
 	.home-container .keypoints-container .kp-padding {
 		margin-left: 0;
 	}
@@ -660,14 +673,16 @@ footer .footer-socials li a:hover {
 
 	.home-container .showcase-container img {
 		background-color: rgba(50, 50, 50, 1);
-		width: 90vw;
+		width: 80vw;
 		text-align: center;
-		margin-left: 5vw;
+		margin-left: 0;
 		margin-top: 3rem;
 		border: .3rem solid #ff9900;
 		-webkit-box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
 		box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
 		object-fit: cover;
+		margin-right: 0;
+		padding: 0;
 	}
 
 	footer h1 {
