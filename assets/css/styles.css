@@ -477,7 +477,7 @@ footer h1 {
 }
 
 footer .left {
-	margin-left: 35rem;
+	margin-left: 25rem;
 	padding-top: 3rem;
 	text-align: center;
 }
@@ -626,7 +626,7 @@ footer .footer-socials li a:hover {
 
 /* Mobile Support */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
 	.home-container .home-hero .typeit-container {
 		padding-left: 3rem;
 	}
