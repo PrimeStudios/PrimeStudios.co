@@ -626,22 +626,22 @@ footer .footer-socials li a:hover {
 
 /* Mobile Support */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
 	.home-container .home-hero .typeit-container {
 		padding-left: 3rem;
-		padding-top: 25rem;
+		padding-top: 21rem;
 	}
 
 	.home-container .home-hero h1 {
-		font-size: 3.5rem;
+		font-size: 8vw;
 		color: #FFFFFF;
 	}
 
 	.home-container .home-hero img {
-		height: 20rem;
+		height: 35vh;
 		position: absolute;
-		right: 5rem;
-		top: 30rem;
+		right: 15vw;
+		top: 25rem;
 	}
 
 	.home-container .keypoints-container {
@@ -656,6 +656,18 @@ footer .footer-socials li a:hover {
 	.home-container .keypoints-container .kp-padding-two {
 		margin-left: 0;
 		margin-right: 0;
+	}
+
+	.home-container .showcase-container img {
+		background-color: rgba(50, 50, 50, 1);
+		width: 90vw;
+		text-align: center;
+		margin-left: 5vw;
+		margin-top: 3rem;
+		border: .3rem solid #ff9900;
+		-webkit-box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
+		box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
+		object-fit: cover;
 	}
 
 	footer h1 {
