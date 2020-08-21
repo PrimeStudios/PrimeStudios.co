@@ -41,7 +41,7 @@ require_once('includes/header.php'); ?>
 					<p>No one likes waiting.
 					<br /> Our team works diligently to bring you a quality product in a timely matter.</p>
 				</div>
-				<div class="keypoint-container kp-padding">
+				<div class="keypoint-container kp-padding-two">
 					<i class="fas fa-user-tie"></i>
 					<h3>Professional</h3>
 					<p>We are committed to maintaining a professional relationship and producing adept work for our clients.</p>

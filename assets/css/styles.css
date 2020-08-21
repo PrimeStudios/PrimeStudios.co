@@ -329,7 +329,6 @@ html {
 
 .home-container .keypoints-container .kp-padding-two {
 	margin-left: 3rem;
-	margin-right: 3rem;
 }
 
 .home-container .keypoints-container .keypoint-container h3 {
@@ -628,7 +627,7 @@ footer .footer-socials li a:hover {
 
 /* Mobile Support */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
 	.home-container .home-hero .typeit-container {
 		padding-left: 3rem;
 		padding-top: 21rem;
