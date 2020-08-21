@@ -414,6 +414,10 @@ html {
 	box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
 }
 
+.home-container .showcase-container img:hover {
+	cursor: pointer;
+}
+
 .home-container .home-contact {
 	width: 100vw;
 	min-height: 1rem;
@@ -623,6 +627,19 @@ footer .footer-socials li a:hover {
 /* Mobile Support */
 
 @media only screen and (max-width: 1000px) {
+	.home-container .home-hero .typeit-container {
+		padding-left: 3rem;
+	}
+
+	.home-container .home-hero h1 {
+		font-size: 3.5rem;
+		color: #FFFFFF;
+	}
+
+	.home-container .home-hero img {
+		display: none;
+	}
+
 	.home-container .keypoints-container {
 		-ms-flex-direction: column;
 		flex-direction: column;
