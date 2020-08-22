@@ -629,6 +629,35 @@ footer .footer-socials li a:hover {
 /* Mobile Support */
 
 @media only screen and (max-width: 1100px) {
+	.header h3 {
+		font-size: 1.75rem;
+		color: #CCCCCC;
+		margin-left: calc(100vw - 5rem);
+		margin-top: -3.25rem;
+		border: .15rem solid #CCCCCC;
+		width: 2.5rem;
+		text-align: center;
+		border-radius: 4px;
+	}
+
+	.header img {
+		height: 3.5rem;
+		padding-top: .75rem;
+		padding-left: calc(50vw - 3.5rem / 2);
+	}
+
+	.header h1 {
+		display: none;
+	}
+
+	.header ul {
+		display: none;
+	}
+
+	.header h2 {
+		display: none;
+	}
+
 	.home-container .home-hero {
 		background-color: #ff9900;
 		min-height: 55rem;

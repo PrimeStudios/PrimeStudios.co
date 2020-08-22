@@ -55,4 +55,5 @@
 				</div>
 			</ul>
 			<h2><a href="/">CONTACT</a></h2>
+			<h3><i class="fas fa-bars"></i></h3>
 		</div>
