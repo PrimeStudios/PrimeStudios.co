@@ -54,7 +54,7 @@
 					</ul>
 				</div>
 			</ul>
-			<h2><a href="/">CONTACT</a></h2>
+			<h2><a href="/contact">CONTACT</a></h2>
 			<h3><i id="mobile_dropdown_toggle" class="fas fa-bars"></i></h3>
 		</div>
 		<div onclick="toggleNavbar()" class="mobile-dropdown-toggle"></div>

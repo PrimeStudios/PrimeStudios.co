@@ -469,6 +469,16 @@ html {
 	text-decoration: none;
 }
 
+/* Contact */
+
+.contact-container {
+	width: 100vw;
+	min-height: calc(100vh - 14rem);
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+	background-color: rgba(35, 35, 35, 1);
+}
+
 /* Footer */
 
 footer {
@@ -634,6 +644,52 @@ footer .footer-socials li a:hover {
 	object-fit: cover;
 	padding-top: 1vh;
 	width: calc(100% - 2vh);
+}
+
+.fourohfour-container {
+	width: 100vw;
+	min-height: calc(100vh - 14rem);
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+	background-color: rgba(35, 35, 35, 1);
+}
+
+.fourohfour-container img {
+	height: 20rem;
+	margin-left: calc(50vw - 20rem / 2);
+}
+
+.fourohfour-container h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-weight: 300;
+	color: #CCCCCC;
+	font-size: 2rem;
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+.fourohfour-container p {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-weight: 300;
+	font-size: 2rem;
+	margin-left: calc(50vw - 15rem / 2);
+	margin-top: 3rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border: .15rem solid #ff9900;
+	width: 15rem;
+	transition: all ease-in-out .2s;
+}
+
+.fourohfour-container p:hover {
+	background-color: rgba(255, 153, 0, .1);
+}
+
+.fourohfour-container p a {
+	color: #ff9900;
+	text-decoration: none;
 }
 
 /* Mobile Support */
