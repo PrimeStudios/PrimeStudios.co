@@ -55,5 +55,17 @@
 				</div>
 			</ul>
 			<h2><a href="/">CONTACT</a></h2>
-			<h3><i class="fas fa-bars"></i></h3>
+			<h3><i id="mobile_dropdown_toggle" class="fas fa-bars"></i></h3>
+		</div>
+		<div onclick="toggleNavbar()" class="mobile-dropdown-toggle"></div>
+		<div id="mobile_dropdown" class="mobile-dropdown">
+			<ul>
+				<a href="/"><li>Home</li></a>
+				<a href="/"><li>About</li></a>
+				<a href="/"><li>Web Design</li></a>
+				<a href="/"><li>Graphic Design</li></a>
+				<a href="/"><li>System Administration</li></a>
+				<a href="/"><li>Open Source</li></a>
+				<a href="/"><li>Contact</li></a>
+			</ul>
 		</div>
