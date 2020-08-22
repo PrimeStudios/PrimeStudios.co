@@ -472,11 +472,93 @@ html {
 /* Contact */
 
 .contact-container {
-	width: 100vw;
+	width: 80vw;
 	min-height: calc(100vh - 14rem);
 	padding-top: 7rem;
 	padding-bottom: 7rem;
 	background-color: rgba(35, 35, 35, 1);
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+.contact-container .contact-title {
+	font-size: 2rem;
+	color: #CCCCCC;
+	font-weight: 200;
+	font-variant: small-caps;
+}
+
+.contact-container input[type=text] {
+	font-size: 2vh;
+}
+
+.contact-container input[type=text],
+select,
+textarea {
+	-webkit-box-sizing: border-box;
+	border: 1px solid #CCCCCC;
+	border-radius: 0.5vh;
+	box-sizing: border-box;
+	margin-bottom: 1vh;
+	margin-top: 1vh;
+	padding: 1vh;
+	resize: vertical;
+	width: 100%;
+}
+
+.contact-container input[type=email] {
+	font-size: 2vh;
+}
+
+.contact-container input[type=email],
+select,
+textarea {
+	-webkit-box-sizing: border-box;
+	border: 1px solid #CCCCCC;
+	border-radius: 0.5vh;
+	box-sizing: border-box;
+	margin-bottom: 1vh;
+	margin-top: 1vh;
+	padding: 1vh;
+	resize: vertical;
+	width: 100%;
+}
+
+.contact-container input[type=number] {
+	font-size: 2vh;
+}
+
+.contact-container input[type=number],
+select,
+textarea {
+	-webkit-box-sizing: border-box;
+	border: 1px solid #CCCCCC;
+	border-radius: 0.5vh;
+	box-sizing: border-box;
+	margin-bottom: 1vh;
+	margin-top: 1vh;
+	padding: 1vh;
+	resize: vertical;
+	width: 100%;
+}
+
+.contact-container input[type=submit] {
+	color: #ff9900;
+	font-size: 2rem;
+	font-weight: 300;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	margin-top: 2rem;
+	border: .15rem solid #ff9900;
+	background-color: rgba(255, 153, 0, 0);
+	transition: all ease-in-out .2s;
+}
+
+.contact-container input[type=submit]:hover {
+	cursor: pointer;
+	background-color: rgba(255, 153, 0, .1);
 }
 
 /* Footer */
