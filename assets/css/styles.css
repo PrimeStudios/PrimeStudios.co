@@ -741,12 +741,13 @@ footer .footer-socials li a:hover {
 		height: 35vh;
 		position: absolute;
 		right: 15vw;
-		top: 25rem;
+		top: 30rem;
 	}
 
 	.home-container .keypoints-container {
 		-ms-flex-direction: column;
 		flex-direction: column;
+		margin-left: 5vw;
 	}
 
 	.home-container .keypoints-container .keypoint-container {
@@ -755,7 +756,6 @@ footer .footer-socials li a:hover {
 		width: 80vw;
 		border-radius: 8px;
 		text-align: center;
-		margin-left: 10vw;
 		padding-top: 2rem;
 		padding-bottom: 1rem;
 		margin-top: 5rem;
