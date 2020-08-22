@@ -678,6 +678,10 @@ footer .footer-socials li a:hover {
 		width: 100vw;
 		height: 5rem;
 		z-index: 9999999999999999999999999;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		-webkit-user-select: none;
+		user-select: none;
 	}
 
 	.mobile-dropdown-toggle:hover {
