@@ -747,7 +747,8 @@ footer .footer-socials li a:hover {
 	.home-container .keypoints-container {
 		-ms-flex-direction: column;
 		flex-direction: column;
-		margin-left: 5vw;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	.home-container .keypoints-container .keypoint-container {
@@ -761,14 +762,12 @@ footer .footer-socials li a:hover {
 		margin-top: 5rem;
 	}
 
-
 	.home-container .keypoints-container .kp-padding {
-		margin-left: 10vw;
+		margin-left: 0;
 	}
 
 	.home-container .keypoints-container .kp-padding-two {
-		margin-left: 10vw;
-		margin-right: 0;
+		margin-left: 0;
 	}
 
 	.home-container .showcase-container img {
