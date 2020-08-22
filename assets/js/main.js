@@ -16,6 +16,16 @@ function toggleNavbar() {
 	}
 }
 
+function adjustOnResize() {
+	if (window.innerWidth > 1100) {
+		document.getElementById('mobile_dropdown').style.display = 'none';
+		document.getElementById('mobile_dropdown_toggle').classList.add('fa-bars');
+		document.getElementById('mobile_dropdown_toggle').classList.remove('fa-times');
+		navbarToggled = false;
+	}
+};
+window.addEventListener('resize', adjustOnResize);
+
 function Down_Arrow() {
 	document.getElementById('home_about').scrollIntoView({behavior: 'smooth'})
 }
