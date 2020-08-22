@@ -237,6 +237,8 @@ html {
 	height: 35rem;
 	margin-left: calc(100vw - 40%);
 	margin-top: -25rem;
+	position: relative;
+	z-index: 100;
 }
 
 .home-container .home-hero p {
