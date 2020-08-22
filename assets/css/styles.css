@@ -784,6 +784,11 @@ footer .footer-socials li a:hover {
 		padding: 0;
 	}
 
+	.home-container svg {
+		width: 102vw;
+		margin-left: -1vw;
+	}
+
 	footer h1 {
 		margin-left: 0;
 		text-align: center;
