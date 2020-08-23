@@ -43,7 +43,7 @@
 			<h1>Prime Studios</h1>
 			<ul>
 				<li><a href="/">home</a></li>
-				<li><a href="/">about</a></li>
+				<li><a href="/about">about</a></li>
 				<li class="dropdown-trigger">services <i class="fas fa-chevron-down"></i></li>
 				<div class="dropdown">
 					<ul>
@@ -61,11 +61,11 @@
 		<div id="mobile_dropdown" class="mobile-dropdown">
 			<ul>
 				<a href="/"><li>Home</li></a>
-				<a href="/"><li>About</li></a>
+				<a href="/about"><li>About</li></a>
 				<a href="/"><li>Web Design</li></a>
 				<a href="/"><li>Graphic Design</li></a>
 				<a href="/"><li>System Administration</li></a>
 				<a href="/"><li>Open Source</li></a>
-				<a href="/"><li>Contact</li></a>
+				<a href="/contact"><li>Contact</li></a>
 			</ul>
 		</div>
