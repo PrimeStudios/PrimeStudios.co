@@ -4,4 +4,4 @@ RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 ErrorDocument 404 https://primestudios.co/404
-ErrorDocument 403 https://primestudios.co
+ErrorDocument 403 https://primestudios.co/404
