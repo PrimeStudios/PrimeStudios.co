@@ -46,6 +46,17 @@ require_once('../includes/header.php'); ?>
 		<input type="number" name="budget">
 		<br />
 		<br />
+		<span class="contact-title"><i class="fas fa-list"></i> requirements:</span><br><br>
+		<input id="webdesign" type="checkbox" name="webdesign" size="50">
+		<label for="webdesign">Web Design</label><br>
+		<input id="sysadmin" type="checkbox" name="sysadmin" size="50">
+		<label for="sysadmin">Sys Admin</label><br>
+		<input id="seo" type="checkbox" name="seo" size="50">
+		<label for="seo">SEO</label><br>
+		<input id="other" type="checkbox" name="other" size="50">
+		<label for="other">Other (Put in comments)</label>
+		<br />
+		<br />
 		<input type="submit" value="Send">
 	</form>
 </div>

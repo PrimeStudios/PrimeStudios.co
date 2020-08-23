@@ -593,6 +593,17 @@ textarea {
 	width: 100%;
 }
 
+input[type="checkbox"] {
+	size: 1.5rem;
+	margin-top: 2rem;
+}
+
+.contact-container label {
+	font-size: 1.5rem;
+	color: #CCCCCC;
+	font-weight: 300;
+}
+
 .contact-container input[type=number] {
 	font-size: 2vh;
 }
