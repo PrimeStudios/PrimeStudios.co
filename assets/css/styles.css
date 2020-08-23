@@ -1161,6 +1161,18 @@ footer .footer-socials li a:hover {
 		background-color: white;
 		position: relative;
 	}
+
+	.about-container .history-circle-one {
+		display: none;
+	}
+
+	.about-container .history-circle-two {
+		display: none;
+	}
+
+	.about-container .history-circle-three {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 1100px) {
