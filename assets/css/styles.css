@@ -1430,4 +1430,8 @@ footer .footer-socials li a:hover {
 		padding-left: 3rem;
 		padding-top: 22rem;
 	}
+
+	.about-container .year-container h3 {
+		font-size: 5vw;
+	}
 }
