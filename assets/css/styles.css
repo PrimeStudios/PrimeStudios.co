@@ -596,12 +596,20 @@ textarea {
 input[type="checkbox"] {
 	size: 1.5rem;
 	margin-top: 2rem;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
 }
 
 .contact-container label {
 	font-size: 1.5rem;
 	color: #CCCCCC;
 	font-weight: 300;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
 }
 
 .contact-container input[type=number] {
