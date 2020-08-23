@@ -621,7 +621,7 @@ html {
 .about-container .history-divider {
 	width: .15rem;
 	position: absolute;
-	height: calc(100% - 10.25rem);
+	height: 52rem;
 	background-color: #CCCCCC;
 	margin-top: 3rem;
 	left: calc(100% / 2);
@@ -1138,7 +1138,7 @@ footer .footer-socials li a:hover {
 	.about-container .history-divider {
 		width: .15rem;
 		position: absolute;
-		height: calc(100% - 12rem);
+		height: 45rem;
 		background-color: #CCCCCC;
 		margin-top: 3rem;
 		left: calc(50% - .15rem / 2);
