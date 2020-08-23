@@ -969,6 +969,20 @@ footer .footer-socials li a:hover {
 		margin-left: -1vw;
 	}
 
+	.contact-container p {
+		color: #CCCCCC;
+		font-size: 1.5rem;
+		font-weight: 200;
+		margin-top: 2rem;
+		margin-left: 0;
+		margin-bottom: 3rem;
+	}
+
+	.contact-container img {
+		width: 100%;
+		margin-bottom: 3rem;
+	}
+
 	footer h1 {
 		margin-left: 0;
 		text-align: center;
