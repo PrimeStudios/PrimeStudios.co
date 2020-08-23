@@ -1,7 +1,9 @@
 <?php $pageName = 'Contact';
 require_once('../includes/header.php'); ?>
 <div class="contact-container">
-	<table id="contact_table" style="height: 2vh; margin-bottom: 2vh;">
+	<img src="/assets/img/contact.svg" />
+	<p><b>Contact</b><br />Are you interested in our services? Looking for a quote to just looking into us a little bit more? Feel free to shoot us an email at <b title="Copy to Clipboard" onclick="copyemail()" style="cursor: pointer;">sales@primestudios.co</b> and we will respond to you within one business day!</p>
+	<table>
 		<tr class="package-header-table">
 			<th>Monday</th>
 			<th>Tuesday</th>

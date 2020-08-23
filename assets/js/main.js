@@ -64,3 +64,13 @@ function Showcase_Close() {
 		document.getElementById('showcase_popup').style.display ='none';
 	}, 300);
 }
+
+function copyemail() {
+	var text = 'sales@primestudios.co';
+	navigator.clipboard.writeText(text).then(function() {
+		console.log('Async: Copying to clipboard was successful!');
+		alert('Successfully copied to clipboard!')
+	}, function(err) {
+		console.error('Async: Could not copy text: ', err);
+	});
+}
