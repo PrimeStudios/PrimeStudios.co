@@ -11,11 +11,11 @@ require_once('../../includes/header.php'); ?>
 		<h2>Executive Management</h2>
 		<div class="about-staff-container">
 			<div class="about-staff-div">
-				<img src="/assets/img/user.png" />
+				<img src="/assets/img/ceo.png" />
 				<p>Michael Rizzuto<br />CEO</p>
 			</div>
 			<div class="about-staff-div staff-padding">
-				<img src="/assets/img/user.png" />
+				<img src="/assets/img/cio.png" />
 				<p>Jack Conley<br />CIO</p>
 			</div>
 		</div>
