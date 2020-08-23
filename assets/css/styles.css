@@ -481,7 +481,7 @@ html {
 	padding-right: 10vw;
 }
 
-.about-navbar {
+.about-container .about-navbar {
 	width: 20rem;
 	height: 10rem;
 	background-color: rgba(50, 50, 50, 1);
@@ -489,7 +489,7 @@ html {
 	overflow: hidden;
 }
 
-.about-navbar p {
+.about-container .about-navbar p {
 	color: #CCCCCC;
 	text-decoration: none;
 	font-size: 1.5rem;
@@ -499,16 +499,39 @@ html {
 	transition: all ease-in-out .2s;
 }
 
-.about-navbar p:hover {
+.about-containerc .about-navbar p:hover {
 	background-color: rgba(0, 0, 0, .1);
 }
 
-.about-navbar a {
+.about-container .about-navbar a {
 	text-decoration: none;
 }
 
-.about-active {
+.about-container .about-active {
 	background-color: rgba(0, 0, 0, .2);
+}
+
+.about-container .about-content {
+	width: calc(80vw - 25rem);
+	background-color: rgba(50, 50, 50, 1);
+	min-height: 1rem;
+	margin-left: 25rem;
+	margin-top: -10rem;
+	border-radius: 4px;
+}
+
+.about-container .about-content h1 {
+	font-size: 2rem;
+	color: #CCCCCC;
+	padding: 1rem;
+	font-weight: 400;
+}
+
+.about-container .about-content p {
+	font-size: 1.5rem;
+	color: #CCCCCC;
+	padding: 1rem;
+	font-weight: 200;
 }
 
 /* Contact */
