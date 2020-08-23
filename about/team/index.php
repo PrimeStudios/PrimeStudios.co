@@ -8,6 +8,17 @@ require_once('../../includes/header.php'); ?>
 	</div>
 	<div class="about-content-two">
 		<h1>Get to Meet Our Team</h1>
+		<h2>Executive Management</h2>
+		<div class="about-staff-container">
+			<div class="about-staff-div">
+				<img src="/assets/img/user.png" />
+				<p>Michael Rizzuto<br />CEO</p>
+			</div>
+			<div class="about-staff-div staff-padding">
+				<img src="/assets/img/user.png" />
+				<p>Jack Conley<br />CIO</p>
+			</div>
+		</div>
 	</div>
 </div>
 <?php require_once('../../includes/footer.php'); ?>

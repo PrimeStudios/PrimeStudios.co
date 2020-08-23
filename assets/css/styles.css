@@ -521,10 +521,11 @@ html {
 }
 
 .about-container .about-content h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 	font-size: 2rem;
 	color: #CCCCCC;
 	padding: 1rem;
-	font-weight: 400;
 }
 
 .about-container .about-content p {
@@ -545,8 +546,66 @@ html {
 .about-container .about-content-two h1 {
 	font-size: 2rem;
 	color: #CCCCCC;
-	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 	text-align: center;
+}
+
+.about-container .about-content-two h2 {
+	font-size: 1.5rem;
+	color: #CCCCCC;
+	font-weight: 200;
+	text-align: center;
+	padding-top: 3rem;
+}
+
+.about-staff-container {
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: start;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding-top: 3rem;
+}
+
+.about-staff-div {
+	width: 15rem;
+	height: 19.5rem;
+	background-color: rgba(50, 50, 50, 1);
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.staff-padding {
+	margin-left: 5rem;
+}
+
+.about-staff-div img {
+	width: 10rem;
+	height: 10rem;
+	padding: 2.5rem;
+}
+
+.about-staff-div p {
+	background-color: black;
+	height: 4rem;
+	font-size: 1.5rem;
+	color: #CCCCCC;
+	text-align: center;
+	font-weight: 200;
+	padding-top: .25rem;
 }
 
 /* Contact */
