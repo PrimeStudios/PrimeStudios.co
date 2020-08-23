@@ -1333,6 +1333,15 @@ footer .footer-socials li a:hover {
 		overflow: hidden;
 	}
 
+	.about-container .about-content {
+		width: 80vw;
+		background-color: rgba(50, 50, 50, 1);
+		min-height: 1rem;
+		margin-left: 0;
+		margin-top: 5rem;
+		border-radius: 4px;
+	}
+
 	.about-container .about-content-two {
 		width: 80vw;
 		min-height: 1rem;
@@ -1354,7 +1363,7 @@ footer .footer-socials li a:hover {
 		overflow: hidden;
 	}
 
-	.staff-padding {
+	.about-container .staff-padding {
 		margin-left: 0;
 		margin-top: 5rem;
 	}
