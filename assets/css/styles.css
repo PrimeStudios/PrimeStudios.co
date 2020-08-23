@@ -534,6 +534,21 @@ html {
 	font-weight: 200;
 }
 
+.about-container .about-content-two {
+	width: calc(80vw - 25rem);
+	min-height: 1rem;
+	margin-left: 25rem;
+	margin-top: -10rem;
+	border-radius: 4px;
+}
+
+.about-container .about-content-two h1 {
+	font-size: 2rem;
+	color: #CCCCCC;
+	font-weight: 400;
+	text-align: center;
+}
+
 /* Contact */
 
 .contact-container {

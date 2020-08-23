@@ -3,8 +3,8 @@ require_once('../includes/header.php'); ?>
 <div class="about-container">
 	<div class="about-navbar">
 		<a href="/about"><p class="about-active">Introduction</p></a>
-		<a href="/"><p>Our Team</p></a>
-		<a href="/"><p>Our History</p></a>
+		<a href="/about/team"><p>Our Team</p></a>
+		<a href="/about/history"><p>Our History</p></a>
 	</div>
 	<div class="about-content">
 		<h1>Who We Are</h1>
