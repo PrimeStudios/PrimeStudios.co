@@ -799,10 +799,12 @@ html {
 .package-header-table {
 	background-color: #ff9900;
 	font-size: 1.5rem;
+	color: #FFFFFF;
 }
 
 .package-table-white {
-	background-color: white;
+	color: #CCCCCC;
+	background-color: rgba(50, 50, 50, 1);
 	font-size: 1.25rem;
 }
 
@@ -821,6 +823,8 @@ html {
 
 .contact-container input[type=text] {
 	font-size: 2vh;
+	color: #CCCCCC;
+	background: rgba(50, 50, 50, 1);
 }
 
 .contact-container input[type=text],
@@ -839,6 +843,8 @@ textarea {
 
 .contact-container input[type=email] {
 	font-size: 2vh;
+	color: #CCCCCC;
+	background: rgba(50, 50, 50, 1);
 }
 
 .contact-container input[type=email],
@@ -876,6 +882,8 @@ input[type="checkbox"] {
 
 .contact-container input[type=number] {
 	font-size: 2vh;
+	color: #CCCCCC;
+	background: rgba(50, 50, 50, 1);
 }
 
 .contact-container input[type=number],
