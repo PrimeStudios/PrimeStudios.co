@@ -25,14 +25,14 @@ require_once('../../includes/header.php'); ?>
 				<h1>2020</h1>
 			</div>
 			<h3>DETERMINATION</h3>
-			<p>Officially opening our doors. Still writing the books of history. We start the year off strong with one goal in mind to obtain as many clients as possible to start building our brand. We also brought a second person onto the team in form of a CIO in charge of infrastructure related operations. With this also came a new refreshing design for our site.</p>
+			<p>Officially opening our doors. Still writing the books of history. We start the year off strong with one goal in mind, to obtain as many clients as possible to start building our brand. We also brought on a second person onto the team in form of a CIO in charge of infrastructure related operations. With this also came a new refreshing design for our site.</p>
 		</div>
 		<div class="year-container history-year-three">
 			<div class="history-bg" style="background-color: #ff9900;">
 				<h1>20++</h1>
 			</div>
 			<h3>FUTURE STEPS</h3>
-			<p>Here we look to the future and are looking forward to expanding fast. We have future focuses on more then just web development and marketing advice. We aim to open a data center and expand into many other industries</p>
+			<p>Here we look to the future and are looking forward to expanding. We have future focuses on more then just web development, graphic design, and system administration. We aim to open a data center and expand into many other industries such as software and marketing assistance.</p>
 		</div>
 	</div>
 </div>
