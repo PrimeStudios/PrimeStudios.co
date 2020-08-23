@@ -481,6 +481,36 @@ html {
 	padding-right: 10vw;
 }
 
+.about-navbar {
+	width: 20rem;
+	height: 10rem;
+	background-color: rgba(50, 50, 50, 1);
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.about-navbar p {
+	color: #CCCCCC;
+	text-decoration: none;
+	font-size: 1.5rem;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	text-align: center;
+	transition: all ease-in-out .2s;
+}
+
+.about-navbar p:hover {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.about-navbar a {
+	text-decoration: none;
+}
+
+.about-active {
+	background-color: rgba(0, 0, 0, .2);
+}
+
 /* Contact */
 
 .contact-container {
