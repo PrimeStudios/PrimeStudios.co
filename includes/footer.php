@@ -10,7 +10,7 @@
 			<li class="subheader">Company</a></li>
 			<li><a href="/">Terms of Service</a></li>
 			<li><a href="/">Privacy Policy</a></li>
-			<li><a href="/">Our Team</a></li>
+			<li><a href="/about/team">Our Team</a></li>
 		</ul>
 		<ul class="footer-socials">
 			<li><a href="https://github.com/PrimeStudios" target="_blank"><i class="fab fa-github"></i></a></li>
