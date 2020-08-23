@@ -39,8 +39,8 @@
 	</head>
 	<body>
 		<div class="header">
-			<img src="/assets/img/logo.png" />
-			<h1>Prime Studios</h1>
+			<a href="/" title="Home"><img src="/assets/img/logo.png" /></a>
+			<a href="/" title="Home"><h1>Prime Studios</h1></a>
 			<ul>
 				<li><a href="/">home</a></li>
 				<li><a href="/about">about</a></li>
