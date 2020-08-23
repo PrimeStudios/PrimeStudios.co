@@ -65,7 +65,7 @@ require_once('includes/header.php'); ?>
 	</div>
 	<div class="home-contact">
 		<h1>Interested in our services?</h1>
-		<p><a href="/">Request a Quote</a></p>
+		<p><a href="/contact">Request a Quote</a></p>
 	</div>
 </div>
 <span onclick="Showcase_Close()" id="showcase_popup_background" class="showcase-popup-background"></span>
