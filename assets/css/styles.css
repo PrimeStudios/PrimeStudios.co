@@ -993,6 +993,30 @@ footer .footer-socials li a:hover {
 		margin-bottom: 3rem;
 	}
 
+	.contact-container table {
+		width: 80vw;
+		margin-left: 0;
+	}
+
+	.contact-container th {
+		height: 3rem;
+		font-weight: 300;
+	}
+
+	.contact-container .package-header-th {
+		font-weight: 700;
+	}
+
+	.package-header-table {
+		background-color: #ff9900;
+		font-size: 3vw;
+	}
+
+	.package-table-white {
+		background-color: white;
+		font-size: 2.25vw;
+	}
+
 	footer h1 {
 		margin-left: 0;
 		text-align: center;
