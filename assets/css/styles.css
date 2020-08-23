@@ -481,6 +481,18 @@ html {
 	padding-right: 10vw;
 }
 
+.contact-container h1 {
+	color: #FFFFFF;
+	font-size: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin-top:  3rem;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
 .contact-container p {
 	color: #CCCCCC;
 	font-size: 1.5rem;
@@ -488,6 +500,17 @@ html {
 	margin-top: -22rem;
 	margin-left: 32rem;
 	margin-bottom: 12rem;
+}
+
+.contact-container h2 {
+	color: #CCCCCC;
+	font-size: 2rem;
+	font-weight: 400;
+	margin-top:  3rem;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	text-align: center;
+	margin-bottom: 3rem;
 }
 
 .contact-container img {
