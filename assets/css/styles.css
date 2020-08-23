@@ -1142,7 +1142,7 @@ footer .footer-socials li a:hover {
 	.about-container .history-divider {
 		width: .15rem;
 		position: absolute;
-		height: 45rem;
+		height: calc(100% - 15rem);
 		background-color: #CCCCCC;
 		margin-top: 3rem;
 		left: calc(50% - .15rem / 2);
@@ -1150,29 +1150,17 @@ footer .footer-socials li a:hover {
 
 	.about-container .history-year-one {
 		width: 100%;
-		min-height: 1rem;
-		margin-top: 3rem;
 		margin-left: 0;
-		background-color: white;
-		position: relative;
 	}
 
 	.about-container .history-year-two {
 		width: 100%;
-		min-height: 1rem;
-		margin-top: 3rem;
 		margin-left: 0;
-		background-color: white;
-		position: relative;
 	}
 
 	.about-container .history-year-three {
 		width: 100%;
-		min-height: 1rem;
-		margin-top: 3rem;
 		margin-left: 0;
-		background-color: white;
-		position: relative;
 	}
 
 	.about-container .history-circle-one {
