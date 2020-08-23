@@ -5,11 +5,11 @@ require_once('../includes/header.php'); ?>
 	<p><b>Contact</b><br />Are you interested in our services? Looking for a quote to just looking into us a little bit more? Feel free to shoot us an email at <b title="Copy to Clipboard" onclick="copyemail()" style="cursor: pointer;">sales@primestudios.co</b> and we will respond to you within one business day!</p>
 	<table>
 		<tr class="package-header-table">
-			<th>Monday</th>
-			<th>Tuesday</th>
-			<th>Wednesday</th>
-			<th>Thursday</th>
-			<th>Friday</th>
+			<th class="package-header-th">Monday</th>
+			<th class="package-header-th">Tuesday</th>
+			<th class="package-header-th">Wednesday</th>
+			<th class="package-header-th">Thursday</th>
+			<th class="package-header-th">Friday</th>
 		</tr>
 		<tr class="package-table-white">
 			<th>9AM-5PM EST</th>

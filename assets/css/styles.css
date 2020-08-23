@@ -496,14 +496,24 @@ html {
 }
 
 .contact-container table {
-	width: 80vw;
-	margin-bottom: 2rem;
+	width: 90vw;
+	margin-left: -5vw;
+	margin-bottom: 3rem;
+	border-spacing: 0px;
+}
+
+.contact-container th {
+	height: 3rem;
+	font-weight: 300;
+}
+
+.contact-container .package-header-th {
+	font-weight: 700;
 }
 
 .package-header-table {
 	background-color: #ff9900;
 	font-size: 1.5rem;
-	font-weight: 200;
 }
 
 .package-table-white {
