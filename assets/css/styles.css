@@ -618,11 +618,44 @@ html {
 	left: calc(100% / 2);
 }
 
+.about-container .history-circle-one {
+	width: 3rem;
+	border-radius: 50%;
+	position: absolute;
+	height: 3rem;
+	background-color: #CCCCCC;
+	margin-top: 3rem;
+	left: calc(100% / 2 - 2.5rem);
+	border: 1rem solid rgba(35, 35, 35, 1);
+}
+
+.about-container .history-circle-two {
+	width: 3rem;
+	border-radius: 50%;
+	position: absolute;
+	height: 3rem;
+	background-color: #CCCCCC;
+	margin-top: 27rem;
+	left: calc(100% / 2 - 2.5rem);
+	border: 1rem solid rgba(35, 35, 35, 1);
+}
+
+.about-container .history-circle-three {
+	width: 3rem;
+	border-radius: 50%;
+	position: absolute;
+	height: 3rem;
+	background-color: #CCCCCC;
+	margin-top: 52.5rem;
+	left: calc(100% / 2 - 2.5rem);
+	border: 1rem solid rgba(35, 35, 35, 1);
+}
+
 .about-container .history-year-one {
 	width: 30rem;
 	min-height: 1rem;
 	margin-top: 3rem;
-	margin-left: calc(50% - 30rem - 10px);
+	margin-left: calc(50% - 30rem - 3rem);
 	background-color: white;
 	position: relative;
 }
@@ -631,7 +664,7 @@ html {
 	width: 30rem;
 	min-height: 1rem;
 	margin-top: 3rem;
-	margin-left: calc(50% + 10px);
+	margin-left: calc(50% + 3rem);
 	background-color: white;
 	position: relative;
 }
@@ -640,7 +673,7 @@ html {
 	width: 30rem;
 	min-height: 1rem;
 	margin-top: 3rem;
-	margin-left: calc(50% - 30rem - 10px);
+	margin-left: calc(50% - 30rem - 3rem);
 	background-color: white;
 	position: relative;
 }
