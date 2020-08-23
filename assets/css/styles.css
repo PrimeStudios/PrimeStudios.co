@@ -559,7 +559,7 @@ html {
 	padding-top: 3rem;
 }
 
-.about-staff-container {
+.about-container .about-staff-container {
 	-ms-flex-line-pack: center;
 	align-content: center;
 	-webkit-box-align: center;
@@ -580,7 +580,7 @@ html {
 	padding-top: 3rem;
 }
 
-.about-staff-div {
+.about-container .about-staff-div {
 	width: 15rem;
 	height: 19.5rem;
 	background-color: rgba(50, 50, 50, 1);
@@ -588,17 +588,17 @@ html {
 	overflow: hidden;
 }
 
-.staff-padding {
+.about-container .staff-padding {
 	margin-left: 5rem;
 }
 
-.about-staff-div img {
+..about-container about-staff-div img {
 	width: 10rem;
 	height: 10rem;
 	padding: 2.5rem;
 }
 
-.about-staff-div p {
+.about-container .about-staff-div p {
 	background-color: black;
 	height: 4rem;
 	font-size: 1.5rem;
@@ -606,6 +606,73 @@ html {
 	text-align: center;
 	font-weight: 200;
 	padding-top: .25rem;
+}
+
+.about-container .history-year-one {
+	width: 30rem;
+	min-height: 1rem;
+	margin-top: 3rem;
+	margin-left: calc(50% - 30rem);
+	background-color: white;
+	position: relative;
+}
+
+.about-container .history-year-two {
+	width: 30rem;
+	min-height: 1rem;
+	margin-top: 3rem;
+	margin-left: 50%;
+	background-color: white;
+	position: relative;
+}
+
+.about-container .history-year-three {
+	width: 30rem;
+	min-height: 1rem;
+	margin-top: 3rem;
+	margin-left: calc(50% - 30rem);
+	background-color: white;
+	position: relative;
+}
+
+.about-container .year-container .history-bg {
+	width: 100%;
+	height: 5rem;
+}
+
+.about-container .year-container .history-bg h1 {
+	width: 8rem;
+	font-size: 2rem;
+	font-weight: 700;
+	color: #000000;
+	background-color: #FFFFFF;
+	height: 3rem;
+	padding-top: .5rem;
+	margin-left: .75rem;
+	position: absolute;
+	top: .75rem;
+}
+
+.about-container .year-container h3 {
+	font-size: 2rem;
+	font-weight: 500;
+	color: #FFFFFF;
+	height: 3rem;
+	padding-top: .5rem;
+	margin-left: 10rem;
+	margin-top: -4.15rem;
+	margin-bottom: 1.25rem;
+	width: 20rem;
+}
+
+
+.about-container .year-container p {
+	font-size: 1.5rem;
+	font-weight: 200;
+	color: #000000;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
 }
 
 /* Contact */
@@ -1014,6 +1081,35 @@ footer .footer-socials li a:hover {
 }
 
 /* Mobile Support */
+
+@media only screen and (max-width: 1500px) {
+	.about-container .history-year-one {
+		width: 100%;
+		min-height: 1rem;
+		margin-top: 3rem;
+		margin-left: 0;
+		background-color: white;
+		position: relative;
+	}
+
+	.about-container .history-year-two {
+		width: 100%;
+		min-height: 1rem;
+		margin-top: 3rem;
+		margin-left: 0;
+		background-color: white;
+		position: relative;
+	}
+
+	.about-container .history-year-three {
+		width: 100%;
+		min-height: 1rem;
+		margin-top: 3rem;
+		margin-left: 0;
+		background-color: white;
+		position: relative;
+	}
+}
 
 @media only screen and (max-width: 1100px) {
 	.header h3 {
