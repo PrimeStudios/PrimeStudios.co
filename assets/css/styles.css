@@ -592,7 +592,7 @@ html {
 	margin-left: 5rem;
 }
 
-..about-container about-staff-div img {
+.about-container .about-staff-div img {
 	width: 10rem;
 	height: 10rem;
 	padding: 2.5rem;
