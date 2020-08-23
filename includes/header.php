@@ -49,7 +49,7 @@
 					<ul>
 						<li><a href="/">Web Design</a></li>
 						<li><a href="/">Graphic Design</a></li>
-						<li><a href="/">System Administration</a></li>
+						<li><a href="/">SysAdmin</a></li>
 						<li><a href="/">Open Source</a></li>
 					</ul>
 				</div>
@@ -64,7 +64,7 @@
 				<a href="/about"><li>About</li></a>
 				<a href="/"><li>Web Design</li></a>
 				<a href="/"><li>Graphic Design</li></a>
-				<a href="/"><li>System Administration</li></a>
+				<a href="/"><li>SysAdmin</li></a>
 				<a href="/"><li>Open Source</li></a>
 				<a href="/contact"><li>Contact</li></a>
 			</ul>
