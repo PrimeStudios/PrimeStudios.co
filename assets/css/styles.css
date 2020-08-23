@@ -665,8 +665,9 @@ html {
 	min-height: 1rem;
 	margin-top: 3rem;
 	margin-left: calc(50% - 30rem - 3rem);
-	background-color: white;
+	background-color: rgba(50, 50, 50, 1);
 	position: relative;
+	border-radius: 4px;
 }
 
 .about-container .history-year-two {
@@ -674,8 +675,9 @@ html {
 	min-height: 1rem;
 	margin-top: 3rem;
 	margin-left: calc(50% + 3rem);
-	background-color: white;
+	background-color: rgba(50, 50, 50, 1);
 	position: relative;
+	border-radius: 4px;
 }
 
 .about-container .history-year-three {
@@ -683,8 +685,9 @@ html {
 	min-height: 1rem;
 	margin-top: 3rem;
 	margin-left: calc(50% - 30rem - 3rem);
-	background-color: white;
+	background-color: rgba(50, 50, 50, 1);
 	position: relative;
+	border-radius: 4px;
 }
 
 .about-container .year-container .history-bg {
@@ -696,8 +699,8 @@ html {
 	width: 8rem;
 	font-size: 2rem;
 	font-weight: 700;
-	color: #000000;
-	background-color: #FFFFFF;
+	color: #CCCCCC;
+	background-color: rgba(50, 50, 50, 1);
 	height: 3rem;
 	padding-top: .5rem;
 	margin-left: .75rem;
@@ -721,7 +724,7 @@ html {
 .about-container .year-container p {
 	font-size: 1.5rem;
 	font-weight: 200;
-	color: #000000;
+	color: #CCCCCC;
 	padding-left: 1rem;
 	padding-right: 1rem;
 	padding-bottom: .75rem;
