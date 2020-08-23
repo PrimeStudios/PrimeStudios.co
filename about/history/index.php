@@ -9,6 +9,7 @@ require_once('../../includes/header.php'); ?>
 	<div class="about-content-two">
 		<h1>Get to Know Our History</h1>
 		<h2>Milestones On Our Path To Where We Are Today</h2>
+		<div class="history-divider"></div>
 		<div class="year-container history-year-one">
 			<div class="history-bg" style="background-color: #ff9900;">
 				<h1>2019</h1>

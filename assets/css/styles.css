@@ -541,6 +541,7 @@ html {
 	margin-left: 25rem;
 	margin-top: -10rem;
 	border-radius: 4px;
+	position: relative;
 }
 
 .about-container .about-content-two h1 {
@@ -608,11 +609,20 @@ html {
 	padding-top: .25rem;
 }
 
+.about-container .history-divider {
+	width: .15rem;
+	position: absolute;
+	height: calc(100% - 10.25rem);
+	background-color: #CCCCCC;
+	margin-top: 3rem;
+	left: calc(100% / 2);
+}
+
 .about-container .history-year-one {
 	width: 30rem;
 	min-height: 1rem;
 	margin-top: 3rem;
-	margin-left: calc(50% - 30rem);
+	margin-left: calc(50% - 30rem - 10px);
 	background-color: white;
 	position: relative;
 }
@@ -621,7 +631,7 @@ html {
 	width: 30rem;
 	min-height: 1rem;
 	margin-top: 3rem;
-	margin-left: 50%;
+	margin-left: calc(50% + 10px);
 	background-color: white;
 	position: relative;
 }
@@ -630,7 +640,7 @@ html {
 	width: 30rem;
 	min-height: 1rem;
 	margin-top: 3rem;
-	margin-left: calc(50% - 30rem);
+	margin-left: calc(50% - 30rem - 10px);
 	background-color: white;
 	position: relative;
 }
@@ -1083,6 +1093,15 @@ footer .footer-socials li a:hover {
 /* Mobile Support */
 
 @media only screen and (max-width: 1500px) {
+	.about-container .history-divider {
+		width: .15rem;
+		position: absolute;
+		height: calc(100% - 12rem);
+		background-color: #CCCCCC;
+		margin-top: 3rem;
+		left: calc(50% - .15rem / 2);
+	}
+
 	.about-container .history-year-one {
 		width: 100%;
 		min-height: 1rem;
