@@ -1,7 +1,7 @@
 <?php $pageName = 'Contact';
 require_once('../includes/header.php'); ?>
 <div class="contact-container">
-	<h1>Contact Us</h1>
+	<h1>Get in touch with us</h1>
 	<img src="/assets/img/contact.svg" />
 	<p>Are you interested in our services? Looking for a quote to just looking into us a little bit more? Feel free to shoot us an email at <b title="Copy to Clipboard" onclick="copyemail()" style="cursor: pointer;">sales@primestudios.co</b> and we will respond to you within one business day!</p>
 	<h2>Our Schedule</h2>
