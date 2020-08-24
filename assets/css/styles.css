@@ -1705,3 +1705,14 @@ footer .footer-socials li a:hover {
 		right: 0;
 	}
 }
+
+@media only screen and (max-width: 400px) {
+	.cookies-container {
+		width: 100vw;
+		height: 14rem;
+		position: fixed;
+		bottom: 0;
+		right: 0;
+	}
+}
+
