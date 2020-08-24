@@ -1622,6 +1622,20 @@ footer .footer-socials li a:hover {
 		border-radius: 4px;
 	}
 
+	.showcase-container .showcase-all-container img {
+		background-color: rgba(50, 50, 50, 1);
+		width: 80vw;
+		text-align: center;
+		margin-left: 0;
+		margin-top: 3rem;
+		border: .3rem solid #ff9900;
+		-webkit-box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
+		box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
+		object-fit: cover;
+		margin-right: 0;
+		padding: 0;
+	}
+
 	footer h1 {
 		margin-left: 0;
 		text-align: center;
