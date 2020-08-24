@@ -13,16 +13,13 @@ require_once('../includes/header.php'); ?>
 		<img onclick="Showcase_Home_One()" src="/assets/img/showcase-1.png" />
 		<img onclick="Showcase_Home_Two()" src="/assets/img/showcase-2.png" />
 		<img onclick="Showcase_Home_Three()" src="/assets/img/showcase-3.png" />
-
-		<img onclick="Showcase_Home_One()" src="/assets/img/showcase-4.png" />
-		<img onclick="Showcase_Home_Two()" src="/assets/img/showcase-5.png" />
-		<img onclick="Showcase_Home_Three()" src="/assets/img/showcase-7.png" />
-
-		<img onclick="Showcase_Home_One()" src="/assets/img/showcase-8.png" />
-		<img onclick="Showcase_Home_Two()" src="/assets/img/showcase-9.png" />
-		<img onclick="Showcase_Home_Three()" src="/assets/img/showcase-10.png" />
-
-		<img onclick="Showcase_Home_One()" src="/assets/img/showcase-11.png" />
+		<img onclick="Showcase_Home_Fpur()" src="/assets/img/showcase-4.png" />
+		<img onclick="Showcase_Home_Five()" src="/assets/img/showcase-5.png" />
+		<img onclick="Showcase_Home_Six()" src="/assets/img/showcase-7.png" />
+		<img onclick="Showcase_Home_Seven()" src="/assets/img/showcase-8.png" />
+		<img onclick="Showcase_Home_Eight()" src="/assets/img/showcase-9.png" />
+		<img onclick="Showcase_Home_Nine()" src="/assets/img/showcase-10.png" />
+		<img onclick="Showcase_Home_Ten()" src="/assets/img/showcase-11.png" />
 	</div>
 </div>
 <?php require_once('../includes/footer.php'); ?>
