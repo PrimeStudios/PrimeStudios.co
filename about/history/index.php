@@ -13,6 +13,9 @@ require_once('../../includes/header.php'); ?>
 		<div class="history-circle-one"></div>
 		<div class="history-circle-two"></div>
 		<div class="history-circle-three"></div>
+		<img class="triangle-one" src="/assets/img/triangle.png" />
+		<img class="triangle-two" src="/assets/img/triangle.png" />
+		<img class="triangle-three" src="/assets/img/triangle.png" />
 		<div class="year-container history-year-one">
 			<div class="history-bg" style="background-color: #ff9900;">
 				<h1>2019</h1>
