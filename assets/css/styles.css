@@ -1098,6 +1098,66 @@ footer .footer-socials li a:hover {
 	width: calc(100% - 2vh);
 }
 
+.other-container {
+	width: 100vw;
+	min-height: calc(100vh - 14rem);
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+	background-color: rgba(35, 35, 35, 1);
+}
+
+.other-container .legal-container {
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+.other-container .legal-container h2 {
+	font-size: 2rem;
+	color: #CCCCCC;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 700;
+}
+
+.other-container .legal-container h3 {
+	padding-top: 1rem;
+	font-size: 1.75rem;
+	font-weight: 600;
+	color: #CCCCCC;
+}
+
+.other-container .legal-container p {
+	padding-top: 1rem;
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: #CCCCCC;
+}
+
+.other-container .legal-container ol {
+	padding-top: 1rem;
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin-left: 2rem;
+	color: #CCCCCC;
+}
+
+.other-container .legal-container li {
+	padding-top: 1rem;
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin-left: 2rem;
+	color: #CCCCCC;
+}
+
+.other-container .legal-container a {
+	color: #FFFFFF;
+	text-decoration: none;
+	transition: all ease-in-out .2s;
+}
+
+.other-container .legal-container a:hover {
+	color: #DDDDDD;
+}
+
 .fourohfour-container {
 	width: 100vw;
 	min-height: calc(100vh - 14rem);

@@ -8,8 +8,8 @@
 		</ul>
 		<ul class="right">
 			<li class="subheader">Company</a></li>
-			<li><a href="/">Terms of Service</a></li>
-			<li><a href="/">Privacy Policy</a></li>
+			<li><a href="/tos">Terms of Service</a></li>
+			<li><a href="/privacy">Privacy Policy</a></li>
 			<li><a href="/about/team">Our Team</a></li>
 		</ul>
 		<ul class="footer-socials">
