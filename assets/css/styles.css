@@ -59,6 +59,11 @@ html {
 	height: 3.5rem;
 	padding-top: .75rem;
 	padding-left: 5rem;
+	transition: all ease-in-out .2s;
+}
+
+.header img:hover {
+	opacity: .75;
 }
 
 .header h1 {
