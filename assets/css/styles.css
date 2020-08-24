@@ -42,7 +42,7 @@ html {
 .header {
 	width: 100vw;
 	height: 5rem;
-	background-color: rgba(25,25,25,1);
+	background-color: rgba(25, 25, 25, 1);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -57,13 +57,13 @@ html {
 
 .header img {
 	height: 3.5rem;
-	padding-top: .75rem;
+	padding-top: 0.75rem;
 	padding-left: 5rem;
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .header img:hover {
-	opacity: .75;
+	opacity: 0.75;
 }
 
 .header h1 {
@@ -73,7 +73,7 @@ html {
 	color: #FFFFFF;
 	font-size: 2rem;
 	font-weight: 700;
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .header h1:hover {
@@ -98,9 +98,9 @@ html {
 	font-size: 1.5rem;
 	display: inline;
 	font-variant: small-caps;
-	padding-left: .25rem;
-	padding-right: .25rem;
-	transition: all ease-in-out .2s;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+	transition: all ease-in-out 0.2s;
 	padding-bottom: 1.5rem;
 	padding-top: 1.5rem;
 }
@@ -108,7 +108,7 @@ html {
 .header li a {
 	text-decoration: none;
 	color: #CCCCCC;
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .header li:hover {
@@ -126,7 +126,7 @@ html {
 }
 
 .header li .fa-chevron-down {
-	font-size: .85rem;
+	font-size: 0.85rem;
 }
 
 .header h2 {
@@ -138,19 +138,19 @@ html {
 	color: #FFFFFF;
 	font-size: 1.25rem;
 	font-variant: small-caps;
-	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,141,0,1) 0%, rgba(255,214,0,1) 100%);
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 141, 0, 1) 0%, rgba(255, 214, 0, 1) 100%);
 	width: 7rem;
-	padding-left: .25rem;
-	padding-right: .25rem;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
 	height: 2rem;
-	padding-top: .5rem;
+	padding-top: 0.5rem;
 	border-radius: 4px;
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .header h2:hover {
-	opacity: .5;
+	opacity: 0.5;
 }
 
 .header h2 a {
@@ -179,8 +179,8 @@ html {
 .header .dropdown ul {
 	text-align: center;
 	width: 96%;
-	margin-left: 2%;
 	margin: 0;
+	margin-left: 2%;
 	padding: 0;
 	padding-top: 2%;
 	position: relative;
@@ -188,16 +188,16 @@ html {
 
 .header .dropdown li {
 	display: block;
-	font-variant: normaL;
+	font-variant: normal;
 	font-size: 1.25rem;
 	padding: 0;
 	margin: 0;
 	margin-left: 2%;
 	width: 100%;
-	padding-top: .5rem;
-	padding-bottom: .5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 	border-radius: 4px;
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .header .dropdown li a {
@@ -206,7 +206,7 @@ html {
 }
 
 .header .dropdown li:hover {
-	background-color: rgba(0, 0, 0, .2);
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .mobile-dropdown {
@@ -220,11 +220,10 @@ html {
 }
 
 .home-container .home-hero {
-	background-color: #ff9900;
+	background-color: #FF9900;
 	min-height: 55rem;
 	position: relative;
 	z-index: 2;
-	position: relative;
 }
 
 .home-container svg {
@@ -258,13 +257,13 @@ html {
 .home-container .home-hero p {
 	color: #000000;
 	font-size: 1.5rem;
-	border: .2rem solid black;
+	border: 0.2rem solid black;
 	width: 11rem;
-	padding-top: .25rem;
-	padding-bottom: .2rem;
+	padding-top: 0.25rem;
+	padding-bottom: 0.2rem;
 	text-align: center;
 	margin-top: 1rem;
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .home-container .home-hero p .fa-chevron-right {
@@ -272,7 +271,7 @@ html {
 }
 
 .home-container .home-hero p:hover {
-	background-color: rgba(0, 0, 0, .1);
+	background-color: rgba(0, 0, 0, 0.1);
 	cursor: pointer;
 }
 
@@ -399,7 +398,7 @@ html {
 .home-container .home-showcase p a {
 	color: #CCCCCC;
 	text-decoration: none;
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .home-container .home-showcase p a:hover {
@@ -435,7 +434,7 @@ html {
 	margin-left: 1.5rem;
 	margin-right: 1.5rem;
 	margin-top: 3rem;
-	border: .3rem solid #ff9900;
+	border: 0.3rem solid #FF9900;
 	-webkit-box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
 	box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
 }
@@ -464,22 +463,22 @@ html {
 	font-size: 1.5rem;
 	text-align: center;
 	font-weight: 300;
-	border: .15rem solid #ff9900;
+	border: 0.15rem solid #FF9900;
 	height: 3rem;
 	width: 13rem;
 	padding-top: 1rem;
 	margin-top: 2rem;
 	margin-left: calc(50vw - 13rem / 2);
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .home-container .home-contact p:hover {
-	background-color: rgba(255, 153, 0, .1);
+	background-color: rgba(255, 153, 0, 0.1);
 	cursor: pointer;
 }
 
 .home-container .home-contact p a {
-	color: #ff9900;
+	color: #FF9900;
 	text-decoration: none;
 }
 
@@ -507,14 +506,14 @@ html {
 	color: #CCCCCC;
 	text-decoration: none;
 	font-size: 1.5rem;
-	padding-top: .75rem;
-	padding-bottom: .75rem;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
 	text-align: center;
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .about-container .about-navbar p:hover {
-	background-color: rgba(0, 0, 0, .1);
+	background-color: rgba(0, 0, 0, 0.1);
 }
 
 .about-container .about-navbar a {
@@ -522,7 +521,7 @@ html {
 }
 
 .about-container .about-active {
-	background-color: rgba(0, 0, 0, .2);
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .about-container .about-content {
@@ -620,11 +619,11 @@ html {
 	color: #CCCCCC;
 	text-align: center;
 	font-weight: 200;
-	padding-top: .25rem;
+	padding-top: 0.25rem;
 }
 
 .about-container .history-divider {
-	width: .15rem;
+	width: 0.15rem;
 	position: absolute;
 	height: 52rem;
 	background-color: #CCCCCC;
@@ -708,10 +707,10 @@ html {
 	color: #CCCCCC;
 	background-color: rgba(50, 50, 50, 1);
 	height: 3rem;
-	padding-top: .5rem;
-	margin-left: .75rem;
+	padding-top: 0.5rem;
+	margin-left: 0.75rem;
 	position: absolute;
-	top: .75rem;
+	top: 0.75rem;
 }
 
 .about-container .year-container h3 {
@@ -719,13 +718,12 @@ html {
 	font-weight: 500;
 	color: #FFFFFF;
 	height: 3rem;
-	padding-top: .5rem;
+	padding-top: 0.5rem;
 	margin-left: 10rem;
 	margin-top: -4.15rem;
 	margin-bottom: 1.25rem;
 	width: 20rem;
 }
-
 
 .about-container .year-container p {
 	font-size: 1.5rem;
@@ -733,7 +731,7 @@ html {
 	color: #CCCCCC;
 	padding-left: 1rem;
 	padding-right: 1rem;
-	padding-bottom: .75rem;
+	padding-bottom: 0.75rem;
 }
 
 /* Contact */
@@ -753,7 +751,7 @@ html {
 	font-size: 2rem;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	margin-top:  3rem;
+	margin-top: 3rem;
 	margin-left: 10vw;
 	margin-right: 10vw;
 	text-align: center;
@@ -773,7 +771,7 @@ html {
 	color: #CCCCCC;
 	font-size: 2rem;
 	font-weight: 400;
-	margin-top:  3rem;
+	margin-top: 3rem;
 	margin-left: 10vw;
 	margin-right: 10vw;
 	text-align: center;
@@ -789,7 +787,7 @@ html {
 	width: 90vw;
 	margin-left: -5vw;
 	margin-bottom: 3rem;
-	border-spacing: 0px;
+	border-spacing: 0;
 }
 
 .contact-container th {
@@ -802,7 +800,7 @@ html {
 }
 
 .package-header-table {
-	background-color: #ff9900;
+	background-color: #FF9900;
 	font-size: 1.5rem;
 	color: #FFFFFF;
 }
@@ -906,22 +904,22 @@ textarea {
 }
 
 .contact-container input[type=submit] {
-	color: #ff9900;
+	color: #FF9900;
 	font-size: 2rem;
 	font-weight: 300;
 	padding-left: 1rem;
 	padding-right: 1rem;
-	padding-top: .5rem;
-	padding-bottom: .5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 	margin-top: 2rem;
-	border: .15rem solid #ff9900;
+	border: 0.15rem solid #FF9900;
 	background-color: rgba(255, 153, 0, 0);
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .contact-container input[type=submit]:hover {
 	cursor: pointer;
-	background-color: rgba(255, 153, 0, .1);
+	background-color: rgba(255, 153, 0, 0.1);
 }
 
 /* Showcase */
@@ -961,13 +959,13 @@ textarea {
 .showcase-container .quotes .quote .fa-quote-left {
 	font-size: 2rem;
 	color: #DDDDDD;
-	padding-right: .5rem;
+	padding-right: 0.5rem;
 }
 
 .showcase-container .quotes .quote .fa-quote-right {
 	font-size: 2rem;
 	color: #DDDDDD;
-	padding-left: .5rem;
+	padding-left: 0.5rem;
 }
 
 .showcase-container .quotes .quote h2 {
@@ -1006,7 +1004,7 @@ textarea {
 	margin-left: 1.5rem;
 	margin-right: 1.5rem;
 	margin-top: 3rem;
-	border: .3rem solid #ff9900;
+	border: 0.3rem solid #FF9900;
 	-webkit-box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
 	box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
 }
@@ -1048,20 +1046,20 @@ footer .left .subheader {
 footer .left li {
 	display: block;
 	font-size: 1rem;
-	padding-bottom: .5rem;
-	padding-top: .25rem;
+	padding-bottom: 0.5rem;
+	padding-top: 0.25rem;
 }
 
 footer .left li a {
 	color: #CCCCCC;
 	text-decoration: none;
-	border-bottom: .25rem dotted #CCCCCC;
-	transition: all ease-in-out .2s;
+	border-bottom: 0.25rem dotted #CCCCCC;
+	transition: all ease-in-out 0.2s;
 }
 
 footer .left li a:hover {
 	color: #AAAAAA;
-	border-bottom: .25rem dotted #AAAAAA;
+	border-bottom: 0.25rem dotted #AAAAAA;
 }
 
 footer .right {
@@ -1078,20 +1076,20 @@ footer .right .subheader {
 footer .right li {
 	display: block;
 	font-size: 1rem;
-	padding-bottom: .5rem;
-	padding-top: .25rem;
+	padding-bottom: 0.5rem;
+	padding-top: 0.25rem;
 }
 
 footer .right li a {
 	color: #CCCCCC;
 	text-decoration: none;
-	border-bottom: .25rem dotted #CCCCCC;
-	transition: all ease-in-out .2s;
+	border-bottom: 0.25rem dotted #CCCCCC;
+	transition: all ease-in-out 0.2s;
 }
 
 footer .right li a:hover {
 	color: #AAAAAA;
-	border-bottom: .25rem dotted #AAAAAA;
+	border-bottom: 0.25rem dotted #AAAAAA;
 }
 
 footer .footer-socials {
@@ -1103,24 +1101,24 @@ footer .footer-socials {
 footer .footer-socials li {
 	display: inline;
 	font-size: 2rem;
-	margin-left: .5rem;
-	margin-right: .35rem;
+	margin-left: 0.5rem;
+	margin-right: 0.35rem;
 	border-radius: 50%;
-	border: .25rem solid #ff9900;
-	padding-left: .8rem;
-	padding-right: .8rem;
-	padding-top: .55rem;
-	padding-bottom: .55rem;
-	transition: all ease-in-out .2s;
+	border: 0.25rem solid #FF9900;
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+	padding-top: 0.55rem;
+	padding-bottom: 0.55rem;
+	transition: all ease-in-out 0.2s;
 }
 
 footer .footer-socials li a {
-	color: #ff9900;
-	transition: all ease-in-out .2s;
+	color: #FF9900;
+	transition: all ease-in-out 0.2s;
 }
 
 footer .footer-socials li:hover {
-	background-color: #ff9900;
+	background-color: #FF9900;
 	color: #000000;
 }
 
@@ -1135,7 +1133,7 @@ footer .footer-socials li a:hover {
 .cookies-container {
 	width: 28rem;
 	height: 13rem;
-	background-color: rgba(0, 0, 0, .9);
+	background-color: rgba(0, 0, 0, 0.9);
 	position: fixed;
 	bottom: 1rem;
 	right: 1rem;
@@ -1164,16 +1162,16 @@ footer .footer-socials li a:hover {
 	color: gold;
 	padding: 1rem;
 	font-weight: 300;
-	border: .15rem solid gold;
-	padding-left: .5rem;
-	padding-right: .5rem;
-	padding-top: .25rem;
-	padding-bottom: .25rem;
+	border: 0.15rem solid gold;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
 	width: 7.5rem;
 	text-align: center;
 	border-radius: 4px;
 	margin-left: 1rem;
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .cookies-container h2:hover {
@@ -1261,7 +1259,7 @@ footer .footer-socials li a:hover {
 	font-size: 2rem;
 	color: #CCCCCC;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 700;
+	font-weight: 700;
 }
 
 .other-container .legal-container h3 {
@@ -1297,7 +1295,7 @@ footer .footer-socials li a:hover {
 .other-container .legal-container a {
 	color: #FFFFFF;
 	text-decoration: none;
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .other-container .legal-container a:hover {
@@ -1336,17 +1334,17 @@ footer .footer-socials li a:hover {
 	margin-top: 3rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	border: .15rem solid #ff9900;
+	border: 0.15rem solid #FF9900;
 	width: 15rem;
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .fourohfour-container p:hover {
-	background-color: rgba(255, 153, 0, .1);
+	background-color: rgba(255, 153, 0, 0.1);
 }
 
 .fourohfour-container p a {
-	color: #ff9900;
+	color: #FF9900;
 	text-decoration: none;
 }
 
@@ -1354,12 +1352,12 @@ footer .footer-socials li a:hover {
 
 @media only screen and (max-width: 1500px) {
 	.about-container .history-divider {
-		width: .15rem;
+		width: 0.15rem;
 		position: absolute;
 		height: calc(100% - 15rem);
 		background-color: #CCCCCC;
 		margin-top: 3rem;
-		left: calc(50% - .15rem / 2);
+		left: calc(50% - 0.15rem / 2);
 	}
 
 	.about-container .history-year-one {
@@ -1391,7 +1389,7 @@ footer .footer-socials li a:hover {
 }
 
 @media only screen and (max-width: 1300px) {
-.about-container .about-staff-container {
+	.about-container .about-staff-container {
 		-ms-flex-direction: column;
 		flex-direction: column;
 	}
@@ -1408,7 +1406,7 @@ footer .footer-socials li a:hover {
 		color: #CCCCCC;
 		margin-left: calc(100vw - 5rem);
 		margin-top: -3.25rem;
-		border: .15rem solid #CCCCCC;
+		border: 0.15rem solid #CCCCCC;
 		width: 2.5rem;
 		text-align: center;
 		border-radius: 4px;
@@ -1421,7 +1419,7 @@ footer .footer-socials li a:hover {
 
 	.header img {
 		height: 3.5rem;
-		padding-top: .75rem;
+		padding-top: 0.75rem;
 		padding-left: calc(50vw - 3.5rem / 2);
 	}
 
@@ -1461,7 +1459,7 @@ footer .footer-socials li a:hover {
 		position: fixed;
 		top: 5rem;
 		left: 0;
-		border-bottom: .15rem solid grey;
+		border-bottom: 0.15rem solid grey;
 		z-index: 999999999;
 		overflow: hidden;
 		display: none;
@@ -1482,7 +1480,7 @@ footer .footer-socials li a:hover {
 		font-weight: 300;
 		padding-top: 1rem;
 		padding-bottom: 1rem;
-		transition: all ease-in-out .2s;
+		transition: all ease-in-out 0.2s;
 	}
 
 	.mobile-dropdown li:hover {
@@ -1490,11 +1488,10 @@ footer .footer-socials li a:hover {
 	}
 
 	.home-container .home-hero {
-		background-color: #ff9900;
+		background-color: #FF9900;
 		min-height: 55rem;
 		position: relative;
 		z-index: 2;
-		position: relative;
 	}
 
 	.home-container .home-hero .typeit-container {
@@ -1546,7 +1543,7 @@ footer .footer-socials li a:hover {
 		text-align: center;
 		margin-left: 0;
 		margin-top: 3rem;
-		border: .3rem solid #ff9900;
+		border: 0.3rem solid #FF9900;
 		-webkit-box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
 		box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
 		object-fit: cover;
@@ -1626,7 +1623,7 @@ footer .footer-socials li a:hover {
 		text-align: center;
 		margin-left: 0;
 		margin-top: 3rem;
-		border: .3rem solid #ff9900;
+		border: 0.3rem solid #FF9900;
 		-webkit-box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
 		box-shadow: 5px 5px 10px 2.5px rgba(34, 34, 34, 0.5);
 		object-fit: cover;
@@ -1657,24 +1654,24 @@ footer .footer-socials li a:hover {
 	footer .footer-socials li {
 		display: inline;
 		font-size: 2rem;
-		margin-left: .5rem;
-		margin-right: .35rem;
+		margin-left: 0.5rem;
+		margin-right: 0.35rem;
 		border-radius: 50%;
-		border: .25rem solid #ff9900;
-		padding-left: .8rem;
-		padding-right: .8rem;
-		padding-top: .55rem;
-		padding-bottom: .55rem;
-		transition: all ease-in-out .2s;
+		border: 0.25rem solid #FF9900;
+		padding-left: 0.8rem;
+		padding-right: 0.8rem;
+		padding-top: 0.55rem;
+		padding-bottom: 0.55rem;
+		transition: all ease-in-out 0.2s;
 	}
 
 	footer .footer-socials li a {
-		color: #ff9900;
-		transition: all ease-in-out .2s;
+		color: #FF9900;
+		transition: all ease-in-out 0.2s;
 	}
 
 	footer .footer-socials li:hover {
-		background-color: #ff9900;
+		background-color: #FF9900;
 		color: #000000;
 	}
 
