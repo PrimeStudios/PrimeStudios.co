@@ -1184,6 +1184,18 @@ footer .footer-socials li a:hover {
 	}
 }
 
+@media only screen and (max-width: 1300px) {
+.about-container .about-staff-container {
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.about-container .staff-padding {
+		margin-left: 0;
+		margin-top: 5rem;
+	}
+}
+
 @media only screen and (max-width: 1100px) {
 	.header h3 {
 		font-size: 1.75rem;
@@ -1402,24 +1414,6 @@ footer .footer-socials li a:hover {
 		margin-left: 0;
 		margin-top: 5rem;
 		border-radius: 4px;
-	}
-
-	.about-staff-container {
-		-ms-flex-direction: column;
-		flex-direction: column;
-	}
-
-	.about-staff-div {
-		width: 15rem;
-		height: 19.5rem;
-		background-color: rgba(50, 50, 50, 1);
-		border-radius: 4px;
-		overflow: hidden;
-	}
-
-	.about-container .staff-padding {
-		margin-left: 0;
-		margin-top: 5rem;
 	}
 
 	footer h1 {
