@@ -20,7 +20,7 @@
 		<h1>&copy; Prime Studios 2019-<script>document.write(new Date().getFullYear())</script>. All Rights Reserved.</h1>
 	</footer>
 	<div id="cookie_notice" class="cookies-container">
-		<p>We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media. <a class="cookie-link" href="/privacy">Learn more</a>.</p>
+		<p>We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media. <a class="cookie-link" href="/privacy">Learn more</a></p>
 		<h2 onclick="CookieAgreement()">I Understand</h2>
 	</div>
 </html>

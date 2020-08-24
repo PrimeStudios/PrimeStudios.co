@@ -1673,6 +1673,14 @@ footer .footer-socials li a:hover {
 	footer .footer-socials li a:hover {
 		color: #000000;
 	}
+
+	.cookies-container {
+		width: 100vw;
+		height: 9rem;
+		position: fixed;
+		bottom: 0;
+		right: 0;
+	}
 }
 
 @media only screen and (max-width: 800px) {
@@ -1687,5 +1695,13 @@ footer .footer-socials li a:hover {
 
 	.about-container .year-container h3 {
 		font-size: 5vw;
+	}
+
+	.cookies-container {
+		width: 100vw;
+		height: 12rem;
+		position: fixed;
+		bottom: 0;
+		right: 0;
 	}
 }
