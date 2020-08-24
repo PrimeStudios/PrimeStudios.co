@@ -1,7 +1,7 @@
 <?php $pageName = 'Showcase';
 require_once('../includes/header.php'); ?>
 <div class="showcase-container">
-	<h1>Quotes</h1>
+	<h1>Testimonials</h1>
 	<div class="quotes">
 		<div class="quote">
 			<p><i class="fas fa-quote-left"></i>The team at Prime Studios is immensely professional and will meet or exceed your expectations! Some of the most reliable and hardworking people that I have had the pleasure in working with!<i class="fas fa-quote-right"></i></p>
