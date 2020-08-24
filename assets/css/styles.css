@@ -1706,7 +1706,10 @@ footer .footer-socials li a:hover {
 	}
 
 	.about-container .year-container h3 {
-		font-size: 5vw;
+		font-size: 4vw;
+		height: 4vw;
+		margin-top: calc(-3.15rem - 4vw / 2);
+		margin-bottom: 2.75rem;
 	}
 
 	.cookies-container {
