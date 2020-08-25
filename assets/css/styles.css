@@ -1813,6 +1813,15 @@ footer .footer-socials li a:hover {
 	}
 }
 
+@media only screen and (max-width: 800px) {
+	.breadcromb p {
+		font-size: 3vw;
+		height: calc(3vw + 1rem);
+		margin: 0;
+		margin-top: 1rem;
+	}
+}
+
 @media only screen and (max-width: 400px) {
 	.cookies-container {
 		width: 100vw;
