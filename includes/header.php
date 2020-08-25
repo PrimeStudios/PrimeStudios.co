@@ -47,7 +47,7 @@
 				<li class="dropdown-trigger">services <i class="fas fa-chevron-down"></i></li>
 				<div class="dropdown">
 					<ul>
-						<li><a href="/">Web Design</a></li>
+						<li><a href="/web">Web Design</a></li>
 						<li><a href="/">Graphic Design</a></li>
 						<li><a href="/">SysAdmin</a></li>
 						<li><a href="/">Open Source</a></li>
@@ -62,7 +62,7 @@
 			<ul>
 				<a href="/"><li>Home</li></a>
 				<a href="/about"><li>About</li></a>
-				<a href="/"><li>Web Design</li></a>
+				<a href="/web"><li>Web Design</li></a>
 				<a href="/"><li>Graphic Design</li></a>
 				<a href="/"><li>SysAdmin</li></a>
 				<a href="/"><li>Open Source</li></a>

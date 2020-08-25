@@ -759,6 +759,82 @@ html {
 	padding-bottom: 0.75rem;
 }
 
+/* Services */
+
+.service-container {
+	width: 80vw;
+	min-height: calc(100vh - 14rem);
+	padding-top: 10rem;
+	padding-bottom: 7rem;
+	background-color: rgba(35, 35, 35, 1);
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+.service-container h1 {
+	color: #CCCCCC;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	font-size: 700;
+	text-align: center;
+}
+
+.service-container h2 {
+	color: #CCCCCC;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	font-size: 700;
+	text-align: center;
+	padding-top: 3rem;
+}
+
+.service-container p {
+	font-size: 1.5rem;
+	color: #CCCCCC;
+	font-weight: 200;
+	padding-top: 3rem;
+}
+
+.service-container .technologies {
+	-ms-flex-align: center;
+	-ms-flex-direction: row;
+	-ms-flex-line-pack: center;
+	-ms-flex-pack: center;
+	-ms-flex-wrap: wrap;
+	-webkit-box-align: center;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	align-content: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+}
+
+.service-container .technologies img {
+	-o-transition: 0.35s ease-in-out;
+	-webkit-filter: grayscale(90%);
+	-webkit-transition: 0.35s ease-in-out;
+	cursor: pointer;
+	filter: grayscale(90%);
+	height: auto;
+	margin: 2rem 3rem;
+	padding: 1rem 1rem;
+	transition: 0.35s ease-in-out;
+	width: 10%;
+}
+
+.service-container .technologies img:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
 /* Contact */
 
 .contact-container {
@@ -777,8 +853,6 @@ html {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	margin-top: 3rem;
-	margin-left: 10vw;
-	margin-right: 10vw;
 	text-align: center;
 	margin-bottom: 5rem;
 }
