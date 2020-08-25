@@ -1247,7 +1247,8 @@ footer .footer-socials li a:hover {
 	width: calc(80vw - 2rem);
 	color: #CCCCCC;
 	margin: 0;
-	margin-top: 1rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 	background-color: rgba(50, 50, 50, 1);
 	padding-top: 1rem;
 	padding-left: 1rem;
@@ -1344,7 +1345,6 @@ footer .footer-socials li a:hover {
 	color: #CCCCCC;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	padding-top: 1rem;
 }
 
 .other-container .legal-container h3 {
