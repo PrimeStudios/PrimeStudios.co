@@ -255,9 +255,9 @@ html {
 }
 
 .home-container .home-hero p {
-	color: #000000;
+	color: #FFFFFF;
 	font-size: 1.5rem;
-	border: 0.2rem solid black;
+	border: 0.2rem solid #FFFFFF;
 	width: 11rem;
 	padding-top: 0.25rem;
 	padding-bottom: 0.2rem;
@@ -271,7 +271,7 @@ html {
 }
 
 .home-container .home-hero p:hover {
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(255, 255, 255, 0.1);
 	cursor: pointer;
 }
 
