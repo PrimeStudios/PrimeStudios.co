@@ -496,10 +496,11 @@ html {
 
 .about-container .about-navbar {
 	width: 20rem;
-	height: 10rem;
+	height: 9.95rem;
 	background-color: rgba(50, 50, 50, 1);
 	border-radius: 4px;
 	overflow: hidden;
+	margin-top: 3rem;
 }
 
 .about-container .about-navbar p {
@@ -763,7 +764,7 @@ html {
 .contact-container {
 	width: 80vw;
 	min-height: calc(100vh - 14rem);
-	padding-top: 7rem;
+	padding-top: 4rem;
 	padding-bottom: 7rem;
 	background-color: rgba(35, 35, 35, 1);
 	padding-left: 10vw;
@@ -956,6 +957,11 @@ textarea {
 	background-color: rgba(35, 35, 35, 1);
 }
 
+.showcase-container .showcase-hero-fix {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
 .showcase-container h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2rem;
@@ -964,6 +970,7 @@ textarea {
 	margin-left: 10%;
 	margin-right: 10%;
 	text-align: center;
+	padding-top: 3rem;
 }
 
 .showcase-container .quotes {
@@ -1206,6 +1213,34 @@ footer .footer-socials li a:hover {
 
 /* Other */
 
+.other-hero-container {
+	width: 80vw;
+	height: 20rem;
+	background-color: orange;
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.other-hero-container .overlay-bg {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	text-align: center;
+}
+
+.other-hero-container .overlay-bg h1 {
+	font-size: 3rem;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFFFFF;
+	padding-top: 7.5rem;
+	text-shadow: 2px 2px #000000;
+	font-weight: 700;
+	font-variant: normal;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 .showcase-popup {
 	background-color: rgba(0, 0, 0, 0.75);
 	border-radius: 4px;
@@ -1327,16 +1362,18 @@ footer .footer-socials li a:hover {
 }
 
 .fourohfour-container {
-	width: 100vw;
+	width: 80vw;
 	min-height: calc(100vh - 14rem);
 	padding-top: 7rem;
 	padding-bottom: 7rem;
+	padding-left: 10%;
+	padding-right: 10%;
 	background-color: rgba(35, 35, 35, 1);
 }
 
 .fourohfour-container img {
 	height: 20rem;
-	margin-left: calc(50vw - 20rem / 2);
+	margin-left: calc(50% - 20rem / 2);
 }
 
 .fourohfour-container h1 {
@@ -1354,7 +1391,7 @@ footer .footer-socials li a:hover {
 	text-align: center;
 	font-weight: 300;
 	font-size: 2rem;
-	margin-left: calc(50vw - 15rem / 2);
+	margin-left: calc(50% - 15rem / 2);
 	margin-top: 3rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -1630,10 +1667,6 @@ footer .footer-socials li a:hover {
 
 	.about-container .about-navbar {
 		width: 80vw;
-		height: 10rem;
-		background-color: rgba(50, 50, 50, 1);
-		border-radius: 4px;
-		overflow: hidden;
 	}
 
 	.about-container .about-content {

@@ -1,6 +1,13 @@
 <?php $pageName = 'Showcase';
 require_once('../includes/header.php'); ?>
 <div class="showcase-container">
+	<div class="showcase-hero-fix">
+		<div class="other-hero-container">
+			<div class="overlay-bg">
+				<h1>Showcase</h1>
+			</div>
+		</div>
+	</div>
 	<h1>Testimonials</h1>
 	<div class="quotes">
 		<div class="quote">

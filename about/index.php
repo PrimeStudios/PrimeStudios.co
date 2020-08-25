@@ -1,6 +1,11 @@
-<?php $pageName = 'About';
+<?php $pageName = 'Introduction';
 require_once('../includes/header.php'); ?>
 <div class="about-container">
+	<div class="other-hero-container">
+		<div class="overlay-bg">
+			<h1>Introduction</h1>
+		</div>
+	</div>
 	<div class="about-navbar">
 		<a href="/about"><p class="about-active">Introduction</p></a>
 		<a href="/about/team"><p>Our Team</p></a>
