@@ -7,6 +7,9 @@ require_once('../includes/header.php'); ?>
 				<h1>Showcase</h1>
 			</div>
 		</div>
+		<div class="breadcromb">
+			<p><a href="/"><i class="fas fa-home"></i> Home</a> / <b>Showcase</b></p>
+		</div>
 	</div>
 	<h1>Testimonials</h1>
 	<div class="quotes">

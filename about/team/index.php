@@ -6,6 +6,9 @@ require_once('../../includes/header.php'); ?>
 			<h1>Our Team</h1>
 		</div>
 	</div>
+	<div class="breadcromb">
+		<p><a href="/"><i class="fas fa-home"></i> Home</a> / <b>Our Team</b></p>
+	</div>
 	<div class="about-navbar">
 		<a href="/about"><p>Introduction</p></a>
 		<a href="/about/team"><p class="about-active">Our Team</p></a>

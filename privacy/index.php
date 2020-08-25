@@ -2,6 +2,14 @@
 require_once('../includes/header.php'); ?>
 <div class="other-container">
 	<div class="legal-container">
+		<div class="other-hero-container">
+			<div class="overlay-bg">
+				<h1>Privacy Policy</h1>
+			</div>
+		</div>
+		<div class="breadcromb">
+			<p><a href="/"><i class="fas fa-home"></i> Home</a> / <b>Privacy Policy</b></p>
+		</div>
 		<h2>Prime Studios Privacy Policy </h2>
 		<p>Last Updated: February 26th, 2020</p>
 		<h3>1. Privacy Policy</h3>

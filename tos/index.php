@@ -2,6 +2,14 @@
 require_once('../includes/header.php'); ?>
 <div class="other-container">
 	<div class="legal-container">
+		<div class="other-hero-container">
+			<div class="overlay-bg">
+				<h1>Terms of Service</h1>
+			</div>
+		</div>
+		<div class="breadcromb">
+			<p><a href="/"><i class="fas fa-home"></i> Home</a> / <b>Terms of Service</b></p>
+		</div>
 		<h2>Prime Studios Terms of Service</h2>
 		<p>Last Updated: February 26th, 2020</p>
 		<h3>1. Terms</h3>
