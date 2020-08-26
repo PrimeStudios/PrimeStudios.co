@@ -1288,7 +1288,7 @@ footer .footer-socials li a:hover {
 
 .other-hero-container {
 	width: 80vw;
-	height: 20rem;
+	height: 15rem;
 	background-color: orange;
 	background-image: url('../img/background.jpg');
 	background-size: cover;
@@ -1306,7 +1306,7 @@ footer .footer-socials li a:hover {
 	font-size: 3rem;
 	font-family: 'Montserrat', sans-serif;
 	color: #FFFFFF;
-	padding-top: 7.5rem;
+	padding-top: 5.5rem;
 	text-shadow: 2px 2px #000000;
 	font-weight: 700;
 	font-variant: normal;
