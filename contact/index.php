@@ -55,16 +55,45 @@ require_once('../includes/header.php'); ?>
 		<br />
 		<br />
 		<span class="contact-title"><i class="fas fa-list"></i> requirements:</span><br><br>
-		<input id="webdesign" type="checkbox" name="webdesign" size="50">
-		<label for="webdesign">Web Design</label><br>
-		<input id="graphic" type="checkbox" name="graphic" size="50">
-		<label for="graphic">Graphic Design</label><br>
-		<input id="sysadmin" type="checkbox" name="sysadmin" size="50">
-		<label for="sysadmin">SysAdmin</label><br>
-		<input id="seo" type="checkbox" name="seo" size="50">
-		<label for="seo">SEO</label><br>
-		<input id="other" type="checkbox" name="other" size="50">
-		<label for="other">Other (Put in comments)</label>
+		<br />
+		<div class="pretty p-default p-curve p-thick p-smooth">
+			<input id="webdesign" type="checkbox" name="webdesign" size="50">
+			<div class="state p-warning">
+				<label for="webdesign">Web Design</label>
+			</div>
+		</div>
+		<br />
+		<br />
+		<div class="pretty p-default p-curve p-thick p-smooth">
+			<input id="graphic" type="checkbox" name="graphic" size="50">
+			<div class="state p-warning">
+				<label for="graphic">Graphic Design</label>
+			</div>
+		</div>
+		<br />
+		<br />
+		<div class="pretty p-default p-curve p-thick p-smooth">
+			<input id="sysadmin" type="checkbox" name="sysadmin" size="50">
+			<div class="state p-warning">
+				<label for="sysadmin">SysAdmin</label>
+			</div>
+		</div>
+		<br />
+		<br />
+		<div class="pretty p-default p-curve p-thick p-smooth">
+			<input id="seo" type="checkbox" name="seo" size="50">
+			<div class="state p-warning">
+				<label for="seo">SEO</label>
+			</div>
+		</div>
+		<br />
+		<br />
+		<div class="pretty p-default p-curve p-thick p-smooth">
+			<input id="other" type="checkbox" name="other" size="50">
+			<div class="state p-warning">
+				<label for="other">Other (Put in comments)</label>
+			</div>
+		</div>
 		<br />
 		<br />
 		<input type="submit" value="Send">

@@ -963,10 +963,9 @@ textarea {
 	width: 100%;
 }
 
-input[type="checkbox"] {
+.contact-container input[type="checkbox"] {
 	size: 1.5rem;
 	height: 1rem;
-	margin-top: 2rem;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	-webkit-user-select: none;
@@ -981,7 +980,7 @@ input[type="checkbox"] {
 	-ms-user-select: none;
 	-webkit-user-select: none;
 	user-select: none;
-	padding-left: .5rem;
+	margin-left: .5rem;
 }
 
 .contact-container input[type=number] {
@@ -1021,6 +1020,10 @@ textarea {
 .contact-container input[type=submit]:hover {
 	cursor: pointer;
 	background-color: rgba(255, 153, 0, 0.1);
+}
+
+.contact-container input[type="checkbox"]:checked + label:before {
+  background-color: orange;
 }
 
 /* Showcase */
