@@ -48,8 +48,8 @@
 				<div class="dropdown">
 					<ul>
 						<li><a href="/web">Web Design</a></li>
-						<li><a href="/">Graphic Design</a></li>
-						<li><a href="/">SysAdmin</a></li>
+						<li><a href="/graphic">Graphic Design</a></li>
+						<li><a href="/sysadmin">SysAdmin</a></li>
 						<li><a href="/">Open Source</a></li>
 					</ul>
 				</div>
@@ -63,8 +63,8 @@
 				<a href="/"><li>Home</li></a>
 				<a href="/about"><li>About</li></a>
 				<a href="/web"><li>Web Design</li></a>
-				<a href="/"><li>Graphic Design</li></a>
-				<a href="/"><li>SysAdmin</li></a>
+				<a href="/graphic"><li>Graphic Design</li></a>
+				<a href="/sysadmin"><li>SysAdmin</li></a>
 				<a href="/"><li>Open Source</li></a>
 				<a href="/contact"><li>Contact</li></a>
 			</ul>

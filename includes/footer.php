@@ -2,9 +2,9 @@
 	<footer>
 		<ul class="left">
 			<li class="subheader">Services</li>
-			<li><a href="/">Web Design</a></li>
-			<li><a href="/">Graphic Design</a></li>
-			<li><a href="/">System Administration</a></li>
+			<li><a href="/web">Web Design</a></li>
+			<li><a href="/graphic">Graphic Design</a></li>
+			<li><a href="/sysadmin">System Administration</a></li>
 		</ul>
 		<ul class="right">
 			<li class="subheader">Company</a></li>

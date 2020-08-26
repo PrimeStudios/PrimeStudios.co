@@ -10,7 +10,7 @@ require_once('../includes/header.php'); ?>
 		<p><a href="/"><i class="fas fa-home"></i> Home</a> / <b>Web Design</b></p>
 	</div>
 	<h1>What we have to offer</h1>
-	<p>Prime Studios offers a variety of web services to our clients. Our team has been working in the industry for several years and will ensure a high quality product. We utilize modern technologies and custom frameworks to provide a unique product to our consumers.</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;Prime Studios offers a variety of web services to our clients. Our team has been working in the industry for several years and will ensure a high quality product. We utilize modern technologies and custom frameworks to provide a unique product to our consumers.</p>
 	<p>We don't have set plans or pricing, our team works tailored to your needs. No matter how simple or complex your next project, we got you covered.</p>
 	<h2>What we work with</h2>
 	<div class="technologies">
