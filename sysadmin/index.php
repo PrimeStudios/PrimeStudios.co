@@ -3,11 +3,11 @@ require_once('../includes/header.php'); ?>
 <div class="service-container">
 	<div class="other-hero-container">
 		<div class="overlay-bg">
-			<h1>System Administration</h1>
+			<h1>SysAdmin</h1>
 		</div>
 	</div>
 	<div class="breadcromb">
-		<p><a href="/"><i class="fas fa-home"></i> Home</a> / <b>System Administration</b></p>
+		<p><a href="/"><i class="fas fa-home"></i> Home</a> / <b>SysAdmin</b></p>
 	</div>
 	<h1>What we have to offer</h1>
 	<p>&nbsp;&nbsp;&nbsp;&nbsp;We provide configuration and management for web servers on both Windows and Linux. We're capable of assisting in data and content migration upon request. Our team can also assist Clients using unmanaged hosting setup their web server. Configuration also covers the cost of domain registration if necessary.</p>
