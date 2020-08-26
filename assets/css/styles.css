@@ -1158,13 +1158,11 @@ footer .left li {
 footer .left li a {
 	color: #CCCCCC;
 	text-decoration: none;
-	border-bottom: 0.25rem dotted #CCCCCC;
 	transition: all ease-in-out 0.2s;
 }
 
 footer .left li a:hover {
 	color: #AAAAAA;
-	border-bottom: 0.25rem dotted #AAAAAA;
 }
 
 footer .right {
@@ -1188,13 +1186,11 @@ footer .right li {
 footer .right li a {
 	color: #CCCCCC;
 	text-decoration: none;
-	border-bottom: 0.25rem dotted #CCCCCC;
 	transition: all ease-in-out 0.2s;
 }
 
 footer .right li a:hover {
 	color: #AAAAAA;
-	border-bottom: 0.25rem dotted #AAAAAA;
 }
 
 footer .footer-socials {
