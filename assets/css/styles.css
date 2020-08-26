@@ -965,6 +965,7 @@ textarea {
 
 input[type="checkbox"] {
 	size: 1.5rem;
+	height: 1rem;
 	margin-top: 2rem;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -980,6 +981,7 @@ input[type="checkbox"] {
 	-ms-user-select: none;
 	-webkit-user-select: none;
 	user-select: none;
+	padding-left: .5rem;
 }
 
 .contact-container input[type=number] {
