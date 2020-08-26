@@ -1830,7 +1830,7 @@ footer .footer-socials li a:hover {
 
 	footer p {
 		position: absolute;
-		left: 1rem;
+		left: 1.5rem;
 		top: -4rem;
 		text-align: center;
 	}
@@ -1942,7 +1942,7 @@ footer .footer-socials li a:hover {
 	}
 
 	.other-hero-container .overlay-bg h1 {
-		font-size: 3vw;
-		padding-top: calc(15rem / 2 - 3vw / 2);
+		font-size: 7vw;
+		padding-top: calc(15rem / 2 - 7vw / 2);
 	}
 }
