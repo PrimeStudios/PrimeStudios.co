@@ -980,7 +980,7 @@ textarea {
 	-ms-user-select: none;
 	-webkit-user-select: none;
 	user-select: none;
-	margin-left: .5rem;
+	margin-left: 0.5rem;
 }
 
 .contact-container input[type=number] {
