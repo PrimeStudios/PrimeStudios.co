@@ -14,12 +14,12 @@ require_once('../includes/header.php'); ?>
 	<p>No matter your needs, don't worry about the technical side of your website - rely on us to do the hard part for you.</p>
 	<h2>What we work with</h2>
 	<div class="technologies">
-			<img title="CentOS" alt="CentOS" src="../assets/img/technologies/centos.png" />
-			<img title="Debain" src="../assets/img/technologies/debian.png" />
-			<img title="Fedora" src="../assets/img/technologies/fedora.png" />
-			<img title="Linux" src="../assets/img/technologies/linux.png" />
-			<img title="Ubuntu" src="../assets/img/technologies/ubuntu.png" />
-			<img title="Windows" src="../assets/img/technologies/windows.png" />
-		</div>
+		<img title="CentOS" alt="CentOS" src="../assets/img/technologies/centos.png" />
+		<img title="Debain" src="../assets/img/technologies/debian.png" />
+		<img title="Fedora" src="../assets/img/technologies/fedora.png" />
+		<img title="Linux" src="../assets/img/technologies/linux.png" />
+		<img title="Ubuntu" src="../assets/img/technologies/ubuntu.png" />
+		<img title="Windows" src="../assets/img/technologies/windows.png" />
+	</div>
 </div>
 <?php require_once('../includes/footer.php'); ?>

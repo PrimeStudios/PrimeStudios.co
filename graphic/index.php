@@ -14,8 +14,8 @@ require_once('../includes/header.php'); ?>
 	<p>Lacking professional and/or up to date branding? No need to worry as we got you covered with industry latest practices to bring your idea to life.</p>
 	<h2>What we work with</h2>
 	<div class="technologies">
-			<img title="Photoshop" src="../assets/img/technologies/photoshop.png" />
-			<img title="Illustrator" src="../assets/img/technologies/illustrator.png" />
-		</div>
+		<img title="Photoshop" src="../assets/img/technologies/photoshop.png" />
+		<img title="Illustrator" src="../assets/img/technologies/illustrator.png" />
+	</div>
 </div>
 <?php require_once('../includes/footer.php'); ?>
