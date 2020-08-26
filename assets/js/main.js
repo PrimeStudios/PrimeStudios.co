@@ -35,6 +35,10 @@ function CookieAgreed() {
 }
 window.onload = CookieAgreed;
 
+function scrollTopFunction() {
+	window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
 var navbarToggled = false;
 
 function toggleNavbar() {

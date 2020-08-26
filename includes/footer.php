@@ -1,5 +1,6 @@
 	</body>
 	<footer>
+		<p onclick="scrollTopFunction()"><i class="fas fa-arrow-circle-up"></i> back to the top</p>
 		<ul class="left">
 			<li class="subheader">Services</li>
 			<li><a href="/web">Web Design</a></li>
