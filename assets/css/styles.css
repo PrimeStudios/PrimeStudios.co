@@ -1140,7 +1140,7 @@ footer p {
 	border-radius: 50px;
 	padding-left: .5rem;
 	padding-right: .5rem;
-	padding-top: .25rem;
+	padding-top: .15rem;
 	padding-bottom: .25rem;
 	transition: all ease-in-out .2s;
 	-moz-user-select: none;
@@ -1828,6 +1828,13 @@ footer .footer-socials li a:hover {
 		padding: 0;
 	}
 
+	footer p {
+		position: absolute;
+		left: 1rem;
+		top: -4rem;
+		text-align: center;
+	}
+
 	footer h1 {
 		margin-left: 0;
 		text-align: center;
@@ -1932,5 +1939,10 @@ footer .footer-socials li a:hover {
 		position: fixed;
 		bottom: 0;
 		right: 0;
+	}
+
+	.other-hero-container .overlay-bg h1 {
+		font-size: 3vw;
+		padding-top: calc(15rem / 2 - 3vw / 2);
 	}
 }
