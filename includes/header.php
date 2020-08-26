@@ -30,8 +30,8 @@
 		<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 		<!-- Custom Stylesheet -->
 		<link href="/assets/css/styles.css" rel="stylesheet" />
-		<link href="/assets/css/checkbox.css" rel="stylesheet" />
 		<link href="/assets/css/animate.css" rel="stylesheet" />
+		<link href="/assets/css/checkbox.css" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900" rel="stylesheet" type="text/css" />
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 		<!-- Main JavaScript -->
