@@ -1264,15 +1264,29 @@ footer .footer-socials li {
 	margin-right: 0.35rem;
 	border-radius: 50%;
 	border: 0.25rem solid #FF9900;
-	padding-left: 0.8rem;
-	padding-right: 0.8rem;
 	padding-top: 0.55rem;
 	padding-bottom: 0.55rem;
 	transition: all ease-in-out 0.2s;
 }
 
+footer .footer-socials li .fa-github {
+	padding-left: 0.7rem;
+	padding-right: 0.7rem;
+}
+
+footer .footer-socials li .fa-linkedin {
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+}
+
+footer .footer-socials li .fa-discord {
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+}
+
 footer .footer-socials li a {
 	color: #FF9900;
+	text-decoration: none;
 	transition: all ease-in-out 0.2s;
 }
 
