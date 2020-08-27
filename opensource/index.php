@@ -9,5 +9,6 @@ require_once('../includes/header.php'); ?>
 	<div class="breadcromb">
 		<p><a href="/"><i class="fas fa-home"></i> Home</a> / <b>Open Source</b></p>
 	</div>
+	<h1>Coming Soon</h1>
 </div>
 <?php require_once('../includes/footer.php'); ?>
