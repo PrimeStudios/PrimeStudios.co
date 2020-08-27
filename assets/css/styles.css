@@ -1159,20 +1159,46 @@ footer p:hover {
 	cursor: pointer;
 }
 
+footer hr {
+	background: #CCCCCC;
+	height: .05rem;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	margin-top: 2rem;
+}
+
 footer h1 {
 	color: #CCCCCC;
 	font-size: 1rem;
 	text-align: left;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
-	padding-top: 3rem;
 	margin-left: 5rem;
+	margin-top: -1.5rem;
+}
+
+footer h1 a {
+	color: #CCCCCC;
+	transition: all ease-in-out .2s;
+	text-decoration: none;
+}
+
+footer h1 a:hover {
+	color: #DDDDDD;
+}
+
+footer h2 {
+	font-size: 1.5rem;
+	color: #FFFFFF;
+	margin-left: 5rem;
+	padding-top: 3rem;
+	font-weight: 600;
 }
 
 footer .left {
-	margin-left: 25rem;
-	padding-top: 3rem;
-	text-align: center;
+	margin-left: 5rem;
+	padding-top: 1rem;
+	text-align: left;
 }
 
 footer .left .subheader {
@@ -1198,9 +1224,9 @@ footer .left li a:hover {
 }
 
 footer .right {
-	margin-left: calc(100vw - 25rem);
+	margin-left: 25rem;
 	margin-top: -8.5rem;
-	text-align: center;
+	text-align: left;
 }
 
 footer .right .subheader {
@@ -1226,14 +1252,14 @@ footer .right li a:hover {
 }
 
 footer .footer-socials {
-	text-align: left;
-	margin-top: -7rem;
-	margin-left: 5rem;
+	text-align: right;
+	margin-top: 2rem;
+	margin-right: 5rem;
 }
 
 footer .footer-socials li {
 	display: inline;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin-left: 0.5rem;
 	margin-right: 0.35rem;
 	border-radius: 50%;
@@ -1837,22 +1863,21 @@ footer .footer-socials li a:hover {
 
 	footer h1 {
 		margin-left: 0;
+		margin-top: 3rem;
 		text-align: center;
-	}
-
-	footer .left {
-		margin-left: 0;
+		margin-left: 5rem;
+		margin-right: 5rem;
 	}
 
 	footer .right {
-		margin-left: 0;
 		margin-top: 1rem;
+		margin-left: 5rem;
 	}
 
 	footer .footer-socials {
 		text-align: center;
 		margin-top: 3rem;
-		margin-left: 0;
+		margin-right: 0rem;
 	}
 
 	footer .footer-socials li {
