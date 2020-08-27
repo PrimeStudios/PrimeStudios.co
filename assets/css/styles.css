@@ -1161,7 +1161,7 @@ footer p:hover {
 
 footer hr {
 	background: #CCCCCC;
-	height: .05rem;
+	height: 0.05rem;
 	margin-left: 5rem;
 	margin-right: 5rem;
 	margin-top: 2rem;
@@ -1179,7 +1179,7 @@ footer h1 {
 
 footer h1 a {
 	color: #CCCCCC;
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 	text-decoration: none;
 }
 
@@ -1877,7 +1877,7 @@ footer .footer-socials li a:hover {
 	footer .footer-socials {
 		text-align: center;
 		margin-top: 3rem;
-		margin-right: 0rem;
+		margin-right: 0;
 	}
 
 	footer .footer-socials li {
