@@ -1893,20 +1893,6 @@ footer .footer-socials li a:hover {
 		margin-right: 0;
 	}
 
-	footer .footer-socials li {
-		display: inline;
-		font-size: 2rem;
-		margin-left: 0.5rem;
-		margin-right: 0.35rem;
-		border-radius: 50%;
-		border: 0.25rem solid #FF9900;
-		padding-left: 0.8rem;
-		padding-right: 0.8rem;
-		padding-top: 0.55rem;
-		padding-bottom: 0.55rem;
-		transition: all ease-in-out 0.2s;
-	}
-
 	footer .footer-socials li a {
 		color: #FF9900;
 		transition: all ease-in-out 0.2s;
