@@ -20,7 +20,7 @@
 			<li><a href="https://www.linkedin.com/company/prime-studios-official/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 			<li><a href="https://discord.gg/z7wScKW" target="_blank"><i class="fab fa-discord"></i></a></li>
 		</ul>
-		<h1>&copy; <b>Prime Studios</b> 2019-<script>document.write(new Date().getFullYear())</script>. All Rights Reserved. | <a href="/tos">TERMS</a> | <a href="/privacy">POLICY</a> | <a href="/contact">CONTACT</a> |</h1>
+		<h1>&copy; <b>Prime Studios</b> 2019-<script>document.write(new Date().getFullYear())</script>. All Rights Reserved.&nbsp;&nbsp;<a href="/tos">TERMS</a> | <a href="/privacy">POLICY</a> | <a href="/contact">CONTACT</a></h1>
 	</footer>
 	<div id="cookie_notice" class="cookies-container animated slideInUp">
 		<p>We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media.<br /><a class="cookie-link" href="/privacy">Learn more</a></p>
