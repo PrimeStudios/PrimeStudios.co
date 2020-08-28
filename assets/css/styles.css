@@ -1482,36 +1482,28 @@ footer .footer-socials li a:hover {
 	margin-right: 10vw;
 }
 
-.other-container .legal-container h2 {
+.other-container .legal-container .legal-content h2 {
 	font-size: 2rem;
 	color: #CCCCCC;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
 
-.other-container .legal-container h3 {
+.other-container .legal-container .legal-content h3 {
 	padding-top: 1rem;
 	font-size: 1.75rem;
 	font-weight: 600;
 	color: #CCCCCC;
 }
 
-.other-container .legal-container p {
+.other-container .legal-container .legal-content p {
 	padding-top: 1rem;
 	font-size: 1.5rem;
 	font-weight: 300;
 	color: #CCCCCC;
 }
 
-.other-container .legal-container ol {
-	padding-top: 1rem;
-	font-size: 1.5rem;
-	font-weight: 300;
-	margin-left: 2rem;
-	color: #CCCCCC;
-}
-
-.other-container .legal-container li {
+.other-container .legal-container .legal-content ol {
 	padding-top: 1rem;
 	font-size: 1.5rem;
 	font-weight: 300;
@@ -1519,13 +1511,21 @@ footer .footer-socials li a:hover {
 	color: #CCCCCC;
 }
 
-.other-container .legal-container a {
+.other-container .legal-container .legal-content li {
+	padding-top: 1rem;
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin-left: 2rem;
+	color: #CCCCCC;
+}
+
+.other-container .legal-container .legal-content a {
 	color: #FFFFFF;
 	text-decoration: none;
 	transition: all ease-in-out 0.2s;
 }
 
-.other-container .legal-container a:hover {
+.other-container .legal-container .legal-content a:hover {
 	color: #DDDDDD;
 }
 
@@ -1539,12 +1539,12 @@ footer .footer-socials li a:hover {
 	background-color: rgba(35, 35, 35, 1);
 }
 
-.fourohfour-container img {
+.fourohfour-container .fourohfour-content img {
 	height: 20rem;
 	margin-left: calc(50% - 20rem / 2);
 }
 
-.fourohfour-container h1 {
+.fourohfour-container .fourohfour-content h1 {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	font-weight: 300;
@@ -1554,7 +1554,7 @@ footer .footer-socials li a:hover {
 	padding-right: 10vw;
 }
 
-.fourohfour-container p {
+.fourohfour-container .fourohfour-content p {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	font-weight: 300;
@@ -1568,11 +1568,11 @@ footer .footer-socials li a:hover {
 	transition: all ease-in-out 0.2s;
 }
 
-.fourohfour-container p:hover {
+.fourohfour-container .fourohfour-content p:hover {
 	background-color: rgba(255, 153, 0, 0.1);
 }
 
-.fourohfour-container p a {
+.fourohfour-container .fourohfour-content p a {
 	color: #FF9900;
 	text-decoration: none;
 }

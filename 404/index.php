@@ -6,8 +6,13 @@ require_once('../includes/header.php'); ?>
 			<h1>404</h1>
 		</div>
 	</div>
-	<img src="/assets/img/not-found.svg" />
-	<h1>It appears you've stumbled somewhere you shouldn't have.</h1>
-	<p><a href="/">Go Back Home</a></p>
+	<div class="breadcromb">
+		<p><a href="/"><i class="fas fa-home"></i> Home</a> / <b>Error 404</b></p>
+	</div>
+	<div class="fourohfour-content">
+		<img src="/assets/img/not-found.svg" />
+		<h1>It appears you've stumbled somewhere you shouldn't have.</h1>
+		<p><a href="/">Go Back Home</a></p>
+	</div>
 </div>
 <?php require_once('../includes/footer.php'); ?>
