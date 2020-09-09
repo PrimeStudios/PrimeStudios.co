@@ -19,6 +19,7 @@
 			<li><a href="https://github.com/PrimeStudios" target="_blank"><i class="fab fa-github"></i></a></li>
 			<li><a href="https://www.linkedin.com/company/prime-studios-official/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 			<li><a href="https://discord.gg/z7wScKW" target="_blank"><i class="fab fa-discord"></i></a></li>
+			<li><a href="https://twitter.com/PrimeStudiosUS" target="_blank"><i class="fab fa-twitter"></i></a></li>
 		</ul>
 		<h1>&copy; <b>Prime Studios</b> 2019-<script>document.write(new Date().getFullYear())</script>. All Rights Reserved.&nbsp;&nbsp;<a href="/tos">TERMS</a> | <a href="/privacy">POLICY</a> | <a href="/contact">CONTACT</a></h1>
 	</footer>

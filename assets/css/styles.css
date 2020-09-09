@@ -167,7 +167,7 @@ html {
 	width: 10rem;
 	margin-left: calc(100vw - 23rem);
 	margin-top: 1.25rem;
-	background-color: white;
+	background-color: #FFFFFF;
 	position: absolute;
 	display: none;
 }
@@ -1269,6 +1269,11 @@ footer .footer-socials li {
 	transition: all ease-in-out 0.2s;
 }
 
+footer .footer-socials li .fa-twitter {
+	padding-left: 0.7rem;
+	padding-right: 0.7rem;
+}
+
 footer .footer-socials li .fa-github {
 	padding-left: 0.7rem;
 	padding-right: 0.7rem;
@@ -1696,7 +1701,7 @@ footer .footer-socials li a:hover {
 	.mobile-dropdown {
 		width: 100vw;
 		height: 26.5rem;
-		background-color: white;
+		background-color: #FFFFFF;
 		position: fixed;
 		top: 5rem;
 		left: 0;
