@@ -869,7 +869,7 @@ html {
 	padding: 0;
 	margin-left: calc(100% - 5rem);
 	margin-top: -3.5rem;
-	padding-top: .75rem;
+	padding-top: 0.75rem;
 }
 
 .service-container .opensource-container .opensource-navbar .project-links-container h2 {
