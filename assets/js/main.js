@@ -300,3 +300,35 @@ function Showcase_Actual_Eleven() {
 	document.getElementById('showcase_popup_image_eleven').style.display = 'block';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
+
+function OS_Steam_Group_Count_Button() {
+	document.getElementById('os-landing').style.display = 'none';
+	document.getElementById('os-sgc').style.display = 'block';
+	document.getElementById('os-discord').style.display = 'none';
+	document.getElementById('os-contact').style.display = 'none';
+	document.getElementById('os-website').style.display = 'none';
+}
+
+function OS_Discord_Webhooks_Button() {
+	document.getElementById('os-landing').style.display = 'none';
+	document.getElementById('os-sgc').style.display = 'none';
+	document.getElementById('os-discord').style.display = 'block';
+	document.getElementById('os-contact').style.display = 'none';
+	document.getElementById('os-website').style.display = 'none';
+}
+
+function OS_Contact_API_Button() {
+	document.getElementById('os-landing').style.display = 'none';
+	document.getElementById('os-sgc').style.display = 'none';
+	document.getElementById('os-discord').style.display = 'none';
+	document.getElementById('os-contact').style.display = 'block';
+	document.getElementById('os-website').style.display = 'none';
+}
+
+function OS_Website_Button() {
+	document.getElementById('os-landing').style.display = 'none';
+	document.getElementById('os-sgc').style.display = 'none';
+	document.getElementById('os-discord').style.display = 'none';
+	document.getElementById('os-contact').style.display = 'none';
+	document.getElementById('os-website').style.display = 'block';
+}
