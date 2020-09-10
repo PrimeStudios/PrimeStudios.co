@@ -835,6 +835,95 @@ html {
 	filter: grayscale(0%);
 }
 
+.service-container .opensource-container {
+	width: 100%;
+}
+
+.service-container .opensource-container .opensource-navbar {
+	width: 20rem;
+	height: 40rem;
+	background-color: rgba(50, 50, 50, 1);
+	border-radius: 4px;
+	overflow-y: auto;
+}
+
+.service-container .opensource-container .opensource-navbar p {
+	width: calc(100% - 2rem);
+	font-size: 1.25rem;
+	color: #CCCCCC;
+	text-align: left;
+	margin: 0;
+	padding: 1rem;
+	font-weight: 400;
+	transition: all ease-in-out 0.2s;
+}
+
+.service-container .opensource-container .opensource-navbar p:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.service-container .opensource-container .opensource-navbar .project-links-container {
+	width: 5rem;
+	height: 2.75rem;
+	padding: 0;
+	margin-left: calc(100% - 5rem);
+	margin-top: -3.5rem;
+	padding-top: .75rem;
+}
+
+.service-container .opensource-container .opensource-navbar .project-links-container h2 {
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 0;
+	padding-left: 0.5rem;
+	display: inline;
+}
+
+.service-container .opensource-container .opensource-navbar .project-links-container h2 a {
+	color: #CCCCCC;
+	text-decoration: none;
+	transition: all ease-in-out 0.2s;
+}
+
+.service-container .opensource-container .opensource-navbar .project-links-container h2:hover a {
+	color: #FFFFFF;
+}
+
+.service-container .opensource-container .opensource-content {
+	width: calc(100% - 23rem);
+	height: 40rem;
+	margin-left: 23rem;
+	margin-top: -40rem;
+	background-color: rgba(50, 50, 50, 1);
+	border-radius: 4px;
+	overflow-y: auto;
+}
+
+.service-container .opensource-container .opensource-content h1 {
+	color: #CCCCCC;
+	font-size: 1.75rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 0;
+}
+
+.service-container .opensource-container .opensource-content img {
+	height: 10rem;
+	width: 10rem;
+	margin-top: 2rem;
+	margin-left: calc(50% - 5rem);
+}
+
+.service-container .opensource-container .opensource-content p {
+	color: #CCCCCC;
+	font-size: 1.5rem;
+	font-weight: 300;
+	padding: 2rem;
+}
+
 /* Contact */
 
 .contact-container {
