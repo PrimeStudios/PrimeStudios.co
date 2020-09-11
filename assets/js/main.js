@@ -33,7 +33,6 @@ function CookieAgreed() {
 		document.getElementById('cookie_notice').style.display = 'none';
 	}
 }
-window.onload = CookieAgreed;
 
 function scrollTopFunction() {
 	window.scrollTo({top: 0, behavior: 'smooth'});
@@ -307,6 +306,7 @@ function OS_Steam_Group_Count_Button() {
 	document.getElementById('os-discord').style.display = 'none';
 	document.getElementById('os-contact').style.display = 'none';
 	document.getElementById('os-website').style.display = 'none';
+	window.location.hash = "steam_count";
 }
 
 function OS_Discord_Webhooks_Button() {
@@ -315,6 +315,7 @@ function OS_Discord_Webhooks_Button() {
 	document.getElementById('os-discord').style.display = 'block';
 	document.getElementById('os-contact').style.display = 'none';
 	document.getElementById('os-website').style.display = 'none';
+	window.location.hash = "discord_webhooks";
 }
 
 function OS_Contact_API_Button() {
@@ -323,6 +324,7 @@ function OS_Contact_API_Button() {
 	document.getElementById('os-discord').style.display = 'none';
 	document.getElementById('os-contact').style.display = 'block';
 	document.getElementById('os-website').style.display = 'none';
+	window.location.hash = "contact_api";
 }
 
 function OS_Website_Button() {
@@ -331,4 +333,43 @@ function OS_Website_Button() {
 	document.getElementById('os-discord').style.display = 'none';
 	document.getElementById('os-contact').style.display = 'none';
 	document.getElementById('os-website').style.display = 'block';
+	window.location.hash = "website";
 }
+
+function OS_Handle_Content() {
+	if (location.href.indexOf("#steam_count") != -1) {
+		document.getElementById('os-landing').style.display = 'none';
+		document.getElementById('os-sgc').style.display = 'block';
+		document.getElementById('os-discord').style.display = 'none';
+		document.getElementById('os-contact').style.display = 'none';
+		document.getElementById('os-website').style.display = 'none';
+	}
+	if (location.href.indexOf("#discord_webhooks") != -1) {
+		document.getElementById('os-landing').style.display = 'none';
+		document.getElementById('os-sgc').style.display = 'none';
+		document.getElementById('os-discord').style.display = 'block';
+		document.getElementById('os-contact').style.display = 'none';
+		document.getElementById('os-website').style.display = 'none';
+	}
+	if (location.href.indexOf("#contact_api") != -1) {
+		document.getElementById('os-landing').style.display = 'none';
+		document.getElementById('os-sgc').style.display = 'none';
+		document.getElementById('os-discord').style.display = 'none';
+		document.getElementById('os-contact').style.display = 'block';
+		document.getElementById('os-website').style.display = 'none';
+	}
+	if (location.href.indexOf("#website") != -1) {
+		document.getElementById('os-landing').style.display = 'none';
+		document.getElementById('os-sgc').style.display = 'none';
+		document.getElementById('os-discord').style.display = 'none';
+		document.getElementById('os-contact').style.display = 'none';
+		document.getElementById('os-website').style.display = 'block';
+	}
+}
+
+function OnLoadEvents() {
+	CookieAgreed()
+	OS_Handle_Content()
+}
+
+window.onload = OnLoadEvents;
