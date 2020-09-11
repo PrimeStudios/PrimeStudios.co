@@ -845,6 +845,10 @@ html {
 	background-color: rgba(50, 50, 50, 1);
 	border-radius: 4px;
 	overflow-y: auto;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
 }
 
 .service-container .opensource-container .opensource-navbar p {
@@ -918,11 +922,17 @@ html {
 	padding-top: 0.5rem;
 }
 
-.service-container .opensource-container .opensource-content img {
+.service-container .opensource-container .opensource-content .os-img {
 	height: 10rem;
 	width: 10rem;
 	margin-top: 2rem;
 	margin-left: calc(50% - 5rem);
+}
+
+.service-container .opensource-container .opensource-content img {
+	margin-left: 2rem;
+	display: block;
+	margin-bottom: 2rem;
 }
 
 .service-container .opensource-container .opensource-content p {
