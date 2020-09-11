@@ -867,6 +867,10 @@ html {
 	cursor: pointer;
 }
 
+.breadhoverfix:hover {
+	cursor: pointer;
+}
+
 .service-container .opensource-container .opensource-navbar .project-links-container {
 	width: 5rem;
 	height: 2.75rem;

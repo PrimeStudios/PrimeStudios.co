@@ -307,6 +307,7 @@ function OS_Steam_Group_Count_Button() {
 	document.getElementById('os-contact').style.display = 'none';
 	document.getElementById('os-website').style.display = 'none';
 	window.location.hash = "steam_count";
+	document.getElementById('os-breadcromb').innerHTML  = '<a href="/"><i class="fas fa-home"></i> Home</a> / <a class="breadhoverfix" onclick="OS_Back_Button()">Open Source</a> / <b>SteamGroup Count JS</b>';
 }
 
 function OS_Discord_Webhooks_Button() {
@@ -316,6 +317,7 @@ function OS_Discord_Webhooks_Button() {
 	document.getElementById('os-contact').style.display = 'none';
 	document.getElementById('os-website').style.display = 'none';
 	window.location.hash = "discord_webhooks";
+	document.getElementById('os-breadcromb').innerHTML  = '<a href="/"><i class="fas fa-home"></i> Home</a> / <a class="breadhoverfix" onclick="OS_Back_Button()">Open Source</a> / <b>Discord Webhooks</b>';
 }
 
 function OS_Contact_API_Button() {
@@ -325,6 +327,7 @@ function OS_Contact_API_Button() {
 	document.getElementById('os-contact').style.display = 'block';
 	document.getElementById('os-website').style.display = 'none';
 	window.location.hash = "contact_api";
+	document.getElementById('os-breadcromb').innerHTML  = '<a href="/"><i class="fas fa-home"></i> Home</a> / <a class="breadhoverfix" onclick="OS_Back_Button()">Open Source</a> / <b>Contat API</b>';
 }
 
 function OS_Website_Button() {
@@ -334,6 +337,16 @@ function OS_Website_Button() {
 	document.getElementById('os-contact').style.display = 'none';
 	document.getElementById('os-website').style.display = 'block';
 	window.location.hash = "website";
+	document.getElementById('os-breadcromb').innerHTML  = '<a href="/"><i class="fas fa-home"></i> Home</a> / <a class="breadhoverfix" onclick="OS_Back_Button()">Open Source</a> / <b>Website</b>';
+}
+
+function OS_Back_Button() {
+	document.getElementById('os-breadcromb').innerHTML  = '<a href="/"><i class="fas fa-home"></i> Home</a> / <b>Open Source</b>';
+	document.getElementById('os-landing').style.display = 'block';
+	document.getElementById('os-sgc').style.display = 'none';
+	document.getElementById('os-discord').style.display = 'none';
+	document.getElementById('os-contact').style.display = 'none';
+	document.getElementById('os-website').style.display = 'none';
 }
 
 function OS_Handle_Content() {
@@ -343,6 +356,7 @@ function OS_Handle_Content() {
 		document.getElementById('os-discord').style.display = 'none';
 		document.getElementById('os-contact').style.display = 'none';
 		document.getElementById('os-website').style.display = 'none';
+		document.getElementById('os-breadcromb').innerHTML  = '<a href="/"><i class="fas fa-home"></i> Home</a> / <a class="breadhoverfix" onclick="OS_Back_Button()">Open Source</a> / <b>SteamGroup Count JS</b>';
 	}
 	if (location.href.indexOf("#discord_webhooks") != -1) {
 		document.getElementById('os-landing').style.display = 'none';
@@ -350,6 +364,7 @@ function OS_Handle_Content() {
 		document.getElementById('os-discord').style.display = 'block';
 		document.getElementById('os-contact').style.display = 'none';
 		document.getElementById('os-website').style.display = 'none';
+		document.getElementById('os-breadcromb').innerHTML  = '<a href="/"><i class="fas fa-home"></i> Home</a> / <a class="breadhoverfix" onclick="OS_Back_Button()">Open Source</a> / <b>Discord Webhooks</b>';
 	}
 	if (location.href.indexOf("#contact_api") != -1) {
 		document.getElementById('os-landing').style.display = 'none';
@@ -357,6 +372,7 @@ function OS_Handle_Content() {
 		document.getElementById('os-discord').style.display = 'none';
 		document.getElementById('os-contact').style.display = 'block';
 		document.getElementById('os-website').style.display = 'none';
+		document.getElementById('os-breadcromb').innerHTML  = '<a href="/"><i class="fas fa-home"></i> Home</a> / <a class="breadhoverfix" onclick="OS_Back_Button()">Open Source</a> / <b>Contat API</b>';
 	}
 	if (location.href.indexOf("#website") != -1) {
 		document.getElementById('os-landing').style.display = 'none';
@@ -364,6 +380,7 @@ function OS_Handle_Content() {
 		document.getElementById('os-discord').style.display = 'none';
 		document.getElementById('os-contact').style.display = 'none';
 		document.getElementById('os-website').style.display = 'block';
+		document.getElementById('os-breadcromb').innerHTML  = '<a href="/"><i class="fas fa-home"></i> Home</a> / <a class="breadhoverfix" onclick="OS_Back_Button()">Open Source</a> / <b>Website</b>';
 	}
 }
 
