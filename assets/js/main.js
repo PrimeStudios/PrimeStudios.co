@@ -341,12 +341,13 @@ function OS_Website_Button() {
 }
 
 function OS_Back_Button() {
-	document.getElementById('os-breadcromb').innerHTML  = '<a href="/"><i class="fas fa-home"></i> Home</a> / <b>Open Source</b>';
 	document.getElementById('os-landing').style.display = 'block';
 	document.getElementById('os-sgc').style.display = 'none';
 	document.getElementById('os-discord').style.display = 'none';
 	document.getElementById('os-contact').style.display = 'none';
 	document.getElementById('os-website').style.display = 'none';
+	document.getElementById('os-breadcromb').innerHTML  = '<a href="/"><i class="fas fa-home"></i> Home</a> / <b>Open Source</b>';
+	window.location.hash = "";
 }
 
 function OS_Handle_Content() {
