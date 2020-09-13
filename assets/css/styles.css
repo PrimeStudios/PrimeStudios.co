@@ -176,6 +176,16 @@ html {
 	display: block;
 }
 
+.header .dropdown img {
+	width: 100%;
+	margin-top: -1.25rem;
+	margin-left: -10rem;
+}
+
+.header .dropdown img:hover {
+	opacity: 1;
+}
+
 .header .dropdown ul {
 	text-align: center;
 	width: 98%;
@@ -184,6 +194,7 @@ html {
 	padding: 0;
 	padding-top: 2%;
 	position: relative;
+	margin-top: -3.25rem;
 }
 
 .header .dropdown li {

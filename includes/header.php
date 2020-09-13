@@ -47,6 +47,7 @@
 				<li><a href="/about">about</a></li>
 				<li class="dropdown-trigger">services <i class="fas fa-chevron-down"></i></li>
 				<div class="dropdown">
+					<img src="/assets/img/triangle_navbar.png" />
 					<ul>
 						<li><a href="/web">Web Design</a></li>
 						<li><a href="/graphic">Graphic Design</a></li>
