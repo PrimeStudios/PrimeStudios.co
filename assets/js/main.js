@@ -327,7 +327,7 @@ function OS_Contact_API_Button() {
 	document.getElementById('os-contact').style.display = 'block';
 	document.getElementById('os-website').style.display = 'none';
 	window.location.hash = "contact_api";
-	document.getElementById('os-breadcromb').innerHTML  = '<a href="/"><i class="fas fa-home"></i> Home</a> / <a class="breadhoverfix" onclick="OS_Back_Button()">Open Source</a> / <b>Contat API</b>';
+	document.getElementById('os-breadcromb').innerHTML  = '<a href="/"><i class="fas fa-home"></i> Home</a> / <a class="breadhoverfix" onclick="OS_Back_Button()">Open Source</a> / <b>Contact API</b>';
 }
 
 function OS_Website_Button() {
@@ -373,7 +373,7 @@ function OS_Handle_Content() {
 		document.getElementById('os-discord').style.display = 'none';
 		document.getElementById('os-contact').style.display = 'block';
 		document.getElementById('os-website').style.display = 'none';
-		document.getElementById('os-breadcromb').innerHTML  = '<a href="/"><i class="fas fa-home"></i> Home</a> / <a class="breadhoverfix" onclick="OS_Back_Button()">Open Source</a> / <b>Contat API</b>';
+		document.getElementById('os-breadcromb').innerHTML  = '<a href="/"><i class="fas fa-home"></i> Home</a> / <a class="breadhoverfix" onclick="OS_Back_Button()">Open Source</a> / <b>Contact API</b>';
 	}
 	if (location.href.indexOf("#website") != -1) {
 		document.getElementById('os-landing').style.display = 'none';

@@ -20,11 +20,18 @@ require_once('../../includes/header.php'); ?>
 		<div class="about-staff-container">
 			<div class="about-staff-div">
 				<img src="/assets/img/ceo.png" />
-				<p>Michael Rizzuto<br /><b>CEO</b></p>
+				<p>Michael Rizzuto<br /><b>CEO</b><br /><a title="Email" href="mailto:mrizzuto@primestudios.co" target="_blank"><i class="fas fa-envelope"></i></a></p>
 			</div>
 			<div class="about-staff-div staff-padding">
 				<img src="/assets/img/cio.png" />
-				<p>Jack Conley<br /><b>CIO</b></p>
+				<p>Jack Conley<br /><b>CIO</b><br /><a title="Email" href="mailto:jconley@primestudios.co" target="_blank"><i class="fas fa-envelope"></i></a></p>
+			</div>
+		</div>
+		<h2>Sales</h2>
+		<div class="about-staff-container">
+			<div class="about-staff-div">
+				<img src="/assets/img/ceo.png" />
+				<p>Connor Jetmund<br /><b>Sales Associate</b><br /><a title="Email" href="cjetmund@primestudios.co" target="_blank"><i class="fas fa-envelope"></i></a></p>
 			</div>
 		</div>
 	</div>

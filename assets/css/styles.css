@@ -608,7 +608,7 @@ html {
 
 .about-container .about-staff-div {
 	width: 15rem;
-	height: 19.5rem;
+	height: 21.25rem;
 	background-color: rgba(50, 50, 50, 1);
 	border-radius: 4px;
 	overflow: hidden;
@@ -626,12 +626,22 @@ html {
 
 .about-container .about-staff-div p {
 	background-color: black;
-	height: 4rem;
+	height: 5.75rem;
 	font-size: 1.5rem;
 	color: #CCCCCC;
 	text-align: center;
 	font-weight: 200;
 	padding-top: 0.25rem;
+}
+
+.about-container .about-staff-div p a {
+	color: #CCCCCC;
+	transition: all ease-in-out .2s;
+}
+
+.about-container .about-staff-div p a:hover {
+	color: #FFFFFF;
+	cursor: pointer;
 }
 
 .about-container .history-divider {
