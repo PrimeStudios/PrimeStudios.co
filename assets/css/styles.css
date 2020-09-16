@@ -636,7 +636,7 @@ html {
 
 .about-container .about-staff-div p a {
 	color: #CCCCCC;
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .about-container .about-staff-div p a:hover {
