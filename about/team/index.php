@@ -30,7 +30,11 @@ require_once('../../includes/header.php'); ?>
 		<h2>Sales</h2>
 		<div class="about-staff-container">
 			<div class="about-staff-div">
-				<img src="/assets/img/ceo.png" />
+				<img src="/assets/img/sales.png" />
+				<p>Cameron Parrish<br /><b>Sales Associate</b><br /><a title="Email" href="cparrish@primestudios.co" target="_blank"><i class="fas fa-envelope"></i></a></p>
+			</div>
+			<div class="about-staff-div">
+				<img src="/assets/img/sales.png" />
 				<p>Connor Jetmund<br /><b>Sales Associate</b><br /><a title="Email" href="cjetmund@primestudios.co" target="_blank"><i class="fas fa-envelope"></i></a></p>
 			</div>
 		</div>
