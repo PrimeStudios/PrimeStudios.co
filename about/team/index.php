@@ -24,7 +24,7 @@ require_once('../../includes/header.php'); ?>
 			</div>
 			<div class="about-staff-div staff-padding">
 				<img src="/assets/img/cio.png" />
-				<p>Jack Conley<br /><b>CIO</b><br /><a title="Email" href="mailto:jconley@primestudios.co" target="_blank"><i class="fas fa-envelope"></i></a></p>
+				<p>Jack Conley<br /><b>COO</b><br /><a title="Email" href="mailto:jconley@primestudios.co" target="_blank"><i class="fas fa-envelope"></i></a></p>
 			</div>
 		</div>
 		<h2>Sales</h2>
