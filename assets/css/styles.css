@@ -140,13 +140,12 @@ html {
 	font-variant: small-caps;
 	background: rgb(2, 0, 36);
 	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 141, 0, 1) 0%, rgba(255, 214, 0, 1) 100%);
-	width: 7rem;
-	padding-left: 0.25rem;
-	padding-right: 0.25rem;
+	width: 7.5rem;
 	height: 2rem;
 	padding-top: 0.5rem;
 	border-radius: 4px;
 	transition: all ease-in-out 0.2s;
+	display: block;
 }
 
 .header h2:hover {
@@ -155,7 +154,13 @@ html {
 
 .header h2 a {
 	color: #FFFFFF;
+	display: block;
 	text-decoration: none;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+	padding-top: 0.5rem;
+	margin-top: -0.5rem;
+	height: 2rem;
 }
 
 .header .dropdown-trigger:hover ~ .dropdown {
