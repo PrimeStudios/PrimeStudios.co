@@ -33,10 +33,6 @@ require_once('../../includes/header.php'); ?>
 				<img src="/assets/img/sales.png" />
 				<p>Cameron Parrish<br /><b>Sales Associate</b><br /><a title="Email" href="cparrish@primestudios.co" target="_blank"><i class="fas fa-envelope"></i></a></p>
 			</div>
-			<div class="about-staff-div staff-padding">
-				<img src="/assets/img/sales.png" />
-				<p>Connor Jetmund<br /><b>Sales Associate</b><br /><a title="Email" href="cjetmund@primestudios.co" target="_blank"><i class="fas fa-envelope"></i></a></p>
-			</div>
 		</div>
 	</div>
 </div>
