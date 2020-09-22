@@ -12,6 +12,22 @@ require_once('../includes/header.php'); ?>
 	<h1>Get in touch with us</h1>
 	<img src="/assets/img/contact.svg" />
 	<p>Are you interested in our services? Looking for a quote or just looking into us a little bit more? Feel free to shoot us an email at <b title="Copy to Clipboard" onclick="copyemail()" style="cursor: pointer;">sales@primestudios.co</b> and we will respond to you within one business day!</p>
+	<h2>Our Pricing</h2>
+	<div class="price-container">
+		<div class="price-box">
+			<ul>
+				<li><b class="upscale">Basic</b></li>
+				<li class="desc">Perfect for the small business seeking a low-cost online identity</li>
+				<li class="price">$<b class="upscale-two">500+</b> USD</li>
+				<li class="point top"><i class="fas fa-check"></i> 5-10 Static Pages</li>
+				<li class="point"><i class="fas fa-check"></i> Delivered in seven business days</li>
+				<li class="point"><i class="fas fa-check"></i> Fully Responsive</li>
+				<li class="point"><i class="fas fa-check"></i> Setup, Domian, and Hosting</li>
+				<li class="point"><i class="fas fa-check"></i> Continued Technical Support</li>
+				<li class="point bottom"><i class="fas fa-check"></i> Free SSL</li>
+			</ul>
+		</div>
+	</div>
 	<h2>Our Schedule</h2>
 	<table>
 		<tr class="package-header-table">

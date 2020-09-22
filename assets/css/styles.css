@@ -1019,6 +1019,80 @@ html {
 	margin-bottom: 7rem;
 }
 
+.contact-container .price-container {
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: start;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.contact-container .price-container .price-box {
+	width: 25rem;
+	background-color: rgba(50, 50, 50, 1);
+	padding: 0.5rem;
+	border-radius: 4px;
+}
+
+.contact-container .price-container .price-box li {
+	font-size: 1.5rem;
+	color: #CCCCCC;
+	list-style: none;
+	padding: 0.25rem;
+}
+
+.contact-container .price-container .price-box .desc {
+	font-weight: 300;
+	font-style: italic;
+}
+
+.contact-container .price-container .price-box .price {
+	text-align: center;
+	font-weight: 200;
+	padding-bottom: 1rem;
+}
+
+.contact-container .price-container .price-box .upscale {
+	color: #FFFFFF;
+	font-size: 2rem;
+	font-weight: 800;
+	font-style: italic;
+}
+
+.contact-container .price-container .price-box .upscale-two {
+	color: #DDDDDD;
+	font-size: 3rem;
+	font-weight: 400;
+}
+
+.contact-container .price-container .price-box .point {
+	text-align: center;
+	font-weight: 200;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-top: 0.35rem;
+	padding-bottom: 0.35rem;
+}
+
+.contact-container .price-container .price-box .top {
+	padding-top: 1rem;
+}
+
+.contact-container .price-container .price-box .bottom {
+	padding-bottom: 1rem;
+}
+
 .contact-container table {
 	width: 90vw;
 	margin-left: -5vw;
@@ -1951,6 +2025,10 @@ footer .footer-socials li a:hover {
 	.contact-container img {
 		width: 100%;
 		margin-bottom: 0;
+	}
+
+	.contact-container .price-container .price-box {
+		width: 100%;
 	}
 
 	.contact-container table {
