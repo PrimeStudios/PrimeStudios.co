@@ -57,8 +57,8 @@ html {
 
 .header img {
 	height: 3.5rem;
-	padding-top: 0.75rem;
-	padding-left: 5rem;
+	margin-top: 0.75rem;
+	margin-left: 5rem;
 	transition: all ease-in-out 0.2s;
 }
 
