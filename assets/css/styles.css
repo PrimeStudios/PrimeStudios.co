@@ -1876,8 +1876,8 @@ footer .footer-socials li a:hover {
 
 	.header img {
 		height: 3.5rem;
-		padding-top: 0.75rem;
-		padding-left: calc(50vw - 3.5rem / 2);
+		margin-top: 0.75rem;
+		margin-left: calc(50vw - 3.5rem / 2);
 	}
 
 	.header h1 {
