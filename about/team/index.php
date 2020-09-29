@@ -35,7 +35,7 @@ require_once('../../includes/header.php'); ?>
 			</div>
 			<div class="about-staff-div staff-padding">
 				<img src="/assets/img/sales.png" />
-				<p>Cameron Parrish<br /><b>Sales Associate</b><br /><a title="Email" href="cblair@primestudios.co" target="_blank"><i class="fas fa-envelope"></i></a></p>
+				<p>Curtiss Blair<br /><b>Sales Associate</b><br /><a title="Email" href="cblair@primestudios.co" target="_blank"><i class="fas fa-envelope"></i></a></p>
 			</div>
 		</div>
 	</div>
