@@ -106,6 +106,8 @@ html {
 }
 
 .header li a {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
 	text-decoration: none;
 	color: #CCCCCC;
 	transition: all ease-in-out 0.2s;
@@ -210,13 +212,14 @@ html {
 	margin: 0;
 	margin-left: 1%;
 	width: 98%;
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
 	border-radius: 4px;
 	transition: all ease-in-out 0.2s;
 }
 
 .header .dropdown li a {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	display: block;
 	text-decoration: none;
 	color: #000000;
 }
@@ -496,6 +499,7 @@ html {
 .home-container .home-contact p a {
 	color: #FF9900;
 	text-decoration: none;
+	padding: 1rem;
 }
 
 /* About */
@@ -1473,37 +1477,22 @@ footer .footer-socials li {
 	font-size: 1.5rem;
 	margin-left: 0.5rem;
 	margin-right: 0.35rem;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
 	border-radius: 50%;
-	border: 0.25rem solid #FF9900;
-	padding-top: 0.55rem;
-	padding-bottom: 0.55rem;
 	transition: all ease-in-out 0.2s;
-}
-
-footer .footer-socials li .fa-twitter {
-	padding-left: 0.7rem;
-	padding-right: 0.7rem;
-}
-
-footer .footer-socials li .fa-github {
-	padding-left: 0.7rem;
-	padding-right: 0.7rem;
-}
-
-footer .footer-socials li .fa-linkedin {
-	padding-left: 0.8rem;
-	padding-right: 0.8rem;
-}
-
-footer .footer-socials li .fa-discord {
-	padding-left: 0.8rem;
-	padding-right: 0.8rem;
 }
 
 footer .footer-socials li a {
 	color: #FF9900;
 	text-decoration: none;
 	transition: all ease-in-out 0.2s;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	border-radius: 50%;
+	border: 0.25rem solid #FF9900;
 }
 
 footer .footer-socials li:hover {
