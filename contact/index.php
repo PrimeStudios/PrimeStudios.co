@@ -18,7 +18,7 @@ require_once('../includes/header.php'); ?>
 			<ul>
 				<li><b class="upscale">Basic</b></li>
 				<li class="desc">Perfect for the small business seeking a low-cost online identity</li>
-				<li class="price">$<b class="upscale-two">500+</b> USD</li>
+				<li class="price">$<b class="upscale-two">750+</b> USD</li>
 				<li class="point top"><i class="fas fa-check"></i> 5-10 Static Pages</li>
 				<li class="point"><i class="fas fa-check"></i> Delivered in seven business days</li>
 				<li class="point"><i class="fas fa-check"></i> Fully Responsive</li>
