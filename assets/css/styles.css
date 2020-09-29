@@ -1187,6 +1187,13 @@ textarea {
 	user-select: none;
 }
 
+.contact-container textarea[name=comment] {
+	font-size: 2vh;
+	color: #CCCCCC;
+	background: rgba(50, 50, 50, 1);
+	height: 10rem;
+}
+
 .contact-container label {
 	font-size: 1.5rem;
 	color: #CCCCCC;

@@ -61,7 +61,7 @@ require_once('../includes/header.php'); ?>
 		<span class="contact-title"><i class="fas fa-comments"></i> comments</span>
 		<br />
 		<br />
-		<input type="text" name="comment">
+		<textarea type="text" name="comment"></textarea>
 		<br />
 		<br />
 		<span class="contact-title"><i class="fas fa-money-bill-wave"></i> budget</span>
