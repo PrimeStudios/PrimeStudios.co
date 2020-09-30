@@ -39,6 +39,7 @@
 		<script src="/assets/js/particles.js"></script>
 	</head>
 	<body>
+		<p class="header-announcement"><i class="fas fa-envelope"></i> <a href="mailto:sales@primestudios.co">sales@primestudios.co</a> <b>&nbsp;|&nbsp;</b> <i class="fas fa-phone"></i> <a href="tel:7174957161">+1 (717) 495-7161</a> <b>&nbsp;|&nbsp;</b> <i class="far fa-clock"></i> Mon-Fri 9AM - 5PM</p>
 		<div class="header">
 			<a class="header-img-link" href="/" title="Home"><img src="/assets/img/logo.png" /></a>
 			<h1><a class="header-h1-link" href="/" title="Home">Prime Studios</a></h1>

@@ -11,9 +11,6 @@ require_once('includes/header.php'); ?>
         </div>
         <img src="/assets/img/adaptative.png" />
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="rgba(35, 35, 35, 1)" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,176C384,160,480,96,576,106.7C672,117,768,203,864,224C960,245,1056,203,1152,181.3C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-    </svg>
     <div id="home_about" class="home-about">
         <div class="home-about-content">
             <h1>Prime does it different</h1>
@@ -47,6 +44,7 @@ require_once('includes/header.php'); ?>
         <p><a href="/showcase">view more</a></p>
     </div>
     <div class="home-contact">
+        <img src="/assets/img/contact.png" />
         <h1>Interested in our services?</h1>
         <p><a href="/contact">Request a Quote</a></p>
     </div>

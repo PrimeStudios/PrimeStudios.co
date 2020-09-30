@@ -18,9 +18,9 @@
 	height: 0.15rem;
 	position: fixed;
 	right: 100%;
-	top: 5rem;
+	top: 0;
 	width: 100%;
-	z-index: 4;
+	z-index: 12;
 }
 
 * {
@@ -39,14 +39,38 @@ html {
 
 /* Header */
 
+.header-announcement {
+	background-color: rgba(35, 35, 35, 1);
+	font-size: 1rem;
+	height: 2rem;
+	color: #CCCCCC;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	padding-top: 0.75rem;
+	padding-bottom: 0.25rem;
+	text-align: right;
+	font-weight: 300;
+}
+
+.header-announcement a {
+	color: #CCCCCC;
+	text-decoration: none;
+	transition: all ease-in-out 0.2s;
+}
+
+.header-announcement a:hover {
+	color: #FFFFFF;
+}
+
 .header {
 	width: 100vw;
-	height: 5rem;
+	height: 4.5rem;
+	padding-top: 0.5rem;
 	background-color: rgba(25, 25, 25, 1);
-	position: fixed;
+	position: sticky;
 	top: 0;
 	left: 0;
-	z-index: 999999999;
+	z-index: 10;
 	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -87,7 +111,6 @@ html {
 	width: 3.5rem;
 	height: 3.5rem;
 	margin-left: 5rem;
-	margin-top: 0.75rem;
 	border-radius: 50%;
 	overflow: hidden;
 }
@@ -189,6 +212,7 @@ html {
 	background-color: #FFFFFF;
 	position: absolute;
 	display: none;
+	z-index: 15;
 }
 
 .header .dropdown:hover {
@@ -246,21 +270,13 @@ html {
 
 /* Home */
 
-.home-container {
-	padding-top: 5rem;
-}
-
 .home-container .home-hero {
 	background-color: #FF9900;
 	min-height: 55rem;
 	position: relative;
-	z-index: 2;
-}
-
-.home-container svg {
-	margin-top: -20rem;
-	position: relative;
 	z-index: 3;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 45rem, 0 100%);
+ 	clip-path: polygon(0 0, 100% 0, 100% 45rem, 0 100%);
 }
 
 .home-container .home-hero h1 {
@@ -268,6 +284,7 @@ html {
 	font-size: 5rem;
 	color: #FFFFFF;
 	font-weight: 700;
+	text-shadow: 0.2rem 0.2rem 0.2rem #000000;
 }
 
 .home-container .home-hero .typeit-container {
@@ -275,6 +292,7 @@ html {
 	padding-top: 6rem;
 	z-index: 9999;
 	position: relative;
+	transform: skewY(-5deg);
 }
 
 .home-container .home-hero img {
@@ -283,6 +301,7 @@ html {
 	margin-top: -25rem;
 	position: relative;
 	z-index: 100;
+	transform: skewY(-5deg);
 }
 
 .home-container .home-hero p {
@@ -323,10 +342,11 @@ html {
 	width: 100vw;
 	min-height: 35rem;
 	background-color: rgba(35, 35, 35, 1);
-	margin-top: -1rem;
-	padding-bottom: 8rem;
+	margin-top: -15rem;
+	padding-top: 15rem;
+	padding-bottom: 3rem;
 	position: relative;
-	z-index: 3;
+	z-index: 2;
 }
 
 .home-container .home-about-content {
@@ -406,7 +426,7 @@ html {
 .home-container .home-showcase {
 	width: 100vw;
 	min-height: 1rem;
-	padding-bottom: 7rem;
+	padding-bottom: 4rem;
 	background-color: rgba(50, 50, 50, 1);
 }
 
@@ -416,7 +436,7 @@ html {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
-	padding-top: 7rem;
+	padding-top: 4rem;
 }
 
 .home-container .home-showcase p {
@@ -479,6 +499,7 @@ html {
 	min-height: 1rem;
 	background-color: rgba(35, 35, 35, 1);
 	padding-bottom: 7rem;
+	position: relative;
 }
 
 .home-container .home-contact h1 {
@@ -514,12 +535,19 @@ html {
 	padding: 1rem;
 }
 
+.home-container .home-contact img {
+	height: 20rem;
+	position: absolute;
+	left: 2rem;
+	top: 2rem;
+}
+
 /* About */
 
 .about-container {
 	width: 80vw;
 	min-height: calc(100vh - 14rem);
-	padding-top: 10rem;
+	padding-top: 5rem;
 	padding-bottom: 7rem;
 	background-color: rgba(35, 35, 35, 1);
 	padding-left: 10vw;
@@ -806,7 +834,7 @@ html {
 .service-container {
 	width: 80vw;
 	min-height: calc(100vh - 14rem);
-	padding-top: 10rem;
+	padding-top: 5rem;
 	padding-bottom: 7rem;
 	background-color: rgba(35, 35, 35, 1);
 	padding-left: 10vw;
@@ -993,7 +1021,7 @@ html {
 .contact-container {
 	width: 80vw;
 	min-height: calc(100vh - 14rem);
-	padding-top: 7rem;
+	padding-top: 5rem;
 	padding-bottom: 7rem;
 	background-color: rgba(35, 35, 35, 1);
 	padding-left: 10vw;
@@ -1756,7 +1784,7 @@ footer .footer-socials li a:hover {
 .fourohfour-container {
 	width: 80vw;
 	min-height: calc(100vh - 14rem);
-	padding-top: 7rem;
+	padding-top: 5rem;
 	padding-bottom: 7rem;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -1799,6 +1827,10 @@ footer .footer-socials li a:hover {
 .fourohfour-container .fourohfour-content p a {
 	color: #FF9900;
 	text-decoration: none;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 0.925rem;
+	padding-right: 0.925rem;
 }
 
 /* Mobile Support */
@@ -1866,6 +1898,14 @@ footer .footer-socials li a:hover {
 }
 
 @media only screen and (max-width: 1100px) {
+	.header-announcement {
+		font-size: .75rem;
+		padding-top: 1.25rem;
+		padding-right: 1rem;
+		padding-left: 1rem;
+		text-align: center;
+	}
+
 	.header h3 {
 		font-size: 1.75rem;
 		color: #CCCCCC;
@@ -1950,13 +1990,6 @@ footer .footer-socials li a:hover {
 		background-color: rgba(230, 230, 230, 1);
 	}
 
-	.home-container .home-hero {
-		background-color: #FF9900;
-		min-height: 55rem;
-		position: relative;
-		z-index: 2;
-	}
-
 	.home-container .home-hero .typeit-container {
 		padding-left: 3rem;
 		padding-top: 10rem;
@@ -2009,6 +2042,13 @@ footer .footer-socials li a:hover {
 		object-fit: cover;
 		margin-right: 0;
 		padding: 0;
+	}
+
+	.home-container .home-contact h1 {
+		padding-top: 3rem;
+	}
+	.home-container .home-contact img {
+		display: none;
 	}
 
 	.home-container svg {
