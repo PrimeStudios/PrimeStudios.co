@@ -40,8 +40,8 @@
 	</head>
 	<body>
 		<div class="header">
-			<a href="/" title="Home"><img src="/assets/img/logo.png" /></a>
-			<a href="/" title="Home"><h1>Prime Studios</h1></a>
+			<a class="header-img-link" href="/" title="Home"><img src="/assets/img/logo.png" /></a>
+			<h1><a class="header-h1-link" href="/" title="Home">Prime Studios</a></h1>
 			<ul>
 				<li><a href="/">home</a></li>
 				<li><a href="/about">about</a></li>

@@ -57,8 +57,6 @@ html {
 
 .header img {
 	height: 3.5rem;
-	margin-top: 0.75rem;
-	margin-left: 5rem;
 	transition: all ease-in-out 0.2s;
 }
 
@@ -69,15 +67,29 @@ html {
 .header h1 {
 	font-family: 'Montserrat', sans-serif;
 	padding-left: 9rem;
-	margin-top: -3.15rem;
-	color: #FFFFFF;
+	margin-top: -3rem;
 	font-size: 2rem;
 	font-weight: 700;
+}
+
+.header h1 a {
+	color: #FFFFFF;
+	text-decoration: none;
 	transition: all ease-in-out 0.2s;
 }
 
-.header h1:hover {
+.header h1 a:hover {
 	color: #DDDDDD;
+}
+
+.header .header-img-link {
+	display: block;
+	width: 3.5rem;
+	height: 3.5rem;
+	margin-left: 5rem;
+	margin-top: 0.75rem;
+	border-radius: 50%;
+	overflow: hidden;
 }
 
 .header a {
@@ -1870,9 +1882,7 @@ footer .footer-socials li a:hover {
 		cursor: pointer;
 	}
 
-	.header img {
-		height: 3.5rem;
-		margin-top: 0.75rem;
+	.header .header-img-link {
 		margin-left: calc(50vw - 3.5rem / 2);
 	}
 
