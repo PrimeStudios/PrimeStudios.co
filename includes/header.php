@@ -59,8 +59,8 @@
 			</ul>
 			<h2><a href="/contact">CONTACT</a></h2>
 			<h3><i id="mobile_dropdown_toggle" class="fas fa-bars"></i></h3>
+			<div onclick="toggleNavbar()" class="mobile-dropdown-toggle"></div>
 		</div>
-		<div onclick="toggleNavbar()" class="mobile-dropdown-toggle"></div>
 		<div id="mobile_dropdown" class="mobile-dropdown">
 			<ul>
 				<a href="/"><li>Home</li></a>

@@ -1289,7 +1289,7 @@ textarea {
 .showcase-container {
 	width: 100vw;
 	min-height: calc(100vh - 14rem);
-	padding-top: 10rem;
+	padding-top: 5rem;
 	padding-bottom: 7rem;
 	background-color: rgba(35, 35, 35, 1);
 }
@@ -1910,7 +1910,7 @@ footer .footer-socials li a:hover {
 		font-size: 1.75rem;
 		color: #CCCCCC;
 		margin-left: calc(100vw - 5rem);
-		margin-top: -3.25rem;
+		margin-top: -2.75rem;
 		border: 0.15rem solid #CCCCCC;
 		width: 2.5rem;
 		text-align: center;
@@ -1939,9 +1939,9 @@ footer .footer-socials li a:hover {
 	}
 
 	.mobile-dropdown-toggle {
-		position: fixed;
-		left: 0;
+		position: absolute;
 		top: 0;
+		left: 0;
 		width: 100vw;
 		height: 5rem;
 		z-index: 9999999999999999999999999;
@@ -1959,7 +1959,7 @@ footer .footer-socials li a:hover {
 		width: 100vw;
 		height: 26.5rem;
 		background-color: #FFFFFF;
-		position: fixed;
+		position: sticky;
 		top: 5rem;
 		left: 0;
 		border-bottom: 0.15rem solid grey;
