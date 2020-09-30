@@ -1021,7 +1021,7 @@ html {
 .contact-container {
 	width: 80vw;
 	min-height: calc(100vh - 14rem);
-	padding-top: 5rem;
+	padding-top: 2rem;
 	padding-bottom: 7rem;
 	background-color: rgba(35, 35, 35, 1);
 	padding-left: 10vw;
