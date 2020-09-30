@@ -276,7 +276,7 @@ html {
 	position: relative;
 	z-index: 3;
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 45rem, 0 100%);
- 	clip-path: polygon(0 0, 100% 0, 100% 45rem, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 45rem, 0 100%);
 }
 
 .home-container .home-hero h1 {
@@ -1899,7 +1899,7 @@ footer .footer-socials li a:hover {
 
 @media only screen and (max-width: 1100px) {
 	.header-announcement {
-		font-size: .65rem;
+		font-size: 0.65rem;
 		padding-top: 1.35rem;
 		padding-right: 1rem;
 		padding-left: 1rem;
@@ -2047,6 +2047,7 @@ footer .footer-socials li a:hover {
 	.home-container .home-contact h1 {
 		padding-top: 3rem;
 	}
+
 	.home-container .home-contact img {
 		display: none;
 	}
