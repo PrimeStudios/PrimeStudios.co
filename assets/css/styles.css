@@ -1063,6 +1063,15 @@ html {
 	margin-bottom: 7rem;
 }
 
+.contact-container b {
+	color: #CCCCCC;
+	transition: all ease-in-out 0.2s;
+}
+
+.contact-container b:hover {
+	color: #FFFFFF;
+}
+
 .contact-container .price-container {
 	-ms-flex-line-pack: center;
 	align-content: center;
