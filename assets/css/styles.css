@@ -1733,7 +1733,7 @@ footer .footer-socials li a:hover {
 .other-container {
 	width: 100vw;
 	min-height: calc(100vh - 14rem);
-	padding-top: 10rem;
+	padding-top: 5rem;
 	padding-bottom: 7rem;
 	background-color: rgba(35, 35, 35, 1);
 }
