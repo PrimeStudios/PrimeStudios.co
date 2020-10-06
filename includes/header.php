@@ -15,6 +15,9 @@
 		<meta name="distribution" content="global">
 		<meta name="rating" content="general">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge;" />
+		<meta name="msapplication-TileColor" content="#FFA500">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#FFA500">
 		<!-- Favicons -->
 		<link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" />
 		<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
