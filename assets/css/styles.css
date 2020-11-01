@@ -1101,6 +1101,8 @@ html {
 	border-radius: 4px;
 	margin-left: 1rem;
 	margin-right: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 .contact-container .price-container .price-box li {
@@ -2088,8 +2090,6 @@ footer .footer-socials li a:hover {
 		width: 100%;
 		margin-left: 0;
 		margin-right: 0;
-		margin-top: 1rem;
-		margin-bottom: 1rem;
 	}
 
 	.contact-container table {
