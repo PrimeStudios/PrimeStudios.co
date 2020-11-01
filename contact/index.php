@@ -27,6 +27,19 @@ require_once('../includes/header.php'); ?>
 				<li class="point bottom"><i class="fas fa-check"></i> Free SSL</li>
 			</ul>
 		</div>
+		<div class="price-box">
+			<ul>
+				<li><b class="upscale">Large</b></li>
+				<li class="desc">Ideal for seeking larbor for large applications and projects</li>
+				<li class="price">$<b class="upscale-two">3,000+</b> USD</li>
+				<li class="point top"><i class="fas fa-check"></i> Basic Package Benfits</li>
+				<li class="point"><i class="fas fa-check"></i> E-Commerce</li>
+				<li class="point"><i class="fas fa-check"></i> Fully Responsive</li>
+				<li class="point"><i class="fas fa-check"></i> Setup, Domian, and Hosting</li>
+				<li class="point"><i class="fas fa-check"></i> Continued Technical Support</li>
+				<li class="point bottom"><i class="fas fa-check"></i> Free SSL</li>
+			</ul>
+		</div>
 	</div>
 	<h2>Our Schedule</h2>
 	<table>

@@ -36,7 +36,7 @@ require_once('../../includes/header.php'); ?>
 				<h1>2020</h1>
 			</div>
 			<h3>DETERMINATION</h3>
-			<p>Officially opening our doors. Still writing the books of history. We start the year off strong with one goal in mind, to obtain as many clients as possible to start building our brand. We also brought on a second person onto the team in form of a CIO in charge of infrastructure related operations. With this also came a new refreshing design for our site.</p>
+			<p>Officially opening our doors. Still writing the books of history. We start the year off strong with one goal in mind, to obtain as many clients as possible to start building our brand. We also brought on a second person onto the team in form of a COO in charge of infrastructure related operations. With this also came a new refreshing design for our site.</p>
 		</div>
 		<div class="year-container history-year-three">
 			<div class="history-bg" style="background-color: #ff9900;">
