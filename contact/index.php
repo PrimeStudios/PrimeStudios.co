@@ -23,7 +23,7 @@ require_once('../includes/header.php'); ?>
 				<li class="point"><i class="fas fa-check"></i> Delivered in seven business days</li>
 				<li class="point"><i class="fas fa-check"></i> Fully Responsive</li>
 				<li class="point"><i class="fas fa-check"></i> Setup, Domian, and Hosting</li>
-				<li class="point"><i class="fas fa-check"></i> Continued Technical Support</li>
+				<li class="point"><i class="fas fa-check"></i> 9AM-5PM Technical Support</li>
 				<li class="point bottom"><i class="fas fa-check"></i> Free SSL</li>
 			</ul>
 		</div>
@@ -34,10 +34,10 @@ require_once('../includes/header.php'); ?>
 				<li class="price">$<b class="upscale-two">3,000+</b> USD</li>
 				<li class="point top"><i class="fas fa-check"></i> Basic Package Benfits</li>
 				<li class="point"><i class="fas fa-check"></i> E-Commerce</li>
-				<li class="point"><i class="fas fa-check"></i> Fully Responsive</li>
-				<li class="point"><i class="fas fa-check"></i> Setup, Domian, and Hosting</li>
-				<li class="point"><i class="fas fa-check"></i> Continued Technical Support</li>
-				<li class="point bottom"><i class="fas fa-check"></i> Free SSL</li>
+				<li class="point"><i class="fas fa-check"></i> Future Updates</li>
+				<li class="point"><i class="fas fa-check"></i> 24/7 Technical Support</li>
+				<li class="point"><i class="fas fa-check"></i> All Services Included</li>
+				<li class="point bottom"><i class="fas fa-check"></i> Adaptable To Needs</li>
 			</ul>
 		</div>
 	</div>
