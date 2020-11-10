@@ -30,7 +30,7 @@ require_once('../includes/header.php'); ?>
 		<div class="price-box">
 			<ul>
 				<li><b class="upscale">Large</b></li>
-				<li class="desc">Ideal for seeking larbor for large applications and projects</li>
+				<li class="desc">Ideal for seeking labor for large applications and projects</li>
 				<li class="price">$<b class="upscale-two">3,000+</b> USD</li>
 				<li class="point top"><i class="fas fa-check"></i> Basic Package Benfits</li>
 				<li class="point"><i class="fas fa-check"></i> E-Commerce</li>
