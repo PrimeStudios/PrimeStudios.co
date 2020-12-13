@@ -62,25 +62,25 @@ require_once('../includes/header.php'); ?>
 		<span class="contact-title"><i class="fas fa-user-tag"></i> name</span>
 		<br />
 		<br />
-		<input type="text" name="name">
+		<input type="text" name="name" required>
 		<br />
 		<br />
 		<span class="contact-title"><i class="fas fa-envelope"></i> email address</span>
 		<br />
 		<br />
-		<input type="email" name="_replyto">
+		<input type="email" name="_replyto" required>
 		<br />
 		<br />
 		<span class="contact-title"><i class="fas fa-comments"></i> comments</span>
 		<br />
 		<br />
-		<textarea type="text" name="comment"></textarea>
+		<textarea type="text" name="comment" required></textarea>
 		<br />
 		<br />
 		<span class="contact-title"><i class="fas fa-money-bill-wave"></i> budget</span>
 		<br />
 		<br />
-		<input type="number" name="budget">
+		<input type="number" name="budget" required>
 		<br />
 		<br />
 		<span class="contact-title"><i class="fas fa-list"></i> requirements:</span><br><br>
