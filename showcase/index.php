@@ -34,6 +34,7 @@ require_once('../includes/header.php'); ?>
 		<img onclick="Showcase_Actual_Twelve()" src="/assets/img/showcase-12.png" />
 		<img onclick="Showcase_Actual_Thirteen()" src="/assets/img/showcase-13.png" />
 		<img onclick="Showcase_Actual_Fourteen()" src="/assets/img/showcase-14.png" />
+		<img onclick="Showcase_Actual_Fifteen()" src="/assets/img/showcase-15.png" />
 	</div>
 </div>
 <span onclick="Showcase_Close()" id="showcase_popup_background" class="showcase-popup-background"></span>
@@ -53,5 +54,6 @@ require_once('../includes/header.php'); ?>
 	<img id="showcase_popup_image_twelve" class="showcase-popup-image" src="/assets/img/showcase-12.png">
 	<img id="showcase_popup_image_thirteen" class="showcase-popup-image" src="/assets/img/showcase-13.png">
 	<img id="showcase_popup_image_fourteen" class="showcase-popup-image" src="/assets/img/showcase-14.png">
+	<img id="showcase_popup_image_fifteen" class="showcase-popup-image" src="/assets/img/showcase-15.png">
 </div>
 <?php require_once('../includes/footer.php'); ?>
