@@ -131,6 +131,8 @@ function Showcase_Actual_One() {
 	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
@@ -152,6 +154,8 @@ function Showcase_Actual_Two() {
 	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
@@ -173,6 +177,8 @@ function Showcase_Actual_Three() {
 	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
@@ -194,6 +200,8 @@ function Showcase_Actual_Four() {
 	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
@@ -215,6 +223,8 @@ function Showcase_Actual_Five() {
 	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
@@ -236,6 +246,8 @@ function Showcase_Actual_Six() {
 	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
@@ -257,6 +269,8 @@ function Showcase_Actual_Seven() {
 	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
@@ -278,6 +292,8 @@ function Showcase_Actual_Eight() {
 	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
@@ -299,6 +315,8 @@ function Showcase_Actual_Nine() {
 	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
@@ -320,6 +338,8 @@ function Showcase_Actual_Ten() {
 	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
@@ -341,6 +361,8 @@ function Showcase_Actual_Eleven() {
 	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
@@ -362,6 +384,8 @@ function Showcase_Actual_Twelve() {
 	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
@@ -383,6 +407,8 @@ function Showcase_Actual_Thirteen() {
 	document.getElementById('showcase_popup_image_thirteen').style.display = 'block';
 	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
@@ -404,6 +430,8 @@ function Showcase_Actual_Fourteen() {
 	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fourteen').style.display = 'block';
 	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
@@ -425,6 +453,54 @@ function Showcase_Actual_Fifteen() {
 	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
 	document.getElementById('showcase_popup_image_fifteen').style.display = 'block';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
+	document.getElementById('showcase_popup_background').style.display = 'block';
+}
+
+function Showcase_Actual_Sixteen() {
+	document.getElementById('showcase_popup').classList.remove('zoomOut');
+	document.getElementById('showcase_popup').style.display = 'block';
+	document.getElementById('showcase_popup_image_one').style.display = 'none';
+	document.getElementById('showcase_popup_image_two').style.display = 'none';
+	document.getElementById('showcase_popup_image_three').style.display = 'none';
+	document.getElementById('showcase_popup_image_four').style.display = 'none';
+	document.getElementById('showcase_popup_image_five').style.display = 'none';
+	document.getElementById('showcase_popup_image_six').style.display = 'none';
+	document.getElementById('showcase_popup_image_seven').style.display = 'none';
+	document.getElementById('showcase_popup_image_eight').style.display = 'none';
+	document.getElementById('showcase_popup_image_nine').style.display = 'none';
+	document.getElementById('showcase_popup_image_ten').style.display = 'none';
+	document.getElementById('showcase_popup_image_eleven').style.display = 'none';
+	document.getElementById('showcase_popup_image_twelve').style.display = 'none';
+	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'block';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'none';
+	document.getElementById('showcase_popup_background').style.display = 'block';
+}
+
+function Showcase_Actual_Seventeen() {
+	document.getElementById('showcase_popup').classList.remove('zoomOut');
+	document.getElementById('showcase_popup').style.display = 'block';
+	document.getElementById('showcase_popup_image_one').style.display = 'none';
+	document.getElementById('showcase_popup_image_two').style.display = 'none';
+	document.getElementById('showcase_popup_image_three').style.display = 'none';
+	document.getElementById('showcase_popup_image_four').style.display = 'none';
+	document.getElementById('showcase_popup_image_five').style.display = 'none';
+	document.getElementById('showcase_popup_image_six').style.display = 'none';
+	document.getElementById('showcase_popup_image_seven').style.display = 'none';
+	document.getElementById('showcase_popup_image_eight').style.display = 'none';
+	document.getElementById('showcase_popup_image_nine').style.display = 'none';
+	document.getElementById('showcase_popup_image_ten').style.display = 'none';
+	document.getElementById('showcase_popup_image_eleven').style.display = 'none';
+	document.getElementById('showcase_popup_image_twelve').style.display = 'none';
+	document.getElementById('showcase_popup_image_thirteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_fourteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_fifteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_sixteen').style.display = 'none';
+	document.getElementById('showcase_popup_image_seventeen').style.display = 'block';
 	document.getElementById('showcase_popup_background').style.display = 'block';
 }
 
